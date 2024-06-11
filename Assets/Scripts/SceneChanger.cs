@@ -12,12 +12,12 @@ public class SceneChanger : MonoBehaviour
 
         public void Instructions()
     {
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(2);
     }
   
     public void StartFirstScene()
     {
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadSceneAsync(1);
     }
 
 
