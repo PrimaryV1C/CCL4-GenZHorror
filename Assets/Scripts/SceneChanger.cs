@@ -10,4 +10,9 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(1);
     }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadSceneAsync(0);
+    }
 }
