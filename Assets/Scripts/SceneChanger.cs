@@ -5,14 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-  
-    public void ChangeScene()
-    {
-        SceneManager.LoadSceneAsync(1);
-    }
-
-    public void LoadMainMenu()
+        public void LoadMainMenu()
     {
         SceneManager.LoadSceneAsync(0);
     }
+
+        public void Instructions()
+    {
+        SceneManager.LoadSceneAsync(1);
+    }
+  
+    public void StartFirstScene()
+    {
+        SceneManager.LoadSceneAsync(2);
+    }
+
+
+
+
 }
