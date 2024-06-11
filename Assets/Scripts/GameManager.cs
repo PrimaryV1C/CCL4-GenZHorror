@@ -12,7 +12,6 @@ public class GameManager : MonoBehaviour
         GMEvent.EventHandler.buttonClicked += handleButton;
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -20,6 +19,10 @@ public class GameManager : MonoBehaviour
 
     private void handleButton(){
         npc.transform.position += new Vector3(0, 1, 0);
+    }
+
+    public void OnTalkedTo(NPCScript npc){
+        Debug.Log("Talked To " + npc.name);
     }
 
 }

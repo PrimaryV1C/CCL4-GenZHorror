@@ -1,14 +1,16 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class NPCScript : MonoBehaviour
 {
 
+    public UnityEvent<NPCScript> talkedTo;
+
     void Start()
     {
-        
+        talkedTo.Invoke(this);
     }
 
-    // Update is called once per frame
     void Update()
     {
         
