@@ -19,13 +19,13 @@ MonoBehaviour:
   nextItem: {fileID: 0}
   answers:
   - answerText: 'Who run the world? Girls! '
-    nextItem: {fileID: 0}
+    nextItem: {fileID: 11400000, guid: a24a841ddee994d53b0ad51a2a723130, type: 2}
     karma: 0
   - answerText: Times have changed, and for the better. Women can do anything men
       can do, and sometimes even better.
-    nextItem: {fileID: 0}
+    nextItem: {fileID: 11400000, guid: eb7885070d9fc4544a11a294cbe2ed32, type: 2}
     karma: 1
   - answerText: Your day is over, Uncle Joe and I thank the universe everyday for
       that. It's time to let go of these outdated and horribly sexist ideas.
-    nextItem: {fileID: 0}
+    nextItem: {fileID: 11400000, guid: 08b301c6744a244f3b70ec9cb69a8c9b, type: 2}
     karma: -1

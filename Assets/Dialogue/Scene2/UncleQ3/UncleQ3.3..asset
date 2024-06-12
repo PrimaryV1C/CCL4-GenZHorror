@@ -12,6 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0fd1d9767db94855b4e0da4f857f88d, type: 3}
   m_Name: UncleQ3.3.
   m_EditorClassIdentifier: 
-  dialogueText: 
+  dialogueText: Outdated, you say? Back in my day, families were happier, and we
+    didn't have all these problems you youngsters talk about. Okay maybe the cold
+    war and stuff but that was not dramatic anyways...
   nextItem: {fileID: 0}
-  answers: []
+  answers:
+  - answerText: Oh sure, Uncle Joe, nothing like the good ol' threat of nuclear annihilation
+      to keep everyone cheerful.
+    nextItem: {fileID: 0}
+    karma: -1
+  - answerText: Right, because nothing screams happiness like constant fear of espionage
+      and hiding under desks for drills.
+    nextItem: {fileID: 0}
+    karma: -1
+  - answerText: "Nevermind what haters say, ignore them \u2019til they fade away."
+    nextItem: {fileID: 0}
+    karma: -1

@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     private DialogueManager dialogueManager;
-    private int narrativeProgression;
+    public int narrativeProgression;
     
     void Start()
     {
