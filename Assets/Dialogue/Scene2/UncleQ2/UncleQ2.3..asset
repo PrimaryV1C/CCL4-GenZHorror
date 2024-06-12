@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fd1d9767db94855b4e0da4f857f88d, type: 3}
+  m_Name: UncleQ2.3.
+  m_EditorClassIdentifier: 
+  dialogueText: Liberate? From what, common sense? All this modern talk just makes
+    my head spin. Back in my day, we didn't need all this political correctness,
+    we were just woke without that.
+  nextItem: {fileID: 0}
+  answers:
+  - answerText: t's not about political correctness, it's about treating people with
+      dignity and respect.
+    nextItem: {fileID: 11400000, guid: 99af7e77c84f744038af8bba48c84118, type: 2}
+    karma: 1
+  - answerText: No matter gay, straight, or bi, lesbian, transgender life, I'm on
+      the right track, baby, I was born to survive.
+    nextItem: {fileID: 11400000, guid: 99af7e77c84f744038af8bba48c84118, type: 2}
+    karma: 0
+  - answerText: Political correctness is just code for 'stop being an insensitive
+      idiot, Uncle Joe.
+    nextItem: {fileID: 11400000, guid: 99af7e77c84f744038af8bba48c84118, type: 2}
+    karma: -1

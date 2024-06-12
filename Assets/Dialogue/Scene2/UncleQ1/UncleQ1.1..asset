@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fd1d9767db94855b4e0da4f857f88d, type: 3}
+  m_Name: UncleQ1.1.
+  m_EditorClassIdentifier: 
+  dialogueText: None of my business? You think you can talk to me like that and get
+    away with it?
+  nextItem: {fileID: 0}
+  answers:
+  - answerText: I'll talk to you however I want, old man.
+    nextItem: {fileID: 11400000, guid: fd55b80135c1f48f7b5a7724a012a4e9, type: 2}
+    karma: -1
+  - answerText: "Maybe if you weren\u2019t such a jerk, I wouldn't have to.\""
+    nextItem: {fileID: 11400000, guid: fd55b80135c1f48f7b5a7724a012a4e9, type: 2}
+    karma: -1
+  - answerText: "Sorry, didn't mean to upset you. I was just angry because I felt
+      that you don\xB4t respect me nor my relationship."
+    nextItem: {fileID: 11400000, guid: fd55b80135c1f48f7b5a7724a012a4e9, type: 2}
+    karma: 1
