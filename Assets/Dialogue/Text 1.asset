@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0fd1d9767db94855b4e0da4f857f88d, type: 3}
   m_Name: Text 1
   m_EditorClassIdentifier: 
-  dialogueText: TestTest
-  nextDialogue: {fileID: 0}
+  dialogueText: Do you want to eat Cake?
+  nextItem: {fileID: 0}
   answers:
-  - answerText: 
-  - answerText: 
+  - answerText: Yes please!
+    nextItem: {fileID: 11400000, guid: 8bc344e712c9d42739f5ff65052689d4, type: 2}
+    karma: 3
+  - answerText: No I hate cake!
+    nextItem: {fileID: 11400000, guid: c028ca1fc79854d48b6fb9cdf490c852, type: 2}
+    karma: -10
