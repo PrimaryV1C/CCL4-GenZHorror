@@ -1,14 +1,22 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+class DialoguePayload{
+
+    NPCScript npc;
+    DialogueItem nextItem;
+
+}
+
 public class NPCScript : MonoBehaviour
 {
 
-    public UnityEvent<NPCScript> talkedTo;
+    public UnityEvent<int> cakeDialogue;
+    public DialogueItem currentDialogue;
 
     void Start()
     {
-        talkedTo.Invoke(this);
+        //talkedTo.Invoke(currentDialogue);
     }
 
     void Update()
@@ -16,9 +24,15 @@ public class NPCScript : MonoBehaviour
         
     }
 
-    public void buttonClicked(){
+    public void Answer1(){
 
-        GMEvent.EventHandler.buttonClicked.Invoke();
+        cakeDialogue.Invoke(0);
+
+    }
+
+    public void Answer2(){
+
+        cakeDialogue.Invoke(1);
 
     }
 }

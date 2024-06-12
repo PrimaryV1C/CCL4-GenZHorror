@@ -1,15 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+
     [SerializeField]
-    private GameObject npc;
+    private DialogueManager dialogueManager;
+    private int narrativeProgression;
     
     void Start()
     {
-        GMEvent.EventHandler.buttonClicked += handleButton;
+        dialogueManager.FirstDialog();
+        narrativeProgression = 0;
     }
 
     void Update()
@@ -17,12 +21,9 @@ public class GameManager : MonoBehaviour
         
     }
 
-    private void handleButton(){
-        npc.transform.position += new Vector3(0, 1, 0);
-    }
-
-    public void OnTalkedTo(NPCScript npc){
-        Debug.Log("Talked To " + npc.name);
+    public void OnCakeDialogue(int answerIndex){
+        narrativeProgression++;
+        dialogueManager.UncleJoeTalk(answerIndex);
     }
 
 }

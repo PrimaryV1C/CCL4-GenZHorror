@@ -11,12 +11,25 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI text;
 
+    private DialogueItem currentItem;
+
+    [SerializeField]
+    private GameObject npc;
+
     void Start()
     {
-        Debug.Log(firstItem.dialogueText);
-        text.text = firstItem.dialogueText;
-        //JsonData jsonData = JsonData.CreateFromJSON();
-        //text.text = jsonData.dialogue.text;
+        currentItem = firstItem;
+        //text.text = firstItem.dialogueText;
+    }
+
+    public void UncleJoeTalk(int answerIndex){
+        currentItem = currentItem.answers[answerIndex].nextItem;
+        npc.GetComponentInChildren<TextMeshProUGUI>().text = currentItem.dialogueText;
+    }
+
+    public void FirstDialog(){
+        currentItem = firstItem;
+        npc.GetComponentInChildren<TextMeshProUGUI>().text = currentItem.dialogueText;
     }
 
 

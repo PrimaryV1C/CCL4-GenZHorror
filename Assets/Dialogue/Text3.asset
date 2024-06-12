@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0fd1d9767db94855b4e0da4f857f88d, type: 3}
-  m_Name: Text 2
+  m_Name: Text3
   m_EditorClassIdentifier: 
-  dialogueText: The cake is a lie...
+  dialogueText: Why do you hate Cake?!?! :(
   nextItem: {fileID: 0}
   answers:
-  - answerText: Test
-    nextItem: {fileID: 11400000, guid: c028ca1fc79854d48b6fb9cdf490c852, type: 2}
+  - answerText: test
+    nextItem: {fileID: 11400000, guid: 8bc344e712c9d42739f5ff65052689d4, type: 2}
     karma: 0
-  - answerText: Test
-    nextItem: {fileID: 11400000, guid: c028ca1fc79854d48b6fb9cdf490c852, type: 2}
+  - answerText: test
+    nextItem: {fileID: 11400000, guid: 8bc344e712c9d42739f5ff65052689d4, type: 2}
     karma: 0
