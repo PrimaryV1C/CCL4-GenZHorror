@@ -1,14 +1,25 @@
+using System.Data.Common;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class DialogInitiator : MonoBehaviour
 {
 
-    public UnityEvent isTalking;
+    private DialogueManager dialogueManager;
+
+    public UnityEvent dialogueInitiated;
+
+    void Start()
+    {
+        dialogueManager = FindObjectOfType<DialogueManager>();
+    
+    }
 
     public void AttemptDialog() {
         // if player is in zone
-        isTalking.Invoke();
+        dialogueInitiated.Invoke();
     }
+
+
 
 }
