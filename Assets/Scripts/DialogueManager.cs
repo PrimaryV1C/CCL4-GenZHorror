@@ -18,4 +18,7 @@ public class DialogueManager : MonoBehaviour
         //JsonData jsonData = JsonData.CreateFromJSON();
         //text.text = jsonData.dialogue.text;
     }
+
+
+
 }
