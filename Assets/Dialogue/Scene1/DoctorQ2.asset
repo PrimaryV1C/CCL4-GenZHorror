@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fd1d9767db94855b4e0da4f857f88d, type: 3}
+  m_Name: DoctorQ2
+  m_EditorClassIdentifier: 
+  dialogueText: "That's a shame to hear young person on the phone. I will do my best
+    to fix it. But first I need your security number to secure the date h\xF6h\xF6.
+    Sorry for the dad joke."
+  nextItem: {fileID: 0}
+  answers:
+  - answerText: Sure! My security number is "123456.
+    nextItem: {fileID: 11400000, guid: 34b664941def84331b43047202978155, type: 2}
+    karma: 1
+  - answerText: Sure! My security number is "Free-the-house-elves".
+    nextItem: {fileID: 11400000, guid: 34b664941def84331b43047202978155, type: 2}
+    karma: -1
+  - answerText: Sure! My security number is "You shall not pass".
+    nextItem: {fileID: 11400000, guid: 34b664941def84331b43047202978155, type: 2}
+    karma: -1

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fd1d9767db94855b4e0da4f857f88d, type: 3}
+  m_Name: DoctorQ3
+  m_EditorClassIdentifier: 
+  dialogueText: Thank you!  Please describe your pain, is it a sharp, a dull ache,
+    or something else?
+  nextItem: {fileID: 0}
+  answers:
+  - answerText: It feels like your mum is chopping onions on my tooth.
+    nextItem: {fileID: 11400000, guid: 04611a1c7090f4850a9a4f9428586aa6, type: 2}
+    karma: 1
+  - answerText: It feels like your husband is a tiny DJ and scratching records on
+      my molar.
+    nextItem: {fileID: 11400000, guid: 04611a1c7090f4850a9a4f9428586aa6, type: 2}
+    karma: -1
+  - answerText: It feels like if your dad is part of a circus and performing stunts
+      on my tooth.
+    nextItem: {fileID: 11400000, guid: 04611a1c7090f4850a9a4f9428586aa6, type: 2}
+    karma: 1

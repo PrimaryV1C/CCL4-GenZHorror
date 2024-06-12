@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0fd1d9767db94855b4e0da4f857f88d, type: 3}
-  m_Name: Text 2
+  m_Name: UncleQ3.3.
   m_EditorClassIdentifier: 
-  dialogText: 2
-  nextDialog: {fileID: 11400000}
+  dialogueText: 
+  nextItem: {fileID: 0}
   answers: []
