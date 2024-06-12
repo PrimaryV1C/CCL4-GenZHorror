@@ -648,6 +648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e1e308e56db24848a3263d84f5aa0d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dialogues: []
   text: {fileID: 1204015295}
 --- !u!1 &832575517
 GameObject:
@@ -2108,6 +2109,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: XR Origin (XR Rig)
+      objectReference: {fileID: 0}
+    - target: {fileID: 610636425839782218, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1695163031589791079, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
         type: 3}
