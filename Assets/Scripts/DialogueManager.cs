@@ -46,8 +46,8 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void FirstDialog(){
-        currentItem = firstItem;
-        npc.GetComponentInChildren<TextMeshProUGUI>().text = currentItem.dialogueText;
+        //currentItem = firstItem;
+        //npc.GetComponentInChildren<TextMeshProUGUI>().text = currentItem.dialogueText;
     }
 
     public void CalculateKarma(int answerIndex){

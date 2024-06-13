@@ -10,8 +10,10 @@ public class PlayerDetection : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "MainCamera")
-        {
+        Debug.Log("Collision!");
+        if(other.tag == "Player")
+        {   
+            Debug.Log("Camera!");
             playerDetectedChange.Invoke(true);
         }
     }
