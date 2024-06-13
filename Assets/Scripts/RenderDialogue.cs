@@ -14,14 +14,28 @@ public class RenderDialogue : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI answer2;
 
+    [SerializeField]
+    private TextMeshProUGUI answer3;
+
     void Start()
     {
-        dialogueManager.dialogueChanged.AddListener(OnDialogueChange);
+        dialogueManager.dialogueChanged.AddListener(OnDialogueChangeDoctor);
     }
 
-    public void OnDialogueChange(DialogueItem item){
+    public void OnDialogueChangeDoctor(DialogueItem item){
         mainText.text = item.dialogueText;
         answer1.text = item.answers[0].answerText;
         answer2.text = item.answers[1].answerText;
     }
+
+    public void OnDialogueChangeUncle(DialogueItem item){
+        mainText.text = item.dialogueText;
+        answer1.text = item.answers[0].answerText;
+        answer2.text = item.answers[1].answerText;
+        answer3.text = item.answers[2].answerText;
+    }
+
+
+
+
 }
