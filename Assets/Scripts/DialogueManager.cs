@@ -31,8 +31,6 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     public UnityEvent<DialogueItem> dialogueChanged;
     private int dialogueProgress;
-
-    private RenderDialogue renderDialogue;
     
     public int karma = 10;
 
@@ -88,16 +86,15 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void DialogueRenderingDoctor(){
-     if (renderDialogue != null){
-            dialogueChanged.Invoke(currentItem);
-        }
+
+        dialogueChanged.Invoke(currentItem);
 
     }
 
     public void DialogueRenderingUncle(){
-        if (renderDialogue != null){
+
             dialogueChanged.Invoke(currentItem);
-        }
+            
     }
 
 }
