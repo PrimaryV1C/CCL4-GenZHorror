@@ -2532,7 +2532,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1404760348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3638,6 +3638,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PromptToShowScene1
       objectReference: {fileID: 0}
+    - target: {fileID: 3107166596832959718, guid: c211820d717c44c6a9f7100dc7dc08fd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5033296489790630042, guid: c211820d717c44c6a9f7100dc7dc08fd,
         type: 3}
       propertyPath: m_Size.x
@@ -3697,12 +3702,12 @@ PrefabInstance:
     - target: {fileID: 7195597525252376233, guid: c211820d717c44c6a9f7100dc7dc08fd,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1060
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 7195597525252376233, guid: c211820d717c44c6a9f7100dc7dc08fd,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1616
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 7195597525252376233, guid: c211820d717c44c6a9f7100dc7dc08fd,
         type: 3}
@@ -3762,7 +3767,7 @@ PrefabInstance:
     - target: {fileID: 8596761798031205514, guid: c211820d717c44c6a9f7100dc7dc08fd,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
