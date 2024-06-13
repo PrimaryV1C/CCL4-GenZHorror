@@ -68,7 +68,6 @@ public class DialogueManager : MonoBehaviour
 
     public void FirstDialog(){
         dialogueChanged.Invoke(currentItem);
-
     }
 
     public void CalculateKarma(int answerIndex){
