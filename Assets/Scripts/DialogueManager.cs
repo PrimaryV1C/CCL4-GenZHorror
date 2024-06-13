@@ -13,6 +13,8 @@ public class DialogueManager : MonoBehaviour
 
     private EndingItem currentEnding;
 
+    public int narrativeProgression;
+
     [SerializeField]
 
     private EndingItem UncleEndingGood;
@@ -28,7 +30,6 @@ public class DialogueManager : MonoBehaviour
 
     [SerializeField]
     public UnityEvent<DialogueItem> dialogueChanged;
-    public UnityEvent<EndingItem> doctorDialogueEnd;
     private int dialogueProgress;
 
     private RenderDialogue renderDialogue;
@@ -52,15 +53,6 @@ public class DialogueManager : MonoBehaviour
         currentItem = currentItem.answers[answerIndex].nextItem;
         dialogueChanged.Invoke(currentItem);
         dialogueProgress++;
-        CalculateKarma(answerIndex);
-        if(dialogueProgress == 6){
-            ChooseEndingScene1();
-            doctorDialogueEnd.Invoke(currentEnding);
-        }
-        else{
-            currentItem = currentItem.answers[answerIndex].nextItem;
-            dialogueChanged.Invoke(currentItem);
-        }
 
     }
 
@@ -68,6 +60,7 @@ public class DialogueManager : MonoBehaviour
 
     public void FirstDialog(){
         dialogueChanged.Invoke(currentItem);
+
     }
 
     public void CalculateKarma(int answerIndex){
@@ -76,18 +69,20 @@ public class DialogueManager : MonoBehaviour
 
   
     public void ChooseEndingScene1(){
-        if(karma >= 0){
+        //TODO: Updating correct narrativeProgression & karma
+        if(karma >= 0 && narrativeProgression == 3){
             currentEnding = DoctorEndingGood;
-        } else if(karma < 0){
+        } else if(karma < 0 && narrativeProgression == 3){
             currentEnding = DoctorEndingBad;
         } 
-        
+        //RENDER ENING
     }
 
     public void ChooseEndingScene2(){
-        if (karma >= 0){
+        //TODO: Updating correct narrativeProgression & karma
+        if (karma >= 0 && narrativeProgression == 3){
             currentEnding = UncleEndingGood;
-        } else if (karma < 0){
+        } else if (karma < 0 && narrativeProgression == 3){
             currentEnding = UncleEndingBad;
         }
     }
