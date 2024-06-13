@@ -2,36 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-using TMPro;
+using UnityEngine.Events;
+
+public class DoctorDialogueChangeEvent : UnityEvent<DialogueItem> { }
 
 public class DialogueManager : MonoBehaviour
 {
     [SerializeField]
-    private DialogueItem firstItem;
-    [SerializeField]
-    private TextMeshProUGUI text;
-
     private DialogueItem currentItem;
-
     [SerializeField]
-    private GameObject npc;
+    public UnityEvent<DialogueItem> dialogueChanged;
+    private int dialogueProgress;
+    
 
     void Start()
     {
-        currentItem = firstItem;
-        //text.text = firstItem.dialogueText;
+        dialogueProgress = 0;
+        FirstDialog();
     }
 
-    public void UncleJoeTalk(int answerIndex){
+    public void OnNpcTalk(int answerIndex){
         currentItem = currentItem.answers[answerIndex].nextItem;
-        npc.GetComponentInChildren<TextMeshProUGUI>().text = currentItem.dialogueText;
-    }
+        dialogueChanged.Invoke(currentItem);
 
+        dialogueProgress++;
+    }
     public void FirstDialog(){
-        currentItem = firstItem;
-        npc.GetComponentInChildren<TextMeshProUGUI>().text = currentItem.dialogueText;
+        Debug.Log(currentItem.dialogueText);
+        dialogueChanged.Invoke(currentItem);
     }
-
-
 
 }

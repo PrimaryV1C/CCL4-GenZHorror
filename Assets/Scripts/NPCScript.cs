@@ -1,38 +1,20 @@
 using UnityEngine;
 using UnityEngine.Events;
-
-class DialoguePayload{
-
-    NPCScript npc;
-    DialogueItem nextItem;
-
-}
+using TMPro;
 
 public class NPCScript : MonoBehaviour
 {
-
-    public UnityEvent<int> cakeDialogue;
-    public DialogueItem currentDialogue;
-
-    void Start()
-    {
-        //talkedTo.Invoke(currentDialogue);
-    }
-
-    void Update()
-    {
-        
-    }
+    public UnityEvent<int> answerClicked;
 
     public void Answer1(){
 
-        cakeDialogue.Invoke(0);
+        answerClicked.Invoke(0);
 
     }
 
     public void Answer2(){
 
-        cakeDialogue.Invoke(1);
+        answerClicked.Invoke(1);
 
     }
 }
