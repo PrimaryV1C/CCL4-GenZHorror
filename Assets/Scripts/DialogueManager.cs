@@ -1,17 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
-using TMPro;
+using UnityEngine.Events;
 using System.Data.Common;
+
+public class DoctorDialogueChangeEvent : UnityEvent<DialogueItem> { }
 
 public class DialogueManager : MonoBehaviour
 {
     [SerializeField]
-    private DialogueItem firstItem;
-    [SerializeField]
-    private TextMeshProUGUI text;
-
     private DialogueItem currentItem;
 
     private EndingItem currentEnding;
@@ -30,24 +27,27 @@ public class DialogueManager : MonoBehaviour
 
     [SerializeField]
     private EndingItem DoctorEndingBad;
-    private GameObject npc;
+
+    [SerializeField]
+    public UnityEvent<DialogueItem> dialogueChanged;
+    private int dialogueProgress;
+    
 
     public int karma = 10;
 
     void Start()
     {
-        currentItem = firstItem;
-        //text.text = firstItem.dialogueText;
+        dialogueProgress = 0;
+        FirstDialog();
     }
 
-    public void UncleJoeTalk(int answerIndex){
+    public void OnNpcTalk(int answerIndex){
         currentItem = currentItem.answers[answerIndex].nextItem;
-        npc.GetComponentInChildren<TextMeshProUGUI>().text = currentItem.dialogueText;
+        dialogueChanged.Invoke(currentItem);
+        dialogueProgress++;
     }
-
     public void FirstDialog(){
-        //currentItem = firstItem;
-        //npc.GetComponentInChildren<TextMeshProUGUI>().text = currentItem.dialogueText;
+        dialogueChanged.Invoke(currentItem);
     }
 
     public void CalculateKarma(int answerIndex){
@@ -62,7 +62,7 @@ public class DialogueManager : MonoBehaviour
         } else if(karma < 0 && narrativeProgression == 3){
             currentEnding = DoctorEndingBad;
         } 
-        npc.GetComponentInChildren<TextMeshProUGUI>().text = currentEnding.endingText; //hat mir CopIlot vorgschlagen, weiß nicht ob das stimmt
+        //RENDER ENING
     }
 
     public void ChooseEndingScene2(){
@@ -72,11 +72,7 @@ public class DialogueManager : MonoBehaviour
         } else if (karma < 0 && narrativeProgression == 3){
             currentEnding = UncleEndingBad;
         }
-
-        npc.GetComponentInChildren<TextMeshProUGUI>().text = currentEnding.endingText; 
-        
     }
-
 }
     
 

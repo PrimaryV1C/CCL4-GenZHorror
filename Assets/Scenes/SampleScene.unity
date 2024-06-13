@@ -423,8 +423,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 4
+  m_fontSizeBase: 4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -486,7 +486,7 @@ GameObject:
   - component: {fileID: 800037701}
   - component: {fileID: 800037700}
   m_Layer: 0
-  m_Name: Button
+  m_Name: Answer1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -509,8 +509,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.15, y: -0.46}
-  m_SizeDelta: {x: 50, y: 25}
+  m_AnchoredPosition: {x: -2.2, y: -0.46}
+  m_SizeDelta: {x: 100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &800037700
 MonoBehaviour:
@@ -658,6 +658,22 @@ MonoBehaviour:
   DoctorEndingGood: {fileID: 0}
   DoctorEndingBad: {fileID: 0}
   karma: 10
+  currentItem: {fileID: 11400000, guid: 834133e8920e7442eac37ec389397c05, type: 2}
+  dialogueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1404760353}
+        m_TargetAssemblyTypeName: RenderDialogue, Assembly-CSharp
+        m_MethodName: OnDialogueChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1593,6 +1609,7 @@ GameObject:
   - component: {fileID: 1404760350}
   - component: {fileID: 1404760349}
   - component: {fileID: 1404760348}
+  - component: {fileID: 1404760353}
   m_Layer: 0
   m_Name: DialogueBubble
   m_TagString: Untagged
@@ -1702,6 +1719,22 @@ RectTransform:
   m_AnchoredPosition: {x: -1.82, y: 2.66}
   m_SizeDelta: {x: 10, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1404760353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404760347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e995f8b90c14d508ec7b3dfb53942e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueManager: {fileID: 808296592}
+  mainText: {fileID: 1204015295}
+  answer1: {fileID: 1982921475}
+  answer2: {fileID: 598360061}
 --- !u!1001 &1410895647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2331,12 +2364,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b675793c9494bd5aa59e50f3a61048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cakeDialogue:
+  answerClicked:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 160443874}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: OnCakeDialogue
+      - m_Target: {fileID: 808296592}
+        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+        m_MethodName: OnNpcTalk
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2346,7 +2379,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  currentDialogue: {fileID: 0}
 --- !u!1 &1913060979
 GameObject:
   m_ObjectHideFlags: 0
@@ -2360,7 +2392,7 @@ GameObject:
   - component: {fileID: 1913060982}
   - component: {fileID: 1913060981}
   m_Layer: 0
-  m_Name: Button (1)
+  m_Name: Answer2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2383,8 +2415,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.95, y: -0.46}
-  m_SizeDelta: {x: 50, y: 25}
+  m_AnchoredPosition: {x: 2.93, y: -0.46}
+  m_SizeDelta: {x: 100, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1913060981
 MonoBehaviour:
@@ -2592,8 +2624,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 4
+  m_fontSizeBase: 4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2683,7 +2715,7 @@ PrefabInstance:
     - target: {fileID: 2488450121254544647, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
         type: 3}
       propertyPath: m_IsKinematic
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3612617784605770462, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
         type: 3}
