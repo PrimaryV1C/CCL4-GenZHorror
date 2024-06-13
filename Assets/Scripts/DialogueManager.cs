@@ -11,6 +11,9 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     private DialogueItem currentItem;
 
+    [SerializeField]
+    private DialogueItem uncleFirstDialogue;
+
     private EndingItem currentEnding;
 
     [SerializeField]
@@ -28,6 +31,7 @@ public class DialogueManager : MonoBehaviour
 
     [SerializeField]
     public UnityEvent<DialogueItem> dialogueChanged;
+    public UnityEvent<DialogueItem> dialogueChangedUncle;
     public UnityEvent<EndingItem> doctorDialogueEnd;
     private int dialogueProgress;
     
@@ -37,20 +41,11 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueProgress = 0;
         FirstDialog();
+        currentEnding = DoctorEndingBad;
     }
 
     public void DoctorNpcTalk(int answerIndex){
-        currentItem = currentItem.answers[answerIndex].nextItem;
-        dialogueChanged.Invoke(currentItem);
         dialogueProgress++;
-
-    }
-
-    public void UncleNpcTalk(int answerIndex){
-        currentItem = currentItem.answers[answerIndex].nextItem;
-        dialogueChanged.Invoke(currentItem);
-        dialogueProgress++;
-        CalculateKarma(answerIndex);
         if(dialogueProgress == 6){
             ChooseEndingScene1();
             doctorDialogueEnd.Invoke(currentEnding);
@@ -59,13 +54,24 @@ public class DialogueManager : MonoBehaviour
             currentItem = currentItem.answers[answerIndex].nextItem;
             dialogueChanged.Invoke(currentItem);
         }
+    }
 
+    public void UncleNpcTalk(int answerIndex){
+        currentItem = currentItem.answers[answerIndex].nextItem;
+        dialogueChangedUncle.Invoke(currentItem);
+        dialogueProgress++;
+        CalculateKarma(answerIndex);
     }
 
 
 
     public void FirstDialog(){
-        dialogueChanged.Invoke(currentItem);
+        if(dialogueProgress == 0){
+            dialogueChanged.Invoke(currentItem);
+        }
+        else{
+            dialogueChangedUncle.Invoke(uncleFirstDialogue);
+        }
     }
 
     public void CalculateKarma(int answerIndex){
@@ -89,19 +95,6 @@ public class DialogueManager : MonoBehaviour
             currentEnding = UncleEndingBad;
         }
     }
-
-    public void DialogueRenderingDoctor(){
-
-        dialogueChanged.Invoke(currentItem);
-
-    }
-
-    public void DialogueRenderingUncle(){
-
-            dialogueChanged.Invoke(currentItem);
-            
-    }
-
 }
     
 
