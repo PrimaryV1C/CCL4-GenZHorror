@@ -30,8 +30,9 @@ public class DialogueManager : MonoBehaviour
     public UnityEvent<DialogueItem> dialogueChanged;
     public UnityEvent<EndingItem> doctorDialogueEnd;
     private int dialogueProgress;
-    
 
+    private RenderDialogue renderDialogue;
+    
     public int karma = 10;
 
     void Start()
@@ -40,7 +41,16 @@ public class DialogueManager : MonoBehaviour
         FirstDialog();
     }
 
-    public void OnNpcTalk(int answerIndex){
+    public void DoctorNpcTalk(int answerIndex){
+        currentItem = currentItem.answers[answerIndex].nextItem;
+        dialogueChanged.Invoke(currentItem);
+        dialogueProgress++;
+
+    }
+
+    public void UncleNpcTalk(int answerIndex){
+        currentItem = currentItem.answers[answerIndex].nextItem;
+        dialogueChanged.Invoke(currentItem);
         dialogueProgress++;
         CalculateKarma(answerIndex);
         if(dialogueProgress == 6){
@@ -51,9 +61,14 @@ public class DialogueManager : MonoBehaviour
             currentItem = currentItem.answers[answerIndex].nextItem;
             dialogueChanged.Invoke(currentItem);
         }
+
     }
+
+
+
     public void FirstDialog(){
         dialogueChanged.Invoke(currentItem);
+
     }
 
     public void CalculateKarma(int answerIndex){
@@ -77,6 +92,20 @@ public class DialogueManager : MonoBehaviour
             currentEnding = UncleEndingBad;
         }
     }
+
+    public void DialogueRenderingDoctor(){
+     if (renderDialogue != null){
+            dialogueChanged.Invoke(currentItem);
+        }
+
+    }
+
+    public void DialogueRenderingUncle(){
+        if (renderDialogue != null){
+            dialogueChanged.Invoke(currentItem);
+        }
+    }
+
 }
     
 

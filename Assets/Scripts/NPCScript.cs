@@ -17,4 +17,10 @@ public class NPCScript : MonoBehaviour
         answerClicked.Invoke(1);
 
     }
+
+    public void Answer3(){
+
+        answerClicked.Invoke(2);
+
+    }
 }
