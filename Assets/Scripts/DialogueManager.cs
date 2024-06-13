@@ -13,8 +13,6 @@ public class DialogueManager : MonoBehaviour
 
     private EndingItem currentEnding;
 
-    public int narrativeProgression;
-
     [SerializeField]
 
     private EndingItem UncleEndingGood;
@@ -30,6 +28,7 @@ public class DialogueManager : MonoBehaviour
 
     [SerializeField]
     public UnityEvent<DialogueItem> dialogueChanged;
+    public UnityEvent<EndingItem> doctorDialogueEnd;
     private int dialogueProgress;
     
 
@@ -42,9 +41,16 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void OnNpcTalk(int answerIndex){
-        currentItem = currentItem.answers[answerIndex].nextItem;
-        dialogueChanged.Invoke(currentItem);
         dialogueProgress++;
+        CalculateKarma(answerIndex);
+        if(dialogueProgress == 6){
+            ChooseEndingScene1();
+            doctorDialogueEnd.Invoke(currentEnding);
+        }
+        else{
+            currentItem = currentItem.answers[answerIndex].nextItem;
+            dialogueChanged.Invoke(currentItem);
+        }
     }
     public void FirstDialog(){
         dialogueChanged.Invoke(currentItem);
@@ -56,20 +62,18 @@ public class DialogueManager : MonoBehaviour
 
   
     public void ChooseEndingScene1(){
-        //TODO: Updating correct narrativeProgression & karma
-        if(karma >= 0 && narrativeProgression == 3){
+        if(karma >= 0){
             currentEnding = DoctorEndingGood;
-        } else if(karma < 0 && narrativeProgression == 3){
+        } else if(karma < 0){
             currentEnding = DoctorEndingBad;
         } 
-        //RENDER ENING
+        
     }
 
     public void ChooseEndingScene2(){
-        //TODO: Updating correct narrativeProgression & karma
-        if (karma >= 0 && narrativeProgression == 3){
+        if (karma >= 0){
             currentEnding = UncleEndingGood;
-        } else if (karma < 0 && narrativeProgression == 3){
+        } else if (karma < 0){
             currentEnding = UncleEndingBad;
         }
     }
