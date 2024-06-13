@@ -19,13 +19,19 @@ public class RenderDialogue : MonoBehaviour
 
     void Start()
     {
-        dialogueManager.dialogueChanged.AddListener(OnDialogueChangeDoctor);
+        //dialogueManager.dialogueChanged.AddListener(OnDialogueChange);
     }
 
     public void OnDialogueChangeDoctor(DialogueItem item){
         mainText.text = item.dialogueText;
         answer1.text = item.answers[0].answerText;
         answer2.text = item.answers[1].answerText;
+    }
+
+    public void OnEnding(EndingItem item){
+        mainText.text = item.endingText;
+        answer1.text = "Finially, Cya!";
+        answer2.text = "Great, thank you.";
     }
 
     public void OnDialogueChangeUncle(DialogueItem item){
