@@ -166,8 +166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dfa1e4993b3f4484948f92a7b59d3fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueManager: {fileID: 808296592}
-  narrativeProgression: 0
 --- !u!114 &171074264 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8788836208650496759, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
@@ -650,15 +648,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e1e308e56db24848a3263d84f5aa0d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstItem: {fileID: 11400000, guid: 834133e8920e7442eac37ec389397c05, type: 2}
-  text: {fileID: 1204015295}
+  currentItem: {fileID: 11400000, guid: 834133e8920e7442eac37ec389397c05, type: 2}
   narrativeProgression: 0
   UncleEndingGood: {fileID: 0}
   UncleEndingBad: {fileID: 0}
   DoctorEndingGood: {fileID: 0}
   DoctorEndingBad: {fileID: 0}
-  karma: 10
-  currentItem: {fileID: 11400000, guid: 834133e8920e7442eac37ec389397c05, type: 2}
   dialogueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -674,6 +669,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  karma: 10
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,8 +995,68 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8596761798031205514, guid: c211820d717c44c6a9f7100dc7dc08fd,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 926009597}
+    - targetCorrespondingSourceObject: {fileID: 8596761798031205514, guid: c211820d717c44c6a9f7100dc7dc08fd,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 926009596}
   m_SourcePrefab: {fileID: 100100000, guid: c211820d717c44c6a9f7100dc7dc08fd, type: 3}
+--- !u!1 &926009595 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8596761798031205514, guid: c211820d717c44c6a9f7100dc7dc08fd,
+    type: 3}
+  m_PrefabInstance: {fileID: 926009594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &926009596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926009595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da91688f28a9442c9a336954aec0cc80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueInitiated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 808296592}
+        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
+        m_MethodName: FirstDialog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &926009597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926009595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7951c64acb0fa62458bf30a60089fe2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 0
+  m_CheckFor2DOcclusion: 0
+  m_CheckFor3DOcclusion: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RaycastTriggerInteraction: 1
 --- !u!114 &926410396 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7777694430309882118, guid: c18047719fbe747e49754dcabaae5319,
@@ -1026,7 +1082,6 @@ GameObject:
   - component: {fileID: 1142587074}
   - component: {fileID: 1142587073}
   - component: {fileID: 1142587072}
-  - component: {fileID: 1142587071}
   m_Layer: 0
   m_Name: CapsuleUncle
   m_TagString: Untagged
@@ -1034,33 +1089,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1142587071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1142587070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da91688f28a9442c9a336954aec0cc80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueInitiated:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 808296592}
-        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: UncleJoeTalk
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1142587072
 MonoBehaviour:
   m_ObjectHideFlags: 0
