@@ -11,7 +11,7 @@
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac>/Applications/Audiokinetic/wise/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows />
-  <WwiseProjectPath>../CCL4-GenZHorror_WwiseProject/CCL4-GenZHorror_WwiseProject.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../CCL4-GenZHorror/CCL4-GenZHorror_WwiseProject/CCL4-GenZHorror_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>
