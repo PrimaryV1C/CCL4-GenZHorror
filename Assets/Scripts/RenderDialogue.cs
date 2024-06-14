@@ -19,7 +19,7 @@ public class RenderDialogue : MonoBehaviour
 
     void Start()
     {
-        //dialogueManager.dialogueChanged.AddListener(OnDialogueChange);
+        dialogueManager.dialogueChanged.AddListener(OnDialogueChangeDoctor);
     }
 
     public void OnDialogueChangeDoctor(DialogueItem item){
@@ -28,7 +28,7 @@ public class RenderDialogue : MonoBehaviour
         answer2.text = item.answers[1].answerText;
     }
 
-    public void OnEnding(EndingItem item){
+        public void OnEnding(EndingItem item){
         mainText.text = item.endingText;
         answer1.text = "Finially, Cya!";
         answer2.text = "Great, thank you.";
