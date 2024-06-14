@@ -27,8 +27,15 @@ public class RenderDialogue : MonoBehaviour
 
         public void OnEnding(EndingItem item){
         mainText.text = item.endingText;
-        answer1.text = "Finially, Cya!";
-        answer2.text = "Great, thank you.";
+        if(answer3 != null){
+            answer1.text = "Lets talk about the weather.";
+            answer2.text = "I'll better start washing the dishes.";
+            answer3.text = "Fuck off Uncle!";
+        }
+        else{
+            answer1.text = "Finially, Cya!";
+            answer2.text = "Great, thank you.";
+        }
     }
 
     public void OnDialogueChangeUncle(DialogueItem item){

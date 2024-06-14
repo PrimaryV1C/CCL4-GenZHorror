@@ -48,7 +48,6 @@ public class DialogueManager : MonoBehaviour
 
     public void DoctorNpcTalk(int answerIndex){
         dialogueProgress++;
-        //playerTransform.position = new Vector3(playerTransform.position.x, dialogueProgress, playerTransform.position.z);
         if(dialogueProgress == 6){
             CalculateKarma(answerIndex);
             doctorDialogueEnd.Invoke(ChooseEndingScene1());
@@ -61,7 +60,7 @@ public class DialogueManager : MonoBehaviour
 
     public void UncleNpcTalk(int answerIndex){
         dialogueProgress++;
-        if(dialogueProgress == 6){
+        if(dialogueProgress == 7){
             CalculateKarma(answerIndex);
             uncleDialogueEnd.Invoke(ChooseEndingScene2());
         }
