@@ -28,6 +28,12 @@ public class RenderDialogue : MonoBehaviour
         answer2.text = item.answers[1].answerText;
     }
 
+        public void OnEnding(EndingItem item){
+        mainText.text = item.endingText;
+        answer1.text = "Finially, Cya!";
+        answer2.text = "Great, thank you.";
+    }
+
     public void OnDialogueChangeUncle(DialogueItem item){
         mainText.text = item.dialogueText;
         answer1.text = item.answers[0].answerText;
