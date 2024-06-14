@@ -47,6 +47,7 @@ public class DialogueManager : MonoBehaviour
     public void DoctorNpcTalk(int answerIndex){
         dialogueProgress++;
         if(dialogueProgress == 6){
+            CalculateKarma(answerIndex);
             ChooseEndingScene1();
             doctorDialogueEnd.Invoke(currentEnding);
         }
@@ -70,6 +71,8 @@ public class DialogueManager : MonoBehaviour
             dialogueChanged.Invoke(currentItem);
         }
         else{
+            dialogueProgress = 0;
+            currentItem = uncleFirstDialogue;
             dialogueChangedUncle.Invoke(uncleFirstDialogue);
         }
     }
