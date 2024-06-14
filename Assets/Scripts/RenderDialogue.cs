@@ -6,8 +6,6 @@ using TMPro;
 public class RenderDialogue : MonoBehaviour
 {
     [SerializeField]
-    private DialogueManager dialogueManager;
-    [SerializeField]
     private TextMeshProUGUI mainText;
     [SerializeField]
     private TextMeshProUGUI answer1;
@@ -19,7 +17,6 @@ public class RenderDialogue : MonoBehaviour
 
     void Start()
     {
-        dialogueManager.dialogueChanged.AddListener(OnDialogueChangeDoctor);
     }
 
     public void OnDialogueChangeDoctor(DialogueItem item){

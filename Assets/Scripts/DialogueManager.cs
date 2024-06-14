@@ -8,6 +8,7 @@ public class DoctorDialogueChangeEvent : UnityEvent<DialogueItem> { }
 
 public class DialogueManager : MonoBehaviour
 {
+    public Transform playerTransform;
     [SerializeField]
     private DialogueItem currentItem;
 
@@ -33,6 +34,7 @@ public class DialogueManager : MonoBehaviour
     public UnityEvent<DialogueItem> dialogueChanged;
     public UnityEvent<DialogueItem> dialogueChangedUncle;
     public UnityEvent<EndingItem> doctorDialogueEnd;
+    public UnityEvent<EndingItem> uncleDialogueEnd;
     private int dialogueProgress;
     
     public int karma = 10;
@@ -40,15 +42,16 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         dialogueProgress = 0;
-        FirstDialog();
         currentEnding = DoctorEndingBad;
+        FirstDialog();
     }
 
     public void DoctorNpcTalk(int answerIndex){
         dialogueProgress++;
+        //playerTransform.position = new Vector3(playerTransform.position.x, dialogueProgress, playerTransform.position.z);
         if(dialogueProgress == 6){
-            ChooseEndingScene1();
-            doctorDialogueEnd.Invoke(currentEnding);
+            CalculateKarma(answerIndex);
+            doctorDialogueEnd.Invoke(ChooseEndingScene1());
         }
         else{
             currentItem = currentItem.answers[answerIndex].nextItem;
@@ -57,10 +60,15 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void UncleNpcTalk(int answerIndex){
-        currentItem = currentItem.answers[answerIndex].nextItem;
-        dialogueChangedUncle.Invoke(currentItem);
         dialogueProgress++;
-        CalculateKarma(answerIndex);
+        if(dialogueProgress == 6){
+            CalculateKarma(answerIndex);
+            uncleDialogueEnd.Invoke(ChooseEndingScene2());
+        }
+        else{
+            currentItem = currentItem.answers[answerIndex].nextItem;
+            dialogueChangedUncle.Invoke(currentItem);
+        }
     }
 
 
@@ -70,6 +78,8 @@ public class DialogueManager : MonoBehaviour
             dialogueChanged.Invoke(currentItem);
         }
         else{
+            dialogueProgress = 0;
+            currentItem = uncleFirstDialogue;
             dialogueChangedUncle.Invoke(uncleFirstDialogue);
         }
     }
@@ -79,21 +89,19 @@ public class DialogueManager : MonoBehaviour
     }
 
   
-    public void ChooseEndingScene1(){
+    public EndingItem ChooseEndingScene1(){
         if(karma >= 0){
-            currentEnding = DoctorEndingGood;
-        } else if(karma < 0){
-            currentEnding = DoctorEndingBad;
-        } 
-        
+            Debug.Log(karma);
+            return DoctorEndingGood;
+        }
+            return DoctorEndingBad;
     }
 
-    public void ChooseEndingScene2(){
+    public EndingItem ChooseEndingScene2(){
         if (karma >= 0){
-            currentEnding = UncleEndingGood;
-        } else if (karma < 0){
-            currentEnding = UncleEndingBad;
+            return UncleEndingGood;
         }
+            return UncleEndingBad;
     }
 }
     
