@@ -22,21 +22,29 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2688391212" Type="User" Language="SFX" Hash="{5BD10C4B-1F02-14A5-BDE0-F23F64E5923E}">
+		<SoundBank Id="2688391212" Type="User" Language="SFX" Hash="{07EB7982-F405-2043-80F1-16CB216CA286}">
 			<ShortName>MainScene_Soundbank</ShortName>
 			<Path>MainScene_Soundbank.bnk</Path>
 			<Media>
-				<File Id="51320460" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>walking up wood stairs in shoes.wav</ShortName>
-					<CachePath>SFX/walking up wood stairs in shoes_10C4C929.wem</CachePath>
+				<File Id="73692517" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>StepOnWood-015_short.wav</ShortName>
+					<CachePath>SFX/StepOnWood-015_short_10C4C929.wem</CachePath>
+				</File>
+				<File Id="78382545" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>StepOnWood-017._short.wav</ShortName>
+					<CachePath>SFX/StepOnWood-017._short_10C4C929.wem</CachePath>
+				</File>
+				<File Id="122041102" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>StepOnWood-016_short.wav</ShortName>
+					<CachePath>SFX/StepOnWood-016_short_10C4C929.wem</CachePath>
+				</File>
+				<File Id="608293546" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>StepOnWood13_short.wav</ShortName>
+					<CachePath>SFX/StepOnWood13_short_10C4C929.wem</CachePath>
 				</File>
 				<File Id="727747197" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Spitting Blood 02.wav</ShortName>
 					<CachePath>SFX/Spitting Blood 02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1012840964" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>footsteps_corridoor.wav</ShortName>
-					<CachePath>SFX/footsteps_corridoor_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -45,14 +53,17 @@
 						<MediaRef Id="727747197"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3096333732" Name="Play_stepping_container" DurationType="OneShot" DurationMin="0" DurationMax="0">
+				<Event Id="3096333732" Name="Play_stepping_container" DurationType="OneShot" DurationMin="0.162875" DurationMax="0.17433333">
 					<MediaRefs>
-						<MediaRef Id="51320460"/>
-						<MediaRef Id="1012840964"/>
+						<MediaRef Id="73692517"/>
+						<MediaRef Id="78382545"/>
+						<MediaRef Id="122041102"/>
+						<MediaRef Id="608293546"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="727902438" Name="Stop_stepping_container" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BE9F43C1-306D-2F65-61CD-92A8E32ABA7A}</FileHash>
+	<FileHash>{DE9B5E0D-94F5-DD9D-D2B5-102132E47973}</FileHash>
 </SoundBanksInfo>

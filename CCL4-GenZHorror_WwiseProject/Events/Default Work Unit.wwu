@@ -3,9 +3,20 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{9047615E-D66D-448F-A7D5-D27C7CD2A4E6}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_background_container" ID="{37634D11-198D-4C24-8185-3FB7B9FF8877}">
+				<Event Name="Play_stepping_container" ID="{DA098255-8B88-47C6-AEF3-99EAADC110DF}">
 					<ChildrenList>
-						<Action Name="" ID="{C879CC80-1F2B-4142-92DA-D599D5B14030}" ShortID="341940447">
+						<Action Name="" ID="{3B5055B7-140D-41D6-910A-5A8706784DF9}" ShortID="643652554">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stepping_container" ID="{5D0ACA06-513D-4ECC-B1F5-DFADE0C9D32A}" WorkUnitID="{FB027A7E-5925-4B60-8AEE-689167B7CC11}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_background_container" ID="{6467DECF-BC31-4E90-8FBC-C263BEABA7DC}">
+					<ChildrenList>
+						<Action Name="" ID="{8F6F1C60-0F18-4651-A7A2-7E0E1CEA7C4A}" ShortID="939221307">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="background_container" ID="{12F9631F-9DA3-4E9D-B32E-EEF7F2263F68}" WorkUnitID="{FB027A7E-5925-4B60-8AEE-689167B7CC11}"/>

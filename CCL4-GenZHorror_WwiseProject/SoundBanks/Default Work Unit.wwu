@@ -5,7 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="MainScene_Soundbank" ID="{1110DA36-82CD-45DF-B7FA-A5B108A3587E}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_background_container" ID="{37634D11-198D-4C24-8185-3FB7B9FF8877}" WorkUnitID="{9047615E-D66D-448F-A7D5-D27C7CD2A4E6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_stepping_container" ID="{DA098255-8B88-47C6-AEF3-99EAADC110DF}" WorkUnitID="{9047615E-D66D-448F-A7D5-D27C7CD2A4E6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_background_container" ID="{6467DECF-BC31-4E90-8FBC-C263BEABA7DC}" WorkUnitID="{9047615E-D66D-448F-A7D5-D27C7CD2A4E6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

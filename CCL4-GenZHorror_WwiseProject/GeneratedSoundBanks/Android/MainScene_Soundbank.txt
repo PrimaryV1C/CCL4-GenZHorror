@@ -1,9 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
 	698255466	Play_background_container			\Default Work Unit\Play_background_container	
+	727902438	Stop_stepping_container			\Default Work Unit\Stop_stepping_container	
 	3096333732	Play_stepping_container			\Default Work Unit\Play_stepping_container	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	51320460	walking up wood stairs in shoes	Y:\Documents\GitHub\CCL4-GenZHorror\CCL4-GenZHorror_WwiseProject\.cache\Android\SFX\walking up wood stairs in shoes_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\stepping_container\walking up wood stairs in shoes		496154
+	73692517	StepOnWood-015_short	Y:\Documents\GitHub\CCL4-GenZHorror\CCL4-GenZHorror_WwiseProject\.cache\Android\SFX\StepOnWood-015_short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\stepping_container\StepOnWood-015_short		15840
+	78382545	StepOnWood-017__short	Y:\Documents\GitHub\CCL4-GenZHorror\CCL4-GenZHorror_WwiseProject\.cache\Android\SFX\StepOnWood-017._short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\stepping_container\StepOnWood-017__short		15732
+	122041102	StepOnWood-016_short	Y:\Documents\GitHub\CCL4-GenZHorror\CCL4-GenZHorror_WwiseProject\.cache\Android\SFX\StepOnWood-016_short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\stepping_container\StepOnWood-016_short		16248
+	608293546	StepOnWood13_short	Y:\Documents\GitHub\CCL4-GenZHorror\CCL4-GenZHorror_WwiseProject\.cache\Android\SFX\StepOnWood13_short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\stepping_container\StepOnWood13_short		16832
 	727747197	Spitting Blood 02	Y:\Documents\GitHub\CCL4-GenZHorror\CCL4-GenZHorror_WwiseProject\.cache\Android\SFX\Spitting Blood 02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\background_container\Spitting Blood 02		230296
-	1012840964	footsteps_corridoor	Y:\Documents\GitHub\CCL4-GenZHorror\CCL4-GenZHorror_WwiseProject\.cache\Android\SFX\footsteps_corridoor_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\stepping_container\footsteps_corridoor		1195264
 

@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_BACKGROUND_CONTAINER = 698255466U;
         static const AkUniqueID PLAY_STEPPING_CONTAINER = 3096333732U;
+        static const AkUniqueID STOP_STEPPING_CONTAINER = 727902438U;
     } // namespace EVENTS
 
     namespace BANKS
