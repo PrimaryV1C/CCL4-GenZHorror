@@ -7,29 +7,31 @@ public class AudioManager : MonoBehaviour
 {
    
    public bool isWalking;
-   public ContinuousMoveProviderBase continuousMoveProvider;
+   public GameObject playerPosition;
 
    private Vector3 previousPosition;
   private Vector3 currentPosition;
 
   public void Start() {
-    if (continuousMoveProvider == null) {
-        continuousMoveProvider = GetComponent<ContinuousMoveProviderBase>();
-    }
-      previousPosition = continuousMoveProvider.gameObject.transform.position;
+
+      previousPosition = playerPosition.gameObject.transform.position;
 
   }
 
 
    public void Update() {
-        if (currentPosition != previousPosition) {
-            Debug.Log("Walking");
-            isWalking = true;
-            AkSoundEngine.PostEvent("stepping_container", gameObject);
-            
-        }
-        previousPosition = currentPosition;
-    }
+
+       currentPosition = playerPosition.gameObject.transform.position;
+
+       if (currentPosition != previousPosition) {
+           isWalking = true;
+       } else {
+           isWalking = false;
+       }
+
+       previousPosition = currentPosition;
 
    }
+
+}
 
