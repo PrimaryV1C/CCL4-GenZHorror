@@ -9,16 +9,21 @@ public class GameManager : MonoBehaviour
     private int narrativeProgression;
     [SerializeField]
     private GameObject bedroomDoor;
+    [SerializeField]
+    private GameObject moveSystem;
     public UnityEvent<EndingItem> doctorDialogueEnd;
-    
+
     void Start()
     {
         narrativeProgression = 0;
     }
 
-    void Update()
-    {
-        
+    public void OnDialogueStarted(){
+        moveSystem.SetActive(false);
+    }
+
+    public void OnDialogueEnded(){
+        moveSystem.SetActive(true);
     }
 
     public void OnDoctorDialogueEnd(EndingItem item){

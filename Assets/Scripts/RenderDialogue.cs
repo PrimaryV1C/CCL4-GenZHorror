@@ -25,7 +25,7 @@ public class RenderDialogue : MonoBehaviour
         answer2.text = item.answers[1].answerText;
     }
 
-        public void OnEnding(EndingItem item){
+    public void OnEnding(EndingItem item){
         mainText.text = item.endingText;
         if(answer3 != null){
             answer1.text = "Lets talk about the weather.";

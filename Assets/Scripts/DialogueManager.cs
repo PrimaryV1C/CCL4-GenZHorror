@@ -7,7 +7,9 @@ using System.Data.Common;
 public class DoctorDialogueChangeEvent : UnityEvent<DialogueItem> { }
 
 public class DialogueManager : MonoBehaviour
-{
+{   
+    private bool closeDialogue = false;
+    public UnityEvent EndDialogue;
     public Transform playerTransform;
     [SerializeField]
     private DialogueItem currentItem;
@@ -47,10 +49,14 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void DoctorNpcTalk(int answerIndex){
+
+        if(closeDialogue) EndDialogue.Invoke();
+
         dialogueProgress++;
         if(dialogueProgress == 6){
             CalculateKarma(answerIndex);
             doctorDialogueEnd.Invoke(ChooseEndingScene1());
+            closeDialogue = true;
         }
         else{
             currentItem = currentItem.answers[answerIndex].nextItem;
@@ -59,10 +65,14 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void UncleNpcTalk(int answerIndex){
+
+        if(closeDialogue) EndDialogue.Invoke();
+
         dialogueProgress++;
         if(dialogueProgress == 7){
             CalculateKarma(answerIndex);
             uncleDialogueEnd.Invoke(ChooseEndingScene2());
+            closeDialogue = true;
         }
         else{
             currentItem = currentItem.answers[answerIndex].nextItem;
@@ -77,6 +87,8 @@ public class DialogueManager : MonoBehaviour
             dialogueChanged.Invoke(currentItem);
         }
         else{
+            closeDialogue = false;
+
             dialogueProgress = 0;
             currentItem = uncleFirstDialogue;
             dialogueChangedUncle.Invoke(uncleFirstDialogue);
