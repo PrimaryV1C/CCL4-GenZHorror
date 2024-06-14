@@ -22,10 +22,37 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2688391212" Type="User" Language="SFX" Hash="{52FDDDA5-F8A3-450A-B825-9B49CD1D8E63}">
+		<SoundBank Id="2688391212" Type="User" Language="SFX" Hash="{5BD10C4B-1F02-14A5-BDE0-F23F64E5923E}">
 			<ShortName>MainScene_Soundbank</ShortName>
 			<Path>MainScene_Soundbank.bnk</Path>
+			<Media>
+				<File Id="51320460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>walking up wood stairs in shoes.wav</ShortName>
+					<CachePath>SFX/walking up wood stairs in shoes_10C4C929.wem</CachePath>
+				</File>
+				<File Id="727747197" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Spitting Blood 02.wav</ShortName>
+					<CachePath>SFX/Spitting Blood 02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1012840964" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>footsteps_corridoor.wav</ShortName>
+					<CachePath>SFX/footsteps_corridoor_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="698255466" Name="Play_background_container" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="727747197"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3096333732" Name="Play_stepping_container" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<MediaRefs>
+						<MediaRef Id="51320460"/>
+						<MediaRef Id="1012840964"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B45BCAA6-6FAC-8212-7A27-E68CEB0FAD13}</FileHash>
+	<FileHash>{4F912EE4-26A4-2B31-7C86-8502EA0C5971}</FileHash>
 </SoundBanksInfo>

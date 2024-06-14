@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	698255466	Play_background_container			\Default Work Unit\Play_background_container	
+	3096333732	Play_stepping_container			\Default Work Unit\Play_stepping_container	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	51320460	walking up wood stairs in shoes	Y:\Documents\GitHub\CCL4-GenZHorror\CCL4-GenZHorror_WwiseProject\.cache\Android\SFX\walking up wood stairs in shoes_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\stepping_container\walking up wood stairs in shoes		496154
+	727747197	Spitting Blood 02	Y:\Documents\GitHub\CCL4-GenZHorror\CCL4-GenZHorror_WwiseProject\.cache\Android\SFX\Spitting Blood 02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\background_container\Spitting Blood 02		230296
+	1012840964	footsteps_corridoor	Y:\Documents\GitHub\CCL4-GenZHorror\CCL4-GenZHorror_WwiseProject\.cache\Android\SFX\footsteps_corridoor_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\stepping_container\footsteps_corridoor		1195264
+

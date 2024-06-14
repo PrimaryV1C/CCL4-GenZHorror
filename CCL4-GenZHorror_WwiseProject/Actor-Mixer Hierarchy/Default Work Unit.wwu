@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{FB027A7E-5925-4B60-8AEE-689167B7CC11}" PersistMode="Standalone">
 			<ChildrenList>
-				<RandomSequenceContainer Name="stepping_container" ID="{5D0ACA06-513D-4ECC-B1F5-DFADE0C9D32A}" ShortID="516291055">
+				<RandomSequenceContainer Name="background_container" ID="{12F9631F-9DA3-4E9D-B32E-EEF7F2263F68}" ShortID="734473721">
 					<PropertyList>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 					</PropertyList>
@@ -16,7 +16,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="footsteps_corridoor" ID="{A9A0F7D3-15A3-49A9-B1B8-4530296FFDDD}" ShortID="747944815">
+						<Sound Name="werewolfe" ID="{CAAC611C-2DAE-4474-AA0D-0F2A1B94EF6B}" ShortID="639642620">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A666B7BA-D54D-4BA2-9128-F71FEC31AD2E}"/>
@@ -26,38 +26,16 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="footsteps_corridoor" ID="{5B716C45-5195-4FE0-9AC6-C82CAC6A2DD2}">
+								<AudioFileSource Name="werewolfe" ID="{BF9399D3-919E-493F-8618-46E680A8A75E}">
 									<Language>SFX</Language>
-									<AudioFile>footsteps_corridoor.wav</AudioFile>
+									<AudioFile>werewolfe.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="1012840964"/>
+										<MediaID ID="884203186"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="footsteps_corridoor" ID="{5B716C45-5195-4FE0-9AC6-C82CAC6A2DD2}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="walking up wood stairs in shoes" ID="{854DA513-EC6F-4780-B064-4A257FD959C6}" ShortID="153964485">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A666B7BA-D54D-4BA2-9128-F71FEC31AD2E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{89E7AF86-D2FD-4B5E-9233-3EE42370FE95}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="walking up wood stairs in shoes" ID="{5A5B6F36-77EA-4143-87CA-AE0C32DBEC9C}">
-									<Language>SFX</Language>
-									<AudioFile>walking up wood stairs in shoes.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="51320460"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="walking up wood stairs in shoes" ID="{5A5B6F36-77EA-4143-87CA-AE0C32DBEC9C}" Platform="Linked"/>
+								<ActiveSource Name="werewolfe" ID="{BF9399D3-919E-493F-8618-46E680A8A75E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

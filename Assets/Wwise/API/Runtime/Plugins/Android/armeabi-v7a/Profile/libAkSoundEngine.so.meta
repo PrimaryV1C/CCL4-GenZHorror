@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5a88fe2762fdb4718bd54624d4a681cb
+guid: d3e3e7d8cb4cb492daff8d795749728a
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -14,7 +14,7 @@ PluginImporter:
   - first:
       Android: Android
     second:
-      enabled: 1
+      enabled: 0
       settings:
         CPU: ARMv7
   - first:

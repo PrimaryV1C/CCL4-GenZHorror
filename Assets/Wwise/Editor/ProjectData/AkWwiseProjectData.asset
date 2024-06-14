@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d227d7efbb974fa2bebbfc1be59e066, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c109e8e2c8f045889a7005161f5f103, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: c79640b8f1f3a4468b588382e0c3d7f5
     GuidInternal: 
-    m_lastTime: -8584832410175497158
+    m_lastTime: -8584832330554450570
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 86afe789fdd25e4b92333ee42370fe95
     GuidInternal: 
-    m_lastTime: -8584832410175523189
+    m_lastTime: -8584832330554827121
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 625b7032c8354a45941d6319f3b14860
     GuidInternal: 
-    m_lastTime: -8584832356137284902
+    m_lastTime: -8584832280621888497
     List:
     - name: MainScene_Soundbank
       guid: 36da1011cd82df45b7faa5b108a3587e
@@ -94,11 +94,11 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 5e6147906dd68f44a7d5d27c7cd2a4e6
     GuidInternal: 
-    m_lastTime: -8584832356137302123
+    m_lastTime: -8584832280621922709
     List:
-    - name: Play_stepping_container
-      guid: 558209da888bc647aef399eaadc110df
-      id: 3096333732
+    - name: Play_background_container
+      guid: 114d63378d19244c81853fb7b9ff8877
+      id: 698255466
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,13 +106,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 5e6147906dd68f44a7d5d27c7cd2a4e6
-      - ElementName: Play_stepping_container
+      - ElementName: Play_background_container
         ObjectType: 3
-        guid: 558209da888bc647aef399eaadc110df
-      Path: Events/Default Work Unit/Play_stepping_container
+        guid: 114d63378d19244c81853fb7b9ff8877
+      Path: Events/Default Work Unit/Play_background_container
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -125,7 +125,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 7812ab2869221441a586fdfa64347712
     GuidInternal: 
-    m_lastTime: -8584832410175526853
+    m_lastTime: -8584832330554759217
     List: []
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
@@ -139,7 +139,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 7ff16741e4f74445a1ee2779abbb1f83
     GuidInternal: 
-    m_lastTime: -8584832410175501745
+    m_lastTime: -8584832330554775566
     List: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
@@ -153,7 +153,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 40602d8b2ff9f54882d3f96210fdd909
     GuidInternal: 
-    m_lastTime: -8584832410175500264
+    m_lastTime: -8584832330554795045
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
@@ -167,10 +167,10 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: 16f6257054da614ab98e544c72dde4a6
     GuidInternal: 
-    m_lastTime: -8584832410175498593
+    m_lastTime: -8584832330554514999
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000060000000a0000000b0000000c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

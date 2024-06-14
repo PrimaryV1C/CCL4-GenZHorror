@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b7b38246fcf8405b980369af9fb7c1d, type: 3}
+  m_Script: {fileID: 11500000, guid: 695dce28000df48049885dc76516d3e3, type: 3}
   m_Name: 1110DA36-82CD-45DF-B7FA-A5B108A3587E
   m_EditorClassIdentifier: 
   objectName: MainScene_Soundbank
