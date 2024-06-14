@@ -20,7 +20,7 @@ public class PlayerDetection : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        if(other.tag == "MainCamera")
+        if(other.tag == "Player")
         {
             playerDetectedChange.Invoke(false);
         }
