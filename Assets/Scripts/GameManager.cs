@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject moveSystem;
     public UnityEvent<EndingItem> doctorDialogueEnd;
+
+    [SerializeField]
+    private DialogueManager dialogueManager;
 
     void Start()
     {
@@ -23,7 +27,9 @@ public class GameManager : MonoBehaviour
     }
 
     public void OnDialogueEnded(){
+        narrativeProgression++;
         moveSystem.SetActive(true);
+        if(narrativeProgression == 2) EndGame();
     }
 
     public void OnDoctorDialogueEnd(EndingItem item){
@@ -31,4 +37,12 @@ public class GameManager : MonoBehaviour
         doctorDialogueEnd.Invoke(item);
     }
 
+    void EndGame(){
+        if(dialogueManager.karma > 0){
+            SceneManager.LoadSceneAsync(4);
+        }
+        else{
+            SceneManager.LoadSceneAsync(3);
+        }
+    }
 }
