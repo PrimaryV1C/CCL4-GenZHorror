@@ -194,6 +194,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &171074265 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4746609459281521187, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
+    type: 3}
+  m_PrefabInstance: {fileID: 1941646923128751331}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &303356133
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,13 +860,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571157569}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.8, y: 1.6001533, z: -9.44}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 11.03, y: 3.54, z: 6.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &589817809
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,6 +1374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e1e308e56db24848a3263d84f5aa0d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerTransform: {fileID: 171074265}
   currentItem: {fileID: 11400000, guid: 834133e8920e7442eac37ec389397c05, type: 2}
   uncleFirstDialogue: {fileID: 11400000, guid: 1b16c6d970138494dbdcc148c743472c, type: 2}
   UncleEndingGood: {fileID: 11400000, guid: b28b14874e80b46be8dbd50f039e86d2, type: 2}
@@ -1419,6 +1426,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1404760353}
+        m_TargetAssemblyTypeName: RenderDialogue, Assembly-CSharp
+        m_MethodName: OnEnding
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  uncleDialogueEnd:
+    m_PersistentCalls:
+      m_Calls:
       - m_Target: {fileID: 1313390064}
         m_TargetAssemblyTypeName: RenderDialogue, Assembly-CSharp
         m_MethodName: OnEnding
@@ -1431,7 +1453,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  karma: 10
+  karma: -10
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -2633,7 +2655,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50e995f8b90c14d508ec7b3dfb53942e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueManager: {fileID: 808296592}
   mainText: {fileID: 1622879480}
   answer1: {fileID: 1923049235}
   answer2: {fileID: 2031553469}
@@ -2887,7 +2908,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50e995f8b90c14d508ec7b3dfb53942e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueManager: {fileID: 808296592}
   mainText: {fileID: 1204015295}
   answer1: {fileID: 1982921475}
   answer2: {fileID: 598360061}
@@ -3555,7 +3575,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 635360335}
         m_TargetAssemblyTypeName: NPCScript, Assembly-CSharp
-        m_MethodName: Answer2
+        m_MethodName: Answer3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4898,23 +4918,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3612617784605770462, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
         type: 3}
+      propertyPath: m_Height
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612617784605770462, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
+        type: 3}
       propertyPath: m_Radius
       value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 4746609459281521187, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
         type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4746609459281521187, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.921
+      value: 15.35
       objectReference: {fileID: 0}
     - target: {fileID: 4746609459281521187, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.388
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4746609459281521187, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.467
+      value: 7.47
       objectReference: {fileID: 0}
     - target: {fileID: 4746609459281521187, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
         type: 3}
