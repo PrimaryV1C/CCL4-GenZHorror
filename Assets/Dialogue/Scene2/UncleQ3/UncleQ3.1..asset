@@ -10,14 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0fd1d9767db94855b4e0da4f857f88d, type: 3}
-  m_Name: Text 2
+  m_Name: UncleQ3.1.
   m_EditorClassIdentifier: 
-  dialogueText: The cake is a lie...
+  dialogueText: Girls running the world? Don't make me laugh. The world would be
+    in chaos if women were in charge! Beyonce is maybe the only exception...
   nextItem: {fileID: 0}
   answers:
-  - answerText: Test
+  - answerText: Actually, there are many successful female leaders who have brought
+      positive changes to their countries.
     nextItem: {fileID: 11400000, guid: c028ca1fc79854d48b6fb9cdf490c852, type: 2}
     karma: 0
-  - answerText: Test
+  - answerText: Your fear of women in power is just another sign of your outdated
+      thinking and your little confidence in yourself.
+    nextItem: {fileID: 11400000, guid: c028ca1fc79854d48b6fb9cdf490c852, type: 2}
+    karma: 0
+  - answerText: We cannot all succeed when half of us are held back.
     nextItem: {fileID: 11400000, guid: c028ca1fc79854d48b6fb9cdf490c852, type: 2}
     karma: 0
