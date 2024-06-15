@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FB027A7E-5925-4B60-8AEE-689167B7CC11}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{FB027A7E-5925-4B60-8AEE-689167B7CC11}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="background_container" ID="{12F9631F-9DA3-4E9D-B32E-EEF7F2263F68}" ShortID="734473721">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A666B7BA-D54D-4BA2-9128-F71FEC31AD2E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{89E7AF86-D2FD-4B5E-9233-3EE42370FE95}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Spitting Blood 02" ID="{51E636DB-EC3A-4B47-B235-CF0F2B378085}" ShortID="357427558">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A666B7BA-D54D-4BA2-9128-F71FEC31AD2E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{89E7AF86-D2FD-4B5E-9233-3EE42370FE95}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Spitting Blood 02" ID="{189A655D-9AF0-49B3-82FE-A1417E2CD440}">
+									<Language>SFX</Language>
+									<AudioFile>Spitting Blood 02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="727747197"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Spitting Blood 02" ID="{189A655D-9AF0-49B3-82FE-A1417E2CD440}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="stepping_container" ID="{D55E9ACD-AE30-40AF-B353-0DE0193E3C62}" ShortID="477527524">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A666B7BA-D54D-4BA2-9128-F71FEC31AD2E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{89E7AF86-D2FD-4B5E-9233-3EE42370FE95}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="StepOnWood-015_short" ID="{30DB1CDA-103D-4776-A10C-905D3C669D36}" ShortID="124087781">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A666B7BA-D54D-4BA2-9128-F71FEC31AD2E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{89E7AF86-D2FD-4B5E-9233-3EE42370FE95}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="StepOnWood-015_short" ID="{23BBBD9B-115A-417D-BAE2-1C5692DB0AC1}">
+									<Language>SFX</Language>
+									<AudioFile>StepOnWood-015_short.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="73692517"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="StepOnWood-015_short" ID="{23BBBD9B-115A-417D-BAE2-1C5692DB0AC1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="StepOnWood-016_short" ID="{3CB233E0-59D1-452A-8010-EC93BA4E69D0}" ShortID="99964742">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A666B7BA-D54D-4BA2-9128-F71FEC31AD2E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{89E7AF86-D2FD-4B5E-9233-3EE42370FE95}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="StepOnWood-016_short" ID="{D12F143D-5921-40EC-8C26-AAEFB54B935F}">
+									<Language>SFX</Language>
+									<AudioFile>StepOnWood-016_short.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="122041102"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="StepOnWood-016_short" ID="{D12F143D-5921-40EC-8C26-AAEFB54B935F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="StepOnWood13_short" ID="{CDC7E940-6C01-4D09-A960-4AD79ADF78C1}" ShortID="308390805">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A666B7BA-D54D-4BA2-9128-F71FEC31AD2E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{89E7AF86-D2FD-4B5E-9233-3EE42370FE95}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="StepOnWood13_short" ID="{BB3899E0-5662-4A06-BFC4-FFB2C178F9A1}">
+									<Language>SFX</Language>
+									<AudioFile>StepOnWood13_short.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="608293546"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="StepOnWood13_short" ID="{BB3899E0-5662-4A06-BFC4-FFB2C178F9A1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="StepOnWood-017__short" ID="{15E7104B-B89C-4557-AE14-0D04C1913427}" ShortID="267968277">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A666B7BA-D54D-4BA2-9128-F71FEC31AD2E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{89E7AF86-D2FD-4B5E-9233-3EE42370FE95}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="StepOnWood-017__short" ID="{AEA04FF0-C168-4881-9B5D-51F9565CF8BA}">
+									<Language>SFX</Language>
+									<AudioFile>StepOnWood-017._short.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="78382545"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="StepOnWood-017__short" ID="{AEA04FF0-C168-4881-9B5D-51F9565CF8BA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
