@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Android</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{97E3ECE0-57A7-67B2-9351-D7D5459B66B1}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{5EEC83E0-A111-1A59-1394-4EABBDDA3F64}">
+			<ShortName>Main_Soundbank</ShortName>
+			<Path>Main_Soundbank.bnk</Path>
+			<Media>
+				<File Id="311322474" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>StepOnWood-017._short.wav</ShortName>
+					<CachePath>SFX/StepOnWood-017._short_10C4C929.wem</CachePath>
+				</File>
+				<File Id="550934326" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>StepOnWood13_short.wav</ShortName>
+					<CachePath>SFX/StepOnWood13_short_10C4C929.wem</CachePath>
+				</File>
+				<File Id="609208763" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>StepOnWood-015_short.wav</ShortName>
+					<CachePath>SFX/StepOnWood-015_short_10C4C929.wem</CachePath>
+				</File>
+				<File Id="930117461" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>StepOnWood-016_short.wav</ShortName>
+					<CachePath>SFX/StepOnWood-016_short_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="349645836" Name="Play_container_stepping" DurationType="OneShot" DurationMin="0.162875" DurationMax="0.17433333">
+					<MediaRefs>
+						<MediaRef Id="311322474"/>
+						<MediaRef Id="550934326"/>
+						<MediaRef Id="609208763"/>
+						<MediaRef Id="930117461"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1996258398" Name="Stop_container_stepping" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{48311554-63B0-17DC-FFBD-FB1B7203519C}</FileHash>
+</SoundBanksInfo>
