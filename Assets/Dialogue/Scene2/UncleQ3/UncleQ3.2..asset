@@ -10,14 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0fd1d9767db94855b4e0da4f857f88d, type: 3}
-  m_Name: Text 1
+  m_Name: UncleQ3.2.
   m_EditorClassIdentifier: 
-  dialogueText: Do you want to eat Cake?
+  dialogueText: "Change?! What change!? I can\xB4t see any changes, okay maybe the
+    internet, but nothing else. What's wrong about the good old times where women
+    just stayed at home?"
   nextItem: {fileID: 0}
   answers:
-  - answerText: Yes please!
-    nextItem: {fileID: 11400000, guid: 8bc344e712c9d42739f5ff65052689d4, type: 2}
+  - answerText: It's about balance, Uncle Joe. Women can have careers and still be
+      great mothers and partners.
+    nextItem: {fileID: 0}
     karma: 3
-  - answerText: No I hate cake!
-    nextItem: {fileID: 11400000, guid: c028ca1fc79854d48b6fb9cdf490c852, type: 2}
+  - answerText: We should all be feminists.]
+    nextItem: {fileID: 0}
+    karma: -10
+  - answerText: Culture does not make people. People make culture. So if it is in
+      the culture to treat women as less than men, we must make the culture.
+    nextItem: {fileID: 0}
     karma: -10
