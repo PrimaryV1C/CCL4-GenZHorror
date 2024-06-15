@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 1fd8648df2476f46a06bfb9edde308a4
     GuidInternal: 
-    m_lastTime: -8584831292432018453
+    m_lastTime: -8584831201485675904
     List:
     - name: Main_Soundbank
       guid: ae333b5429b72646a56bfcb76a4f4d99
@@ -108,8 +108,25 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: a01f6ab5a2cd8a4493c7f53dac7abe70
     GuidInternal: 
-    m_lastTime: -8584831292432062010
+    m_lastTime: -8584831201485716618
     List:
+    - name: Play_background_Oliver
+      guid: 90fdeebbf22b19468fa5e4e272fd9b0d
+      id: 699889020
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_background_Oliver
+        ObjectType: 3
+        guid: 90fdeebbf22b19468fa5e4e272fd9b0d
+      Path: Events/Default Work Unit/Play_background_Oliver
+      maxAttenuation: 0
+      maxDuration: 95.16279
+      minDuration: 95.16279
     - name: Play_background_short
       guid: 48fda1bb01a59942b5fe1856e9556d12
       id: 2437516625
@@ -159,8 +176,8 @@ MonoBehaviour:
         guid: 102c2c35a8f9d94394ca80bda6cf9fd2
       Path: Events/Default Work Unit/Play_phone
       maxAttenuation: 0
-      maxDuration: 5.2600937
-      minDuration: 5.2600937
+      maxDuration: -1
+      minDuration: -1
     - name: Play_start_short
       guid: ac1715d2908d1b408e2abb716670e7e7
       id: 526303433
@@ -178,6 +195,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_background_Oliver
+      guid: c67444b225bdb5409d64169c38b77dc4
+      id: 4113761274
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Stop_background_Oliver
+        ObjectType: 3
+        guid: c67444b225bdb5409d64169c38b77dc4
+      Path: Events/Default Work Unit/Stop_background_Oliver
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_container_stepping
       guid: 8d21ee75cfda5549856fad7b3f0fe2d7
       id: 1996258398

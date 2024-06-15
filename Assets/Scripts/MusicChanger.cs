@@ -5,10 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MusicChanger : MonoBehaviour
 {
-    public AkEvent audioEvent;
+    //public AkEvent audioEvent;
     private static MusicChanger instance = null; 
-
-    private bool audioShouldPersist = false;
 
     void Awake()
     {
@@ -39,12 +37,11 @@ public class MusicChanger : MonoBehaviour
         if (scene.buildIndex == 0 || scene.buildIndex == 2)
         {
             Debug.Log("MusicChanger: Music should persist");
-            audioShouldPersist = true;
+
         }
         else
         {
             Debug.Log("MusicChanger: Stopping music and destroying instance");
-            audioShouldPersist = false;
             AkSoundEngine.PostEvent("Stop_background_Oliver", gameObject); 
             SceneManager.sceneLoaded -= OnSceneLoaded;
             Destroy(gameObject);
