@@ -45,7 +45,7 @@ public class AudioManager : MonoBehaviour
               isWalking = true;
                 if (Time.time - lastFootstepTime > footstepInterval)
                 {
-                    AkSoundEngine.PostEvent("Play_stepping_container", gameObject);
+                    AkSoundEngine.PostEvent("Play_container_stepping", gameObject);
                     lastFootstepTime = Time.time;
             
                 }
@@ -56,7 +56,7 @@ public class AudioManager : MonoBehaviour
 
                 if (footstepsPlaying)
                 {
-                    AkSoundEngine.PostEvent("Stop_stepping_container", gameObject); // Ensure there's a stop event in Wwise
+                    AkSoundEngine.PostEvent("Stop_container_stepping", gameObject); // Ensure there's a stop event in Wwise
                     footstepsPlaying = false;
                 }
 
