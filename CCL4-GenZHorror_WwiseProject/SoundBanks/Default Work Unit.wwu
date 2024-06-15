@@ -6,7 +6,17 @@
 				<SoundBank Name="Main_Soundbank" ID="{543B33AE-B729-4626-A56B-FCB76A4F4D99}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_container_stepping" ID="{41D5CEC9-5A3C-411C-8EC8-8D75ADBC83B0}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_background_short" ID="{BBA1FD48-A501-4299-B5FE-1856E9556D12}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_phone" ID="{352C2C10-F9A8-43D9-94CA-80BDA6CF9FD2}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_phone" ID="{4D404AC3-4BF9-4773-9FA1-01176C75E58F}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_container_stepping" ID="{75EE218D-DACF-4955-856F-AD7B3F0FE2D7}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Start_Soundbank" ID="{C16AEB0B-D134-4031-8CF0-4A6C051DB7EF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_start_short" ID="{D21517AC-8D90-401B-8E2A-BB716670E7E7}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

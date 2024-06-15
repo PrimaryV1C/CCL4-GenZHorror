@@ -1,9 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
+	190234274	Play_phone			\Default Work Unit\Play_phone	
 	349645836	Play_container_stepping			\Default Work Unit\Play_container_stepping	
 	1996258398	Stop_container_stepping			\Default Work Unit\Stop_container_stepping	
 	2437516625	Play_background_short			\Default Work Unit\Play_background_short	
+	4262240428	Stop_phone			\Default Work Unit\Stop_phone	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	196135768	phone	Y:\Documents\GitHub\CCL4-GenZHorror\CCL4-GenZHorror_WwiseProject\.cache\Android\SFX\phone_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\phone		168418
 	311322474	StepOnWood-017__short	Y:\Documents\GitHub\CCL4-GenZHorror\CCL4-GenZHorror_WwiseProject\.cache\Android\SFX\StepOnWood-017._short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\container_stepping\StepOnWood-017__short		15732
 	550934326	StepOnWood13_short	Y:\Documents\GitHub\CCL4-GenZHorror\CCL4-GenZHorror_WwiseProject\.cache\Android\SFX\StepOnWood13_short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\container_stepping\StepOnWood13_short		16832
 	609208763	StepOnWood-015_short	Y:\Documents\GitHub\CCL4-GenZHorror\CCL4-GenZHorror_WwiseProject\.cache\Android\SFX\StepOnWood-015_short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\container_stepping\StepOnWood-015_short		15840

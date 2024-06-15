@@ -22,10 +22,14 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{AB069490-21A0-CE3A-D073-9B889DEADA40}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{61776A10-3285-B4BF-C29B-4F156A973A0C}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
+				<File Id="196135768" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>phone.wav</ShortName>
+					<CachePath>SFX/phone_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="311322474" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>StepOnWood-017._short.wav</ShortName>
 					<CachePath>SFX/StepOnWood-017._short_10C4C929.wem</CachePath>
@@ -61,9 +65,41 @@
 						<MediaRef Id="930117461"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="190234274" Name="Play_phone" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="196135768"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1996258398" Name="Stop_container_stepping" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4262240428" Name="Stop_phone" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="4294095669" Type="User" Language="SFX" Hash="{97A58DC7-36A4-FD96-1146-72F3F9AEAB90}">
+			<ShortName>Start_Soundbank</ShortName>
+			<Path>Start_Soundbank.bnk</Path>
+			<Media>
+				<File Id="441131044" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>start_short.wav</ShortName>
+					<CachePath>SFX/start_short_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="606963897" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>background_Oliver.wav</ShortName>
+					<CachePath>SFX/background_Oliver_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="699889020" Name="Play_background_Oliver" DurationType="OneShot" DurationMin="95.16279" DurationMax="95.16279">
+					<MediaRefs>
+						<MediaRef Id="606963897"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="526303433" Name="Play_start_short" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="441131044"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{ADC6AEC1-7955-7934-87F7-49253892F97D}</FileHash>
+	<FileHash>{32472515-76BF-9A23-7F6A-666F6BDD64A5}</FileHash>
 </SoundBanksInfo>

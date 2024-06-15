@@ -19,6 +19,12 @@ public class AudioManager : MonoBehaviour
 
   private float movementSpeed = 0.8f;
 
+    public void StopPhone()
+  {
+    Debug.Log("Stop Phone");
+    AkSoundEngine.PostEvent("Stop_phone", gameObject);
+  }
+
   public void Start() {
 
     lastFootstepTime = Time.time;
@@ -66,4 +72,9 @@ public class AudioManager : MonoBehaviour
             previousPosition = currentPosition;
         }
     }
+
+
+
+
+
 }

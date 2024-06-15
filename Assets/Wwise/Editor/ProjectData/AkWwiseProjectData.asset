@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 1fd8648df2476f46a06bfb9edde308a4
     GuidInternal: 
-    m_lastTime: -8584831512989687992
+    m_lastTime: -8584831292432018453
     List:
     - name: Main_Soundbank
       guid: ae333b5429b72646a56bfcb76a4f4d99
@@ -82,6 +82,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: ae333b5429b72646a56bfcb76a4f4d99
       Path: SoundBanks/Default Work Unit/Main_Soundbank
+    - name: Start_Soundbank
+      guid: 0beb6ac134d131408cf04a6c051db7ef
+      id: 4294095669
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1fd8648df2476f46a06bfb9edde308a4
+      - ElementName: Start_Soundbank
+        ObjectType: 7
+        guid: 0beb6ac134d131408cf04a6c051db7ef
+      Path: SoundBanks/Default Work Unit/Start_Soundbank
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
@@ -94,8 +108,25 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: a01f6ab5a2cd8a4493c7f53dac7abe70
     GuidInternal: 
-    m_lastTime: -8584831512989794155
+    m_lastTime: -8584831292432062010
     List:
+    - name: Play_background_short
+      guid: 48fda1bb01a59942b5fe1856e9556d12
+      id: 2437516625
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_background_short
+        ObjectType: 3
+        guid: 48fda1bb01a59942b5fe1856e9556d12
+      Path: Events/Default Work Unit/Play_background_short
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_container_stepping
       guid: c9ced5413c5a1c418ec88d75adbc83b0
       id: 349645836
@@ -113,6 +144,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.17433333
       minDuration: 0.162875
+    - name: Play_phone
+      guid: 102c2c35a8f9d94394ca80bda6cf9fd2
+      id: 190234274
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_phone
+        ObjectType: 3
+        guid: 102c2c35a8f9d94394ca80bda6cf9fd2
+      Path: Events/Default Work Unit/Play_phone
+      maxAttenuation: 0
+      maxDuration: 5.2600937
+      minDuration: 5.2600937
+    - name: Play_start_short
+      guid: ac1715d2908d1b408e2abb716670e7e7
+      id: 526303433
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_start_short
+        ObjectType: 3
+        guid: ac1715d2908d1b408e2abb716670e7e7
+      Path: Events/Default Work Unit/Play_start_short
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_container_stepping
       guid: 8d21ee75cfda5549856fad7b3f0fe2d7
       id: 1996258398
@@ -127,6 +192,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8d21ee75cfda5549856fad7b3f0fe2d7
       Path: Events/Default Work Unit/Stop_container_stepping
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_phone
+      guid: c34a404df94b73479fa101176c75e58f
+      id: 4262240428
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Stop_phone
+        ObjectType: 3
+        guid: c34a404df94b73479fa101176c75e58f
+      Path: Events/Default Work Unit/Stop_phone
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -187,7 +269,7 @@ MonoBehaviour:
     m_lastTime: -8584831512989680533
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 06000000070000000c0000000d0000001c0000006300000064000000
+  ExpandedWaapiItemIds: 0500000006000000070000000b0000000c0000000d0000001000000011000000120000001c00000027000000280000002b0000002c000000390000003a00000063000000640000006600000067000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -28,6 +28,53 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_background_short" ID="{BBA1FD48-A501-4299-B5FE-1856E9556D12}">
+					<ChildrenList>
+						<Action Name="" ID="{19C1D518-35BC-4F4F-B859-06D420A8B3C8}" ShortID="340838614">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="background_short" ID="{989DE53C-B1B3-4F63-B6E7-B729E202BE56}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_start_short" ID="{D21517AC-8D90-401B-8E2A-BB716670E7E7}">
+					<ChildrenList>
+						<Action Name="" ID="{E79A12A2-41A4-48BA-97B5-AB6082E4F93F}" ShortID="136642993">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="start_short" ID="{8FF2415A-2935-463D-9BB1-1A5B702ABC5F}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_phone" ID="{352C2C10-F9A8-43D9-94CA-80BDA6CF9FD2}">
+					<ChildrenList>
+						<Action Name="" ID="{D9C47883-B786-4764-81AB-BEBCDE9E623C}" ShortID="925658871">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="phone" ID="{79240604-E510-413F-BCF3-3B581707211B}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_phone" ID="{4D404AC3-4BF9-4773-9FA1-01176C75E58F}">
+					<ChildrenList>
+						<Action Name="" ID="{A22BF9EB-D3AA-4CA4-AE8A-65D6644E621D}" ShortID="971130492">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="phone" ID="{79240604-E510-413F-BCF3-3B581707211B}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

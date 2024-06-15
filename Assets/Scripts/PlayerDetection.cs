@@ -15,6 +15,7 @@ public class PlayerDetection : MonoBehaviour
         {   
             Debug.Log("Camera!");
             playerDetectedChange.Invoke(true);
+            AkSoundEngine.PostEvent("Play_phone", gameObject);
         }
     }
 
@@ -23,6 +24,7 @@ public class PlayerDetection : MonoBehaviour
         if(other.tag == "Player")
         {
             playerDetectedChange.Invoke(false);
+            AkSoundEngine.PostEvent("Stop_phone", gameObject);
         }
     }
 
