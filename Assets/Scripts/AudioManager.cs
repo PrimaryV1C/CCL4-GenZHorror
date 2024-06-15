@@ -37,6 +37,10 @@ public class AudioManager : MonoBehaviour
         if (playerPosition != null)
         {
             currentPosition = playerPosition.transform.position;
+<<<<<<< Updated upstream
+=======
+            Debuz.Log(currentPosition);
+>>>>>>> Stashed changes
 
             if (currentPosition != previousPosition)
 
@@ -53,7 +57,11 @@ public class AudioManager : MonoBehaviour
             else
             {
               isWalking = false; 
+<<<<<<< Updated upstream
               
+=======
+
+>>>>>>> Stashed changes
                 if (footstepsPlaying)
                 {
                     AkSoundEngine.PostEvent("Stop_stepping_container", gameObject); // Ensure there's a stop event in Wwise
