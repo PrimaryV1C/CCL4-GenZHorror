@@ -22,10 +22,14 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{5EEC83E0-A111-1A59-1394-4EABBDDA3F64}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{F37D44BC-E60A-C9C2-D376-BA0CCFE2133D}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
+				<File Id="244747862" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>background_short.wav</ShortName>
+					<CachePath>SFX/background_short_10C4C929.wem</CachePath>
+				</File>
 				<File Id="311322474" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>StepOnWood-017._short.wav</ShortName>
 					<CachePath>SFX/StepOnWood-017._short_10C4C929.wem</CachePath>
@@ -44,6 +48,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2437516625" Name="Play_background_short" DurationType="OneShot" DurationMin="17.253765" DurationMax="17.253765">
+					<MediaRefs>
+						<MediaRef Id="244747862"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="349645836" Name="Play_container_stepping" DurationType="OneShot" DurationMin="0.162875" DurationMax="0.17433333">
 					<MediaRefs>
 						<MediaRef Id="311322474"/>
@@ -56,5 +65,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{48311554-63B0-17DC-FFBD-FB1B7203519C}</FileHash>
+	<FileHash>{208E1221-1651-D41B-79E5-0FAD71616095}</FileHash>
 </SoundBanksInfo>

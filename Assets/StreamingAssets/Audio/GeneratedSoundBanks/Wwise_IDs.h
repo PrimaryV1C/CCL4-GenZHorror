@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BACKGROUND_SHORT = 2437516625U;
         static const AkUniqueID PLAY_CONTAINER_STEPPING = 349645836U;
         static const AkUniqueID STOP_CONTAINER_STEPPING = 1996258398U;
     } // namespace EVENTS
