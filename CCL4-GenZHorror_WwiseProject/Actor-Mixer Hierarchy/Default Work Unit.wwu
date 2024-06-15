@@ -189,6 +189,28 @@
 						<ActiveSource Name="phone" ID="{8E550762-A540-408A-BE08-CE3A690E963A}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="background_Oliver" ID="{6DA7DAD9-E756-470B-A26F-BF93F0132AAF}" ShortID="187464512">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73E9C9BC-DCAE-461E-B17C-F43AC080FB34}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8132892-2F8C-4D42-8208-AB5FD9B089EC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="background_Oliver" ID="{D919038D-BADF-4D77-9DC6-45248D24657B}">
+							<Language>SFX</Language>
+							<AudioFile>background_Oliver.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="606963897"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="background_Oliver" ID="{D919038D-BADF-4D77-9DC6-45248D24657B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

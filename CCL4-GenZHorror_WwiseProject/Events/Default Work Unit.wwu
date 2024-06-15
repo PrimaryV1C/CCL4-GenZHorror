@@ -75,6 +75,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_background_Oliver" ID="{BBEEFD90-2BF2-4619-8FA5-E4E272FD9B0D}">
+					<ChildrenList>
+						<Action Name="" ID="{256CC5E8-B35E-47B3-8C47-F884D774DF5C}" ShortID="499227311">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="background_Oliver" ID="{6DA7DAD9-E756-470B-A26F-BF93F0132AAF}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_background_Oliver" ID="{B24474C6-BD25-40B5-9D64-169C38B77DC4}">
+					<ChildrenList>
+						<Action Name="" ID="{3D33D3AF-078C-4EE2-AA99-93A27C94DAF5}" ShortID="478670809">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="background_Oliver" ID="{6DA7DAD9-E756-470B-A26F-BF93F0132AAF}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -17,6 +17,8 @@
 				<SoundBank Name="Start_Soundbank" ID="{C16AEB0B-D134-4031-8CF0-4A6C051DB7EF}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_start_short" ID="{D21517AC-8D90-401B-8E2A-BB716670E7E7}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_background_Oliver" ID="{B24474C6-BD25-40B5-9D64-169C38B77DC4}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_background_Oliver" ID="{BBEEFD90-2BF2-4619-8FA5-E4E272FD9B0D}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
