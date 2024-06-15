@@ -18,8 +18,12 @@ MonoBehaviour:
   answers:
   - answerText: Actually, there are many successful female leaders who have brought
       positive changes to their countries.
-    nextItem: {fileID: 11400000, guid: c028ca1fc79854d48b6fb9cdf490c852, type: 2}
+    nextItem: {fileID: 0}
+    karma: 0
+  - answerText: Your fear of women in power is just another sign of your outdated
+      thinking and your little confidence in yourself.
+    nextItem: {fileID: 0}
     karma: 0
   - answerText: We cannot all succeed when half of us are held back.
-    nextItem: {fileID: 11400000, guid: c028ca1fc79854d48b6fb9cdf490c852, type: 2}
+    nextItem: {fileID: 0}
     karma: 0

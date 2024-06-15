@@ -15,8 +15,9 @@ public class AudioManager : MonoBehaviour
 
   private bool footstepsPlaying = false;
   private float lastFootstepTime = 0.0f;
+  private float footstepInterval = 0.5f;
 
-  private float movementSpeed = 0.5f;
+  private float movementSpeed = 0.8f;
 
   public void Start() {
 
@@ -31,43 +32,38 @@ public class AudioManager : MonoBehaviour
   }
 
 
-   public void Update() {
+    public void Update()
+    {
+        if (playerPosition != null)
+        {
+            currentPosition = playerPosition.transform.position;
 
-    if (playerPosition != null) {
+            if (currentPosition != previousPosition)
 
-      currentPosition = playerPosition.gameObject.transform.position;
+            {
 
-      if (currentPosition != previousPosition) {
-        Debug.Log("Player is walking.");
-        
-        
-        if ( !footstepsPlaying)
-        
-{
-    AkSoundEngine.PostEvent("Play_stepping_container", gameObject);
-    lastFootstepTime = Time.time;
-    footstepsPlaying = true;
-}
-else if (Time.time - lastFootstepTime > 125 / movementSpeed * Time.deltaTime)
-{
-    footstepsPlaying = false;
+              isWalking = true;
+                if (Time.time - lastFootstepTime > footstepInterval)
+                {
+                    AkSoundEngine.PostEvent("Play_stepping_container", gameObject);
+                    lastFootstepTime = Time.time;
+            
+                }
+            }
+            else
+            {
+              isWalking = false; 
+              
+                if (footstepsPlaying)
+                {
+                    AkSoundEngine.PostEvent("Stop_stepping_container", gameObject); // Ensure there's a stop event in Wwise
+                    footstepsPlaying = false;
+                }
 
-}
+                
+            }
 
-        isWalking = true;
-
-
-      } else {
-
-        isWalking = false;
-
-
-      previousPosition = currentPosition;
-
+            previousPosition = currentPosition;
+        }
     }
-
-   }
-
 }
-}
-
