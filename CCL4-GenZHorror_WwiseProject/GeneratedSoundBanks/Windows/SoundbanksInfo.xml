@@ -74,7 +74,7 @@
 				<Event Id="4262240428" Name="Stop_phone" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="4294095669" Type="User" Language="SFX" Hash="{97A58DC7-36A4-FD96-1146-72F3F9AEAB90}">
+		<SoundBank Id="4294095669" Type="User" Language="SFX" Hash="{BB3B9675-6BDA-02F2-5E76-218BA9237BFA}">
 			<ShortName>Start_Soundbank</ShortName>
 			<Path>Start_Soundbank.bnk</Path>
 			<Media>
@@ -98,8 +98,9 @@
 						<MediaRef Id="441131044"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4113761274" Name="Stop_background_Oliver" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{32472515-76BF-9A23-7F6A-666F6BDD64A5}</FileHash>
+	<FileHash>{B912A3F0-D9D3-4AD6-D266-87F9E1522DCB}</FileHash>
 </SoundBanksInfo>

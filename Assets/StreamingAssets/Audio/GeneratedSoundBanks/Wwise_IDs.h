@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID PLAY_CONTAINER_STEPPING = 349645836U;
         static const AkUniqueID PLAY_PHONE = 190234274U;
         static const AkUniqueID PLAY_START_SHORT = 526303433U;
+        static const AkUniqueID STOP_BACKGROUND_OLIVER = 4113761274U;
         static const AkUniqueID STOP_CONTAINER_STEPPING = 1996258398U;
         static const AkUniqueID STOP_PHONE = 4262240428U;
     } // namespace EVENTS
