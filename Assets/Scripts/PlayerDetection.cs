@@ -13,18 +13,17 @@ public class PlayerDetection : MonoBehaviour
         Debug.Log("Collision!");
         if(other.tag == "Player")
         {   
-            Debug.Log("Camera!");
             playerDetectedChange.Invoke(true);
-            AkSoundEngine.PostEvent("Play_phone", gameObject);
+            AkSoundEngine.PostEvent("Play_phone_finish", gameObject);
         }
     }
 
-    void OnTriggerExit(Collider other)
+    public void OnTriggerExit(Collider other)
     {
         if(other.tag == "Player")
         {
             playerDetectedChange.Invoke(false);
-            AkSoundEngine.PostEvent("Stop_phone", gameObject);
+            AkSoundEngine.PostEvent("Stop_phone_finish", gameObject);
         }
     }
 

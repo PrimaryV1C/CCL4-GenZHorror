@@ -22,7 +22,7 @@ public class AudioManager : MonoBehaviour
     public void StopPhone()
   {
     Debug.Log("Stop Phone");
-    AkSoundEngine.PostEvent("Stop_phone", gameObject);
+    AkSoundEngine.PostEvent("Stop_phone_finish", gameObject);
   }
 
   public void Start() {

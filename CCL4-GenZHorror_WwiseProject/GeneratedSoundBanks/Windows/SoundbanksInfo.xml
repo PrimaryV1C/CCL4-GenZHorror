@@ -21,34 +21,78 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="3456922618" Name="DoctorAudioSwitch">
+					<Switches>
+						<Switch Id="538969654" Name="q1_switch"/>
+						<Switch Id="699268008" Name="q3_switch"/>
+						<Switch Id="907124623" Name="q6_switch"/>
+						<Switch Id="992679515" Name="q2_switch"/>
+						<Switch Id="1019052165" Name="q4_switch"/>
+						<Switch Id="1113270986" Name="q5_switch"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{61776A10-3285-B4BF-C29B-4F156A973A0C}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{1AE37DDF-C8C9-42AF-36D5-9DDDF90BF397}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
-				<File Id="196135768" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>phone.wav</ShortName>
-					<CachePath>SFX/phone_D79FB2B7.wem</CachePath>
+				<File Id="278201614" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>q6.wav</ShortName>
+					<CachePath>SFX/q6_10C4C929.wem</CachePath>
+				</File>
+				<File Id="308364199" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>q3.wav</ShortName>
+					<CachePath>SFX/q3_10C4C929.wem</CachePath>
 				</File>
 				<File Id="311322474" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>StepOnWood-017._short.wav</ShortName>
 					<CachePath>SFX/StepOnWood-017._short_10C4C929.wem</CachePath>
 				</File>
+				<File Id="332357214" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>q2.wav</ShortName>
+					<CachePath>SFX/q2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="392083019" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>q4.wav</ShortName>
+					<CachePath>SFX/q4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="486020160" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ending_bad.wav</ShortName>
+					<CachePath>SFX/ending_bad_10C4C929.wem</CachePath>
+				</File>
 				<File Id="550934326" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>StepOnWood13_short.wav</ShortName>
 					<CachePath>SFX/StepOnWood13_short_10C4C929.wem</CachePath>
+				</File>
+				<File Id="602238137" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>q5.wav</ShortName>
+					<CachePath>SFX/q5_10C4C929.wem</CachePath>
 				</File>
 				<File Id="609208763" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>StepOnWood-015_short.wav</ShortName>
 					<CachePath>SFX/StepOnWood-015_short_10C4C929.wem</CachePath>
 				</File>
+				<File Id="626184214" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>phone_finish.wav</ShortName>
+					<CachePath>SFX/phone_finish_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="659514204" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>background_short.wav</ShortName>
 					<CachePath>SFX/background_short_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="773815817" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>q1.wav</ShortName>
+					<CachePath>SFX/q1_10C4C929.wem</CachePath>
+				</File>
 				<File Id="930117461" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>StepOnWood-016_short.wav</ShortName>
 					<CachePath>SFX/StepOnWood-016_short_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1014802642" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ending_good.wav</ShortName>
+					<CachePath>SFX/ending_good_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -65,13 +109,63 @@
 						<MediaRef Id="930117461"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="190234274" Name="Play_phone" DurationType="Infinite">
+				<Event Id="331773476" Name="Play_doctor_audio" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<MediaRefs>
-						<MediaRef Id="196135768"/>
+						<MediaRef Id="278201614"/>
+						<MediaRef Id="308364199"/>
+						<MediaRef Id="332357214"/>
+						<MediaRef Id="392083019"/>
+						<MediaRef Id="602238137"/>
+						<MediaRef Id="773815817"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3097744716" Name="Play_phone_finish" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="626184214"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2111857972" Name="Play_q1" DurationType="OneShot" DurationMin="6.8893332" DurationMax="6.8893332">
+					<MediaRefs>
+						<MediaRef Id="773815817"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2111857975" Name="Play_q2" DurationType="OneShot" DurationMin="9.907042" DurationMax="9.907042">
+					<MediaRefs>
+						<MediaRef Id="332357214"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2111857974" Name="Play_q3" DurationType="OneShot" DurationMin="6.146354" DurationMax="6.146354">
+					<MediaRefs>
+						<MediaRef Id="308364199"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2111857969" Name="Play_q4" DurationType="OneShot" DurationMin="5.454167" DurationMax="5.454167">
+					<MediaRefs>
+						<MediaRef Id="392083019"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2111857968" Name="Play_q5" DurationType="OneShot" DurationMin="6.367854" DurationMax="6.367854">
+					<MediaRefs>
+						<MediaRef Id="602238137"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2111857971" Name="Play_q6" DurationType="OneShot" DurationMin="8.178437" DurationMax="8.178437">
+					<MediaRefs>
+						<MediaRef Id="278201614"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3505879460" Name="Play_s1_ending_bad" DurationType="OneShot" DurationMin="14.549541" DurationMax="14.549541">
+					<MediaRefs>
+						<MediaRef Id="486020160"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3958874627" Name="Play_s2_ending_good" DurationType="OneShot" DurationMin="12.898625" DurationMax="12.898625">
+					<MediaRefs>
+						<MediaRef Id="1014802642"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1996258398" Name="Stop_container_stepping" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-				<Event Id="4262240428" Name="Stop_phone" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4179250394" Name="Stop_phone_finish" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="4294095669" Type="User" Language="SFX" Hash="{BB3B9675-6BDA-02F2-5E76-218BA9237BFA}">
@@ -102,5 +196,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B912A3F0-D9D3-4AD6-D266-87F9E1522DCB}</FileHash>
+	<FileHash>{419604D5-FDA0-D62E-A64E-62295E4C9F48}</FileHash>
 </SoundBanksInfo>

@@ -85,6 +85,7 @@ public class DialogueManager : MonoBehaviour
     public void FirstDialog(){
         if(dialogueProgress == 0){
             dialogueChanged.Invoke(currentItem);
+            ChooseRightDoctorSound();
         }
         else{
             closeDialogue = false;
@@ -114,6 +115,27 @@ public class DialogueManager : MonoBehaviour
         }
             return UncleEndingBad;
     }
+
+  public void ChooseRightDoctorSound() {
+    if (dialogueProgress == 0) {
+      AkSoundEngine.PostEvent("Play_q1", gameObject);
+    }
+    else if (dialogueProgress == 1) {
+      AkSoundEngine.PostEvent("Play_q2", gameObject);
+    }
+    else if (dialogueProgress == 2) {
+      AkSoundEngine.PostEvent("Play_q3", gameObject);
+    }
+    else if (dialogueProgress == 3) {
+      AkSoundEngine.PostEvent("Play_q4", gameObject);
+    }
+    else if (dialogueProgress == 4) {
+      AkSoundEngine.PostEvent("Play_q5", gameObject);
+    }
+    else if (dialogueProgress == 5) {
+      AkSoundEngine.PostEvent("Play_q6", gameObject);
+    }
+  }
 }
     
 
