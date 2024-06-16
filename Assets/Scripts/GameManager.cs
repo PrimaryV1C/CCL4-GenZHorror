@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject moveSystem;
     public UnityEvent<EndingItem> doctorDialogueEnd;
+    public UnityEvent taskCompleted;
 
     [SerializeField]
     private DialogueManager dialogueManager;
@@ -20,6 +21,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         narrativeProgression = 0;
+        taskCompleted.Invoke();
     }
 
     public void OnDialogueStarted(){
@@ -47,7 +49,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void OnItemDelivered(){
-        
+
     }
 
 }
