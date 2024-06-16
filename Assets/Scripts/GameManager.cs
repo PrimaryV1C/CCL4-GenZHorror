@@ -45,4 +45,9 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadSceneAsync(3);
         }
     }
+
+    public void OnItemDelivered(){
+        
+    }
+
 }
