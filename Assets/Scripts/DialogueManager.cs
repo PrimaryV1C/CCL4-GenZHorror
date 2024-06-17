@@ -45,7 +45,6 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueProgress = 0;
         currentEnding = DoctorEndingBad;
-        FirstDialog();
     }
 
     public void DoctorNpcTalk(int answerIndex){
