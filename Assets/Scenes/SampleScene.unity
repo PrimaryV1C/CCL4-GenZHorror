@@ -2066,6 +2066,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6e75970783d5c424db7e67b1550290dd,
         type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6e75970783d5c424db7e67b1550290dd,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -4548,7 +4553,6 @@ GameObject:
   - component: {fileID: 1404760349}
   - component: {fileID: 1404760348}
   - component: {fileID: 1404760353}
-  - component: {fileID: 1404760355}
   m_Layer: 0
   m_Name: DialogueBubbleDoctor
   m_TagString: Untagged
@@ -4674,34 +4678,6 @@ MonoBehaviour:
   answer1: {fileID: 1982921475}
   answer2: {fileID: 598360061}
   answer3: {fileID: 0}
---- !u!1 &1493131577
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1702354552808944851, guid: 2f63454099122408bbd41c669250e6fb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1636378950}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1420402253
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420402249}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2186430941476567602, guid: 6e75970783d5c424db7e67b1550290dd, type: 3}
 --- !u!1 &1515352169
 GameObject:
   m_ObjectHideFlags: 0
@@ -5689,84 +5665,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622879478}
   m_CullTransparentMesh: 1
---- !u!1001 &1636378950
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 442665506}
-    m_Modifications:
-    - target: {fileID: 2446600561188219990, guid: 2f63454099122408bbd41c669250e6fb,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 2446600561188219990, guid: 2f63454099122408bbd41c669250e6fb,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2446600561188219990, guid: 2f63454099122408bbd41c669250e6fb,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 6.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 2446600561188219990, guid: 2f63454099122408bbd41c669250e6fb,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2446600561188219990, guid: 2f63454099122408bbd41c669250e6fb,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2446600561188219990, guid: 2f63454099122408bbd41c669250e6fb,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2446600561188219990, guid: 2f63454099122408bbd41c669250e6fb,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2446600561188219990, guid: 2f63454099122408bbd41c669250e6fb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2446600561188219990, guid: 2f63454099122408bbd41c669250e6fb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2446600561188219990, guid: 2f63454099122408bbd41c669250e6fb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3080394610893485804, guid: 2f63454099122408bbd41c669250e6fb,
-        type: 3}
-      propertyPath: m_Name
-      value: HouseColor
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1702354552808944851, guid: 2f63454099122408bbd41c669250e6fb,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1420402253}
-  m_SourcePrefab: {fileID: 100100000, guid: 2f63454099122408bbd41c669250e6fb, type: 3}
---- !u!4 &1636378951 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2446600561188219990, guid: 2f63454099122408bbd41c669250e6fb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1636378950}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1696023548
 GameObject:
   m_ObjectHideFlags: 0
@@ -6515,6 +6413,14 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 805577227}
         m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: StartPhone
@@ -6660,6 +6566,7 @@ MonoBehaviour:
   playerDetectedChange:
     m_PersistentCalls:
       m_Calls: []
+  disablePrompt: 0
 --- !u!1 &1913060979
 GameObject:
   m_ObjectHideFlags: 0
@@ -7974,4 +7881,3 @@ SceneRoots:
   - {fileID: 2037270584}
   - {fileID: 461116413}
   - {fileID: 858162786}
-  - {fileID: 506036732}
