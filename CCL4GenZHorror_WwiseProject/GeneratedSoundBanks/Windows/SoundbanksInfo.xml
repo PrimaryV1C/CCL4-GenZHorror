@@ -34,10 +34,14 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{1AE37DDF-C8C9-42AF-36D5-9DDDF90BF397}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{813FB325-FD8B-1805-74E1-B9077CCD34A1}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
+				<File Id="6318721" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>outgoing_call.wav</ShortName>
+					<CachePath>SFX/outgoing_call_10C4C929.wem</CachePath>
+				</File>
 				<File Id="278201614" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>q6.wav</ShortName>
 					<CachePath>SFX/q6_10C4C929.wem</CachePath>
@@ -119,6 +123,11 @@
 						<MediaRef Id="773815817"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1558847611" Name="Play_outgoing_call" DurationType="OneShot" DurationMin="2.4923582" DurationMax="2.4923582">
+					<MediaRefs>
+						<MediaRef Id="6318721"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3097744716" Name="Play_phone_finish" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="626184214"/>
@@ -165,6 +174,7 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1996258398" Name="Stop_container_stepping" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4144620041" Name="Stop_outgoing_call" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4179250394" Name="Stop_phone_finish" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
@@ -198,5 +208,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2CE10E71-3D6C-C66B-A013-FA83A1EC438E}</FileHash>
+	<FileHash>{E24D855D-3B38-0137-4791-C1369D087C5D}</FileHash>
 </SoundBanksInfo>

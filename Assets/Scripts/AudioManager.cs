@@ -19,10 +19,9 @@ public class AudioManager : MonoBehaviour
 
   private float movementSpeed = 0.8f;
 
-    public void StopPhone()
+    public void StartPhone()
   {
-    Debug.Log("Stop Phone");
-    AkSoundEngine.PostEvent("Stop_phone_finish", gameObject);
+    AkSoundEngine.PostEvent("Play_outgoing_call", gameObject);
   }
 
   public void Start() {

@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID PLAY_BACKGROUND_SHORT = 2437516625U;
         static const AkUniqueID PLAY_CONTAINER_STEPPING = 349645836U;
         static const AkUniqueID PLAY_DOCTOR_AUDIO = 331773476U;
+        static const AkUniqueID PLAY_OUTGOING_CALL = 1558847611U;
         static const AkUniqueID PLAY_PHONE_FINISH = 3097744716U;
         static const AkUniqueID PLAY_Q1 = 2111857972U;
         static const AkUniqueID PLAY_Q2 = 2111857975U;
@@ -31,6 +32,7 @@ namespace AK
         static const AkUniqueID RESUME_BACKGROUND_OLIVER = 276533063U;
         static const AkUniqueID STOP_BACKGROUND_OLIVER = 4113761274U;
         static const AkUniqueID STOP_CONTAINER_STEPPING = 1996258398U;
+        static const AkUniqueID STOP_OUTGOING_CALL = 4144620041U;
         static const AkUniqueID STOP_PHONE_FINISH = 4179250394U;
     } // namespace EVENTS
 
