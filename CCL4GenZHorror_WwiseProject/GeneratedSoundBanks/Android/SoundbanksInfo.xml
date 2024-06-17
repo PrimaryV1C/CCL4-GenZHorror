@@ -34,7 +34,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{C0CB1108-DAE3-BA25-AAD2-761AA4306CED}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{60D657D9-6C92-1B06-17C7-AF6726D2319C}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
@@ -90,6 +90,10 @@
 					<ShortName>q1.wav</ShortName>
 					<CachePath>SFX/q1_10C4C929.wem</CachePath>
 				</File>
+				<File Id="902914236" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>beer.wav</ShortName>
+					<CachePath>SFX/beer_10C4C929.wem</CachePath>
+				</File>
 				<File Id="930117461" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>StepOnWood-016_short.wav</ShortName>
 					<CachePath>SFX/StepOnWood-016_short_10C4C929.wem</CachePath>
@@ -103,6 +107,11 @@
 				<Event Id="2437516625" Name="Play_background_short" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="659514204"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2063165416" Name="Play_beer" DurationType="OneShot" DurationMin="1.0380833" DurationMax="1.0380833">
+					<MediaRefs>
+						<MediaRef Id="902914236"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="349645836" Name="Play_container_stepping" DurationType="OneShot" DurationMin="0.162875" DurationMax="0.17433333">
@@ -215,5 +224,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DB913D53-D3E4-9A59-FF74-D53A21C2DAE2}</FileHash>
+	<FileHash>{3491EC16-0AD0-4282-1BA3-340056F9F6FC}</FileHash>
 </SoundBanksInfo>
