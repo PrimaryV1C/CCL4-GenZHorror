@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PAUSE_BACKGROUND_OLIVER = 3851175970U;
         static const AkUniqueID PLAY_BACKGROUND_OLIVER = 699889020U;
         static const AkUniqueID PLAY_BACKGROUND_SHORT = 2437516625U;
         static const AkUniqueID PLAY_CONTAINER_STEPPING = 349645836U;
@@ -27,6 +28,7 @@ namespace AK
         static const AkUniqueID PLAY_S1_ENDING_BAD = 3505879460U;
         static const AkUniqueID PLAY_S2_ENDING_GOOD = 3958874627U;
         static const AkUniqueID PLAY_START_SHORT = 526303433U;
+        static const AkUniqueID RESUME_BACKGROUND_OLIVER = 276533063U;
         static const AkUniqueID STOP_BACKGROUND_OLIVER = 4113761274U;
         static const AkUniqueID STOP_CONTAINER_STEPPING = 1996258398U;
         static const AkUniqueID STOP_PHONE_FINISH = 4179250394U;

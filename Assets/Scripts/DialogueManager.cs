@@ -45,7 +45,6 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueProgress = 0;
         currentEnding = DoctorEndingBad;
-        FirstDialog();
     }
 
     public void DoctorNpcTalk(int answerIndex){
@@ -86,6 +85,8 @@ public class DialogueManager : MonoBehaviour
         if(dialogueProgress == 0){
             dialogueChanged.Invoke(currentItem);
             ChooseRightDoctorSound();
+
+            
         }
         else{
             closeDialogue = false;

@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 1fd8648df2476f46a06bfb9edde308a4
     GuidInternal: 
-    m_lastTime: -8584831201485675904
+    m_lastTime: -8584829938826078363
     List:
     - name: Main_Soundbank
       guid: ae333b5429b72646a56bfcb76a4f4d99
@@ -108,8 +108,25 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: a01f6ab5a2cd8a4493c7f53dac7abe70
     GuidInternal: 
-    m_lastTime: -8584831201485716618
+    m_lastTime: -8584829932473165062
     List:
+    - name: Pause_background_Oliver
+      guid: b50b1b23a96a0247be47b5e1371bcbf7
+      id: 3851175970
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Pause_background_Oliver
+        ObjectType: 3
+        guid: b50b1b23a96a0247be47b5e1371bcbf7
+      Path: Events/Default Work Unit/Pause_background_Oliver
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_background_Oliver
       guid: 90fdeebbf22b19468fa5e4e272fd9b0d
       id: 699889020
@@ -161,9 +178,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.17433333
       minDuration: 0.162875
-    - name: Play_phone
-      guid: 102c2c35a8f9d94394ca80bda6cf9fd2
-      id: 190234274
+    - name: Play_doctor_audio
+      guid: 18822395b568d045a489e425a7264956
+      id: 331773476
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -171,13 +188,166 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: a01f6ab5a2cd8a4493c7f53dac7abe70
-      - ElementName: Play_phone
+      - ElementName: Play_doctor_audio
         ObjectType: 3
-        guid: 102c2c35a8f9d94394ca80bda6cf9fd2
-      Path: Events/Default Work Unit/Play_phone
+        guid: 18822395b568d045a489e425a7264956
+      Path: Events/Default Work Unit/Play_doctor_audio
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_phone_finish
+      guid: 296ef1fa36ebf647b17dc8dab5fbb2c6
+      id: 3097744716
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_phone_finish
+        ObjectType: 3
+        guid: 296ef1fa36ebf647b17dc8dab5fbb2c6
+      Path: Events/Default Work Unit/Play_phone_finish
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_q1
+      guid: 40c6c191fa48224f9edc15f57e4d3ea6
+      id: 2111857972
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_q1
+        ObjectType: 3
+        guid: 40c6c191fa48224f9edc15f57e4d3ea6
+      Path: Events/Default Work Unit/Play_q1
+      maxAttenuation: 0
+      maxDuration: 6.8893332
+      minDuration: 6.8893332
+    - name: Play_q2
+      guid: 0fea503c0f902549bee3072f81c38534
+      id: 2111857975
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_q2
+        ObjectType: 3
+        guid: 0fea503c0f902549bee3072f81c38534
+      Path: Events/Default Work Unit/Play_q2
+      maxAttenuation: 0
+      maxDuration: 9.907042
+      minDuration: 9.907042
+    - name: Play_q3
+      guid: f2c7006b7e87cb44a1f5411d1314253a
+      id: 2111857974
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_q3
+        ObjectType: 3
+        guid: f2c7006b7e87cb44a1f5411d1314253a
+      Path: Events/Default Work Unit/Play_q3
+      maxAttenuation: 0
+      maxDuration: 6.146354
+      minDuration: 6.146354
+    - name: Play_q4
+      guid: bbe5c9bf33868947bba4a6df4f6124ba
+      id: 2111857969
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_q4
+        ObjectType: 3
+        guid: bbe5c9bf33868947bba4a6df4f6124ba
+      Path: Events/Default Work Unit/Play_q4
+      maxAttenuation: 0
+      maxDuration: 5.454167
+      minDuration: 5.454167
+    - name: Play_q5
+      guid: 7ec751c8290006458c629931d3c969e6
+      id: 2111857968
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_q5
+        ObjectType: 3
+        guid: 7ec751c8290006458c629931d3c969e6
+      Path: Events/Default Work Unit/Play_q5
+      maxAttenuation: 0
+      maxDuration: 6.367854
+      minDuration: 6.367854
+    - name: Play_q6
+      guid: 4d966633fd4c544e9119f9b58d7d4ea6
+      id: 2111857971
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_q6
+        ObjectType: 3
+        guid: 4d966633fd4c544e9119f9b58d7d4ea6
+      Path: Events/Default Work Unit/Play_q6
+      maxAttenuation: 0
+      maxDuration: 8.178437
+      minDuration: 8.178437
+    - name: Play_s1_ending_bad
+      guid: 5ae29f034328684b9a7ef7af02ac282d
+      id: 3505879460
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_s1_ending_bad
+        ObjectType: 3
+        guid: 5ae29f034328684b9a7ef7af02ac282d
+      Path: Events/Default Work Unit/Play_s1_ending_bad
+      maxAttenuation: 0
+      maxDuration: 14.549541
+      minDuration: 14.549541
+    - name: Play_s2_ending_good
+      guid: 9ff6a1a1135c9c4f9c9e20105d856038
+      id: 3958874627
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_s2_ending_good
+        ObjectType: 3
+        guid: 9ff6a1a1135c9c4f9c9e20105d856038
+      Path: Events/Default Work Unit/Play_s2_ending_good
+      maxAttenuation: 0
+      maxDuration: 12.898625
+      minDuration: 12.898625
     - name: Play_start_short
       guid: ac1715d2908d1b408e2abb716670e7e7
       id: 526303433
@@ -195,6 +365,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Resume_background_Oliver
+      guid: d409c07fed71474685fd10012750ae13
+      id: 276533063
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Resume_background_Oliver
+        ObjectType: 3
+        guid: d409c07fed71474685fd10012750ae13
+      Path: Events/Default Work Unit/Resume_background_Oliver
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_background_Oliver
       guid: c67444b225bdb5409d64169c38b77dc4
       id: 4113761274
@@ -229,9 +416,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: Stop_phone
-      guid: c34a404df94b73479fa101176c75e58f
-      id: 4262240428
+    - name: Stop_phone_finish
+      guid: 233ce9a52b4035478f31b626524922f2
+      id: 4179250394
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -239,10 +426,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: a01f6ab5a2cd8a4493c7f53dac7abe70
-      - ElementName: Stop_phone
+      - ElementName: Stop_phone_finish
         ObjectType: 3
-        guid: c34a404df94b73479fa101176c75e58f
-      Path: Events/Default Work Unit/Stop_phone
+        guid: 233ce9a52b4035478f31b626524922f2
+      Path: Events/Default Work Unit/Stop_phone_finish
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -286,8 +473,122 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 38492f34662ea1478191f0a7f136b5e2
     GuidInternal: 
-    m_lastTime: -8584831512989681935
-    List: []
+    m_lastTime: -8584829955139632154
+    List:
+    - name: DoctorAudioSwitch
+      guid: f905958e0830ce42aa83701592b808b5
+      id: 3456922618
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 38492f34662ea1478191f0a7f136b5e2
+      - ElementName: DoctorAudioSwitch
+        ObjectType: 11
+        guid: f905958e0830ce42aa83701592b808b5
+      Path: Switches/Default Work Unit/DoctorAudioSwitch
+      values:
+      - name: q1_switch
+        guid: 52ea36201af40941bebfb0cae70e5a7b
+        id: 538969654
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38492f34662ea1478191f0a7f136b5e2
+        - ElementName: DoctorAudioSwitch
+          ObjectType: 11
+          guid: f905958e0830ce42aa83701592b808b5
+        - ElementName: q1_switch
+          ObjectType: 10
+          guid: 52ea36201af40941bebfb0cae70e5a7b
+      - name: q2_switch
+        guid: 4f626ce660d6264f9cd3b95729baaa5a
+        id: 992679515
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38492f34662ea1478191f0a7f136b5e2
+        - ElementName: DoctorAudioSwitch
+          ObjectType: 11
+          guid: f905958e0830ce42aa83701592b808b5
+        - ElementName: q2_switch
+          ObjectType: 10
+          guid: 4f626ce660d6264f9cd3b95729baaa5a
+      - name: q3_switch
+        guid: cc8a9846d4e6374fbbfe1dd66da5fade
+        id: 699268008
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38492f34662ea1478191f0a7f136b5e2
+        - ElementName: DoctorAudioSwitch
+          ObjectType: 11
+          guid: f905958e0830ce42aa83701592b808b5
+        - ElementName: q3_switch
+          ObjectType: 10
+          guid: cc8a9846d4e6374fbbfe1dd66da5fade
+      - name: q4_switch
+        guid: fb90cdac98bd804bb1af89e1ba9870f5
+        id: 1019052165
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38492f34662ea1478191f0a7f136b5e2
+        - ElementName: DoctorAudioSwitch
+          ObjectType: 11
+          guid: f905958e0830ce42aa83701592b808b5
+        - ElementName: q4_switch
+          ObjectType: 10
+          guid: fb90cdac98bd804bb1af89e1ba9870f5
+      - name: q5_switch
+        guid: 5d2178a4850bef4daef048424e4cd4b4
+        id: 1113270986
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38492f34662ea1478191f0a7f136b5e2
+        - ElementName: DoctorAudioSwitch
+          ObjectType: 11
+          guid: f905958e0830ce42aa83701592b808b5
+        - ElementName: q5_switch
+          ObjectType: 10
+          guid: 5d2178a4850bef4daef048424e4cd4b4
+      - name: q6_switch
+        guid: 3817732e5972d14f8d13ecd979d5fdda
+        id: 907124623
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 38492f34662ea1478191f0a7f136b5e2
+        - ElementName: DoctorAudioSwitch
+          ObjectType: 11
+          guid: f905958e0830ce42aa83701592b808b5
+        - ElementName: q6_switch
+          ObjectType: 10
+          guid: 3817732e5972d14f8d13ecd979d5fdda
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
@@ -303,7 +604,7 @@ MonoBehaviour:
     m_lastTime: -8584831512989680533
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000b0000000c0000000d00000010000000110000001200000013000000140000001c00000027000000280000002b0000002c000000390000003a00000063000000640000006600000067000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000000b0000000c0000000d00000010000000110000001200000013000000140000001a0000001b0000001c00000027000000280000002b0000002c000000390000003a00000063000000640000006600000067000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

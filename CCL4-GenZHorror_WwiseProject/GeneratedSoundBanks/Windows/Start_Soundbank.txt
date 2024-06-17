@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	276533063	Resume_background_Oliver			\Default Work Unit\Resume_background_Oliver	
 	526303433	Play_start_short			\Default Work Unit\Play_start_short	
 	699889020	Play_background_Oliver			\Default Work Unit\Play_background_Oliver	
+	3851175970	Pause_background_Oliver			\Default Work Unit\Pause_background_Oliver	
 	4113761274	Stop_background_Oliver			\Default Work Unit\Stop_background_Oliver	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

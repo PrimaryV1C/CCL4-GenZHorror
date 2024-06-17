@@ -1067,7 +1067,6 @@ GameObject:
   - component: {fileID: 1270213718}
   - component: {fileID: 1270213717}
   - component: {fileID: 1270213719}
-  - component: {fileID: 1270213720}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -1175,31 +1174,6 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
---- !u!114 &1270213720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1270213716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fcd5361c09714a7eb9744addc435627, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: ae8d9d44
-  useOtherObject: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 88c03ca6da4a04af395ec8433f4c4e5d,
-      type: 2}
-  decodeBank: 0
-  loadAsynchronous: 0
-  saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
-  bankNameInternal: 
-  valueGuidInternal: 
 --- !u!1001 &1291426763
 PrefabInstance:
   m_ObjectHideFlags: 0

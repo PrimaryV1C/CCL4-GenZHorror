@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MusicChanger : MonoBehaviour
+
 {
+    /*
     //public AkEvent audioEvent;
     private static MusicChanger instance = null; 
 
@@ -15,7 +17,6 @@ public class MusicChanger : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
             SceneManager.sceneLoaded += OnSceneLoaded;
-            Debug.Log("MusicChanger created");
             PlayOliverBackground();  
       }
 
@@ -47,7 +48,7 @@ public class MusicChanger : MonoBehaviour
             Destroy(gameObject);
         }
 
-    }
+    }*/
 
 }
 
