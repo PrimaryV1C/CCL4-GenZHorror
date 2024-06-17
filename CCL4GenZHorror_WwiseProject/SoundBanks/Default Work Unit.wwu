@@ -7,9 +7,13 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_container_stepping" ID="{41D5CEC9-5A3C-411C-8EC8-8D75ADBC83B0}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_background_short" ID="{BBA1FD48-A501-4299-B5FE-1856E9556D12}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_q1" ID="{34717CD8-DC16-4409-848B-1C4CA0D64EF2}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_q3" ID="{6B00C7F2-877E-44CB-A1F5-411D1314253A}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_q6" ID="{7FF89BE4-6E9C-44D7-8E7B-73794DBE7DE7}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_q5" ID="{C851C77E-0029-4506-8C62-9931D3C969E6}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_q2" ID="{59EAFBC2-F2B7-458C-BEEC-DD1699163287}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_doctor_audio" ID="{95238218-68B5-45D0-A489-E425A7264956}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_q4" ID="{50F23C32-7E1F-460E-9337-0131E6D2E43A}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_phone_finish" ID="{A5E93C23-402B-4735-8F31-B626524922F2}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_q4" ID="{BFC9E5BB-8633-4789-BBA4-A6DF4F6124BA}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_outgoing_call" ID="{45427D94-D19E-47EF-A1D2-4EBD6534ED62}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
@@ -18,7 +22,9 @@
 						<ObjectRef Name="Play_q2" ID="{3C50EA0F-900F-4925-BEE3-072F81C38534}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_container_stepping" ID="{75EE218D-DACF-4955-856F-AD7B3F0FE2D7}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_s1_ending_bad" ID="{039FE25A-2843-4B68-9A7E-F7AF02AC282D}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_q5" ID="{A7BBF3F9-1F7F-4CEB-A365-5CF6C9E8841F}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_q6" ID="{3366964D-4CFD-4E54-9119-F9B58D7D4EA6}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_q3" ID="{7175375F-A6A1-4F00-98AB-694F2151BD6E}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_q1" ID="{91C1C640-48FA-4F22-9EDC-15F57E4D3EA6}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_s2_ending_good" ID="{A1A1F69F-5C13-4F9C-9C9E-20105D856038}" WorkUnitID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

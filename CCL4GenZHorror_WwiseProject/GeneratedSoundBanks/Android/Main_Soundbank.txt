@@ -10,6 +10,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	2111857974	Play_q3			\Default Work Unit\Play_q3	
 	2111857975	Play_q2			\Default Work Unit\Play_q2	
 	2437516625	Play_background_short			\Default Work Unit\Play_background_short	
+	2843056680	Stop_q3			\Default Work Unit\Stop_q3	
+	2843056681	Stop_q2			\Default Work Unit\Stop_q2	
+	2843056682	Stop_q1			\Default Work Unit\Stop_q1	
+	2843056685	Stop_q6			\Default Work Unit\Stop_q6	
+	2843056686	Stop_q5			\Default Work Unit\Stop_q5	
+	2843056687	Stop_q4			\Default Work Unit\Stop_q4	
 	3097744716	Play_phone_finish			\Default Work Unit\Play_phone_finish	
 	3505879460	Play_s1_ending_bad			\Default Work Unit\Play_s1_ending_bad	
 	3958874627	Play_s2_ending_good			\Default Work Unit\Play_s2_ending_good	

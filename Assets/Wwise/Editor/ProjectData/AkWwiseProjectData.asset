@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 1fd8648df2476f46a06bfb9edde308a4
     GuidInternal: 
-    m_lastTime: -8584829751826888623
+    m_lastTime: -8584829676017435834
     List:
     - name: Main_Soundbank
       guid: ae333b5429b72646a56bfcb76a4f4d99
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: a01f6ab5a2cd8a4493c7f53dac7abe70
     GuidInternal: 
-    m_lastTime: -8584829751835822689
+    m_lastTime: -8584829676017466294
     List:
     - name: Pause_background_Oliver
       guid: b50b1b23a96a0247be47b5e1371bcbf7
@@ -280,6 +280,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 6.146354
       minDuration: 6.146354
+    - name: Play_q3_01
+      guid: 4faa1153f0d8154889729d015e0a7ca1
+      id: 1021825732
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_q3_01
+        ObjectType: 3
+        guid: 4faa1153f0d8154889729d015e0a7ca1
+      Path: Events/Default Work Unit/Play_q3_01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_q4
       guid: bbe5c9bf33868947bba4a6df4f6124ba
       id: 2111857969
@@ -297,6 +314,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 5.454167
       minDuration: 5.454167
+    - name: Play_q4_01
+      guid: fef404660d3b14408993ef63ecaf7ada
+      id: 2522950525
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_q4_01
+        ObjectType: 3
+        guid: fef404660d3b14408993ef63ecaf7ada
+      Path: Events/Default Work Unit/Play_q4_01
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_q5
       guid: 7ec751c8290006458c629931d3c969e6
       id: 2111857968
@@ -464,6 +498,108 @@ MonoBehaviour:
         ObjectType: 3
         guid: 233ce9a52b4035478f31b626524922f2
       Path: Events/Default Work Unit/Stop_phone_finish
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_q1
+      guid: d87c713416dc0944848b1c4ca0d64ef2
+      id: 2843056682
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Stop_q1
+        ObjectType: 3
+        guid: d87c713416dc0944848b1c4ca0d64ef2
+      Path: Events/Default Work Unit/Stop_q1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_q2
+      guid: c2fbea59b7f28c45beecdd1699163287
+      id: 2843056681
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Stop_q2
+        ObjectType: 3
+        guid: c2fbea59b7f28c45beecdd1699163287
+      Path: Events/Default Work Unit/Stop_q2
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_q3
+      guid: 5f377571a1a6004f98ab694f2151bd6e
+      id: 2843056680
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Stop_q3
+        ObjectType: 3
+        guid: 5f377571a1a6004f98ab694f2151bd6e
+      Path: Events/Default Work Unit/Stop_q3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_q4
+      guid: 323cf2501f7e0e4693370131e6d2e43a
+      id: 2843056687
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Stop_q4
+        ObjectType: 3
+        guid: 323cf2501f7e0e4693370131e6d2e43a
+      Path: Events/Default Work Unit/Stop_q4
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_q5
+      guid: f9f3bba77f1feb4ca3655cf6c9e8841f
+      id: 2843056686
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Stop_q5
+        ObjectType: 3
+        guid: f9f3bba77f1feb4ca3655cf6c9e8841f
+      Path: Events/Default Work Unit/Stop_q5
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_q6
+      guid: e49bf87f9c6ed7448e7b73794dbe7de7
+      id: 2843056685
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Stop_q6
+        ObjectType: 3
+        guid: e49bf87f9c6ed7448e7b73794dbe7de7
+      Path: Events/Default Work Unit/Stop_q6
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0

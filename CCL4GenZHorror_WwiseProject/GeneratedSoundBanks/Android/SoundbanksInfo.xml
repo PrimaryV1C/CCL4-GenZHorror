@@ -34,7 +34,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{813FB325-FD8B-1805-74E1-B9077CCD34A1}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{80F94E87-CED9-B9C7-75A4-ABA9AB3E3B58}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
@@ -176,6 +176,12 @@
 				<Event Id="1996258398" Name="Stop_container_stepping" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4144620041" Name="Stop_outgoing_call" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4179250394" Name="Stop_phone_finish" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2843056682" Name="Stop_q1" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2843056681" Name="Stop_q2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2843056680" Name="Stop_q3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2843056687" Name="Stop_q4" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2843056686" Name="Stop_q5" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2843056685" Name="Stop_q6" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="4294095669" Type="User" Language="SFX" Hash="{ABCB4A9A-BCEE-0DF5-9FEF-5D70D9A1A176}">
@@ -208,5 +214,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B779B83C-D72D-D84B-4515-CAC8037FC3C7}</FileHash>
+	<FileHash>{F9C2CF5E-ED49-0150-2260-9D1319B07DAA}</FileHash>
 </SoundBanksInfo>

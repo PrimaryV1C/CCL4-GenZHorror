@@ -34,6 +34,12 @@ namespace AK
         static const AkUniqueID STOP_CONTAINER_STEPPING = 1996258398U;
         static const AkUniqueID STOP_OUTGOING_CALL = 4144620041U;
         static const AkUniqueID STOP_PHONE_FINISH = 4179250394U;
+        static const AkUniqueID STOP_Q1 = 2843056682U;
+        static const AkUniqueID STOP_Q2 = 2843056681U;
+        static const AkUniqueID STOP_Q3 = 2843056680U;
+        static const AkUniqueID STOP_Q4 = 2843056687U;
+        static const AkUniqueID STOP_Q5 = 2843056686U;
+        static const AkUniqueID STOP_Q6 = 2843056685U;
     } // namespace EVENTS
 
     namespace SWITCHES

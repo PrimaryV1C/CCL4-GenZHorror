@@ -129,14 +129,16 @@ public class DialogueManager : MonoBehaviour
   
     public EndingItem ChooseEndingScene1(){
         if(karma >= 0){
-            Debug.Log(karma);
+            AkSoundEngine.PostEvent("Stop_q6", gameObject);
             return DoctorEndingGood;
         }
+            AkSoundEngine.PostEvent("Stop_q6", gameObject);
             return DoctorEndingBad;
     }
 
     public EndingItem ChooseEndingScene2(){
         if (karma >= 0){
+
             return UncleEndingGood;
         }
             return UncleEndingBad;
@@ -147,21 +149,25 @@ public class DialogueManager : MonoBehaviour
     if (dialogueProgress == 0) {
       
       AkSoundEngine.PostEvent("Play_q1", gameObject);
-      AkSoundEngine.PostEvent("Stop_background_short", gameObject);
     }
     else if (dialogueProgress == 1) {
+      AkSoundEngine.PostEvent("Stop_q1", gameObject);
       AkSoundEngine.PostEvent("Play_q2", gameObject);
     }
     else if (dialogueProgress == 2) {
+      AkSoundEngine.PostEvent("Stop_q2", gameObject);
       AkSoundEngine.PostEvent("Play_q3", gameObject);
     }
     else if (dialogueProgress == 3) {
+        AkSoundEngine.PostEvent("Stop_q3", gameObject);
       AkSoundEngine.PostEvent("Play_q4", gameObject);
     }
     else if (dialogueProgress == 4) {
+        AkSoundEngine.PostEvent("Stop_q4", gameObject);
       AkSoundEngine.PostEvent("Play_q5", gameObject);
     }
     else if (dialogueProgress == 5) {
+      AkSoundEngine.PostEvent("Stop_q5", gameObject);
       AkSoundEngine.PostEvent("Play_q6", gameObject);
     }
   }

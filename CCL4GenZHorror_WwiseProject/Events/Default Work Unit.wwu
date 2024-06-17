@@ -252,6 +252,112 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_q1" ID="{34717CD8-DC16-4409-848B-1C4CA0D64EF2}">
+					<ChildrenList>
+						<Action Name="" ID="{7584B28E-439E-4E7E-B2AD-C13AC7D14B34}" ShortID="470283201">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="q1" ID="{2FC40212-D940-4177-BB16-E4DB8CDF0C25}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_q2" ID="{59EAFBC2-F2B7-458C-BEEC-DD1699163287}">
+					<ChildrenList>
+						<Action Name="" ID="{63AAAD1A-5F3F-42C1-B8BA-02F9A9541BEA}" ShortID="96329902">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="q2" ID="{EE2646D0-839D-42B4-A51C-5DAE3D3AA3E3}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_q3_01" ID="{5311AA4F-D8F0-4815-8972-9D015E0A7CA1}">
+					<ChildrenList>
+						<Action Name="" ID="{E5B584E6-299E-4DF4-9A86-CAFFD4BE1636}" ShortID="458952284">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="q3" ID="{436E1BC6-D1B0-42D8-B063-26C13688DDDD}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_q4_01" ID="{6604F4FE-3B0D-4014-8993-EF63ECAF7ADA}">
+					<ChildrenList>
+						<Action Name="" ID="{4F18FAB9-FF86-426C-94D9-F9DC73A7B851}" ShortID="416249494">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="q4" ID="{AA1EF6E6-8BBA-4497-BA06-9023A94302D1}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_q5" ID="{A7BBF3F9-1F7F-4CEB-A365-5CF6C9E8841F}">
+					<ChildrenList>
+						<Action Name="" ID="{8E93E486-70EA-4EF7-A9B8-6341F9DD6F43}" ShortID="615301642">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="q5" ID="{AFE88C34-A149-462B-8904-20B19E1BF639}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_q6" ID="{7FF89BE4-6E9C-44D7-8E7B-73794DBE7DE7}">
+					<ChildrenList>
+						<Action Name="" ID="{A962873E-07C8-416B-8A64-D2330243F0CB}" ShortID="589053624">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="q6" ID="{D076F07D-26A3-4CAA-96CD-8AA3D45C89FF}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_q3" ID="{7175375F-A6A1-4F00-98AB-694F2151BD6E}">
+					<ChildrenList>
+						<Action Name="" ID="{C4B154BE-E610-4308-80F1-57E52A955EE3}" ShortID="687350043">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="q3" ID="{436E1BC6-D1B0-42D8-B063-26C13688DDDD}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_q4" ID="{50F23C32-7E1F-460E-9337-0131E6D2E43A}">
+					<ChildrenList>
+						<Action Name="" ID="{434CE54D-9E5C-4ADA-BF97-FAAF56917A53}" ShortID="646542956">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="q4" ID="{AA1EF6E6-8BBA-4497-BA06-9023A94302D1}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
