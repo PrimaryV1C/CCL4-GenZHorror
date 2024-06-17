@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B56A1FA0-CDA2-448A-93C7-F53DAC7ABE70}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_container_stepping" ID="{41D5CEC9-5A3C-411C-8EC8-8D75ADBC83B0}">
+					<ChildrenList>
+						<Action Name="" ID="{2B4111F4-36BB-4007-8AF2-4CECF307BEEA}" ShortID="261660873">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="container_stepping" ID="{369D5AC2-7B36-4804-B2A0-C044A27B102A}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_container_stepping" ID="{75EE218D-DACF-4955-856F-AD7B3F0FE2D7}">
+					<ChildrenList>
+						<Action Name="" ID="{4785FEE3-1A3A-4402-AEA0-D0A77740F9C4}" ShortID="974674629">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="container_stepping" ID="{369D5AC2-7B36-4804-B2A0-C044A27B102A}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
