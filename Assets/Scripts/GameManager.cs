@@ -17,6 +17,10 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     private DialogueManager dialogueManager;
+    [SerializeField]
+    private PlayerDetection playerDetectionScene2;
+        [SerializeField]
+    private PlayerDetection playerDetectionScene1;
 
     void Start()
     {
@@ -25,13 +29,15 @@ public class GameManager : MonoBehaviour
     }
 
     public void OnDialogueStarted(){
+        if(narrativeProgression == 0) playerDetectionScene1.disablePrompt = true;
+        if(narrativeProgression == 2 )playerDetectionScene2.disablePrompt = true;
         moveSystem.SetActive(false);
     }
 
     public void OnDialogueEnded(){
         narrativeProgression++;
         moveSystem.SetActive(true);
-        if(narrativeProgression == 2) EndGame();
+        if(narrativeProgression == 3) EndGame();
     }
 
     public void OnDoctorDialogueEnd(EndingItem item){
@@ -49,6 +55,8 @@ public class GameManager : MonoBehaviour
     }
 
     public void OnItemDelivered(){
+
+        playerDetectionScene2.disablePrompt = false;
 
     }
 

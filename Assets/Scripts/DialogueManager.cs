@@ -9,6 +9,8 @@ public class DoctorDialogueChangeEvent : UnityEvent<DialogueItem> { }
 public class DialogueManager : MonoBehaviour
 {   
     private bool closeDialogue = false;
+
+    public bool itemDelivered = false;
     public UnityEvent EndDialogue;
     public Transform playerTransform;
     [SerializeField]
@@ -31,6 +33,9 @@ public class DialogueManager : MonoBehaviour
 
     [SerializeField]
     private EndingItem DoctorEndingBad;
+
+    [SerializeField]
+    private EndingItem UncleBrinBeer;
 
     [SerializeField]
     public UnityEvent<DialogueItem> dialogueChanged;
@@ -68,6 +73,12 @@ public class DialogueManager : MonoBehaviour
         if(closeDialogue) EndDialogue.Invoke();
 
         dialogueProgress++;
+        if(dialogueProgress == 3){
+            currentItem = currentItem.answers[answerIndex].nextItem;
+            EndDialogue.Invoke();
+            //uncleDialogueEnd.Invoke(ChooseEndingScene2());
+            //closeDialogue = true;
+        }
         if(dialogueProgress == 7){
             CalculateKarma(answerIndex);
             uncleDialogueEnd.Invoke(ChooseEndingScene2());
@@ -85,9 +96,15 @@ public class DialogueManager : MonoBehaviour
         if(dialogueProgress == 0){
             dialogueChanged.Invoke(currentItem);
         }
+        else if(dialogueProgress == 3){
+            if(itemDelivered)
+            {
+                closeDialogue = false;
+                dialogueChangedUncle.Invoke(currentItem);
+            }
+        }
         else{
             closeDialogue = false;
-
             dialogueProgress = 0;
             currentItem = uncleFirstDialogue;
             dialogueChangedUncle.Invoke(uncleFirstDialogue);
