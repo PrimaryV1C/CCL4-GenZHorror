@@ -861,7 +861,7 @@ Transform:
   - {fileID: 908134824}
   - {fileID: 1515352170}
   - {fileID: 1234726045}
-  - {fileID: 1636378951}
+  - {fileID: 731994506}
   - {fileID: 1334044429}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4696,7 +4696,7 @@ MonoBehaviour:
   answer1: {fileID: 1982921475}
   answer2: {fileID: 598360061}
   answer3: {fileID: 0}
---- !u!1 &1420402249 stripped
+--- !u!1 &1493131577
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1702354552808944851, guid: 2f63454099122408bbd41c669250e6fb,
     type: 3}
