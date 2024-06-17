@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - TaskItem
+  - Beer
+  - Phone
   layers:
   - Default
   - TransparentFX

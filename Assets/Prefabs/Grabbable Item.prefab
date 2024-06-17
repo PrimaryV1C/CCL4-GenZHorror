@@ -14,11 +14,10 @@ GameObject:
   - component: {fileID: 3174326019389217752}
   - component: {fileID: 5444714918134224663}
   - component: {fileID: 2388644584898528255}
-  - component: {fileID: 2374087387411390589}
   - component: {fileID: 6650263824659149533}
   m_Layer: 6
   m_Name: Grabbable Item
-  m_TagString: TaskItem
+  m_TagString: Phone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,20 +290,6 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!114 &2374087387411390589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6600360859526444670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce498b7b6d81d43939f355d358a6bad0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isWalking: 0
-  playerPosition: {fileID: 0}
 --- !u!114 &6650263824659149533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,8 +302,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a322b3f2d04bf449baf1a85738d332ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soundEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: c0ad2ef56d0214e278cfd059cdff035e,
-      type: 2}

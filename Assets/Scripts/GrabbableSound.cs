@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class GrabbableSound : MonoBehaviour
 {
-    [SerializeField]
-    public AK.Wwise.Event soundEvent;
 
 
-    public void PlayGrabbableSound()
-    {
-        if (soundEvent != null)
-        {
-            soundEvent.Post(gameObject);
-        }
+    public void PlayGrabbableSound() {
+
+        AkSoundEngine.PostEvent("Play_beer", gameObject);
+        
+        
     }
+    
 }
