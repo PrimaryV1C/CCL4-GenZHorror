@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{342F4938-2E66-47A1-8191-F0A7F136B5E2}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{342F4938-2E66-47A1-8191-F0A7F136B5E2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="DoctorAudioSwitch" ID="{8E9505F9-3008-42CE-AA83-701592B808B5}">
+					<ChildrenList>
+						<Switch Name="q1_switch" ID="{2036EA52-F41A-4109-BEBF-B0CAE70E5A7B}"/>
+						<Switch Name="q2_switch" ID="{E66C624F-D660-4F26-9CD3-B95729BAAA5A}"/>
+						<Switch Name="q3_switch" ID="{46988ACC-E6D4-4F37-BBFE-1DD66DA5FADE}"/>
+						<Switch Name="q4_switch" ID="{ACCD90FB-BD98-4B80-B1AF-89E1BA9870F5}"/>
+						<Switch Name="q5_switch" ID="{A478215D-0B85-4DEF-AEF0-48424E4CD4B4}"/>
+						<Switch Name="q6_switch" ID="{2E731738-7259-4FD1-8D13-ECD979D5FDDA}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

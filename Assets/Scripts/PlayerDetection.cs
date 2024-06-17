@@ -14,12 +14,11 @@ public class PlayerDetection : MonoBehaviour
         Debug.Log("Collision!");
         if(other.tag == "Player" && !disablePrompt)
         {   
-            Debug.Log("Camera!");
             playerDetectedChange.Invoke(true);
         }
     }
 
-    void OnTriggerExit(Collider other)
+    public void OnTriggerExit(Collider other)
     {
         if(other.tag == "Player" && !disablePrompt)
         {
