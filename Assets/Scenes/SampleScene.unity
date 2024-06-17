@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dfa1e4993b3f4484948f92a7b59d3fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bedroomDoor: {fileID: 1334044428}
+  bedroomDoor: {fileID: 0}
   moveSystem: {fileID: 3309178574624352813}
   doctorDialogueEnd:
     m_PersistentCalls:
@@ -188,7 +188,7 @@ MonoBehaviour:
   taskCompleted:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1001097284}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Calendar, Assembly-CSharp
         m_MethodName: OnTaskCompletion
         m_Mode: 1
@@ -290,6 +290,34 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 191021975}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &220393211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5834429147337247727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ecd7e34b9a724a30968204d384c0163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snapPosition: {fileID: 5834429147337247726}
+  itemDelivered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: OnItemDelivered
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &274303676 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1825309736167902468, guid: c211820d717c44c6a9f7100dc7dc08fd,
@@ -1319,18 +1347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83e4e6cca11330d4088d729ab4fc9d9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1001097284 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7644332133830641088, guid: eccff85973e20df4b8b70f2d097630dc,
-    type: 3}
-  m_PrefabInstance: {fileID: 5834429147337247725}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fff57e08f62074602b5fa8083c2840e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1094490351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1825309736167902468, guid: c211820d717c44c6a9f7100dc7dc08fd,
@@ -1693,12 +1709,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8596761798031205514, guid: c211820d717c44c6a9f7100dc7dc08fd,
     type: 3}
   m_PrefabInstance: {fileID: 926009594}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1334044428 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2940999869593336414, guid: eccff85973e20df4b8b70f2d097630dc,
-    type: 3}
-  m_PrefabInstance: {fileID: 5834429147337247725}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1404760347 stripped
 GameObject:
@@ -3399,8 +3409,88 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2321432807421073886, guid: eccff85973e20df4b8b70f2d097630dc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5834429147337247734}
+    - targetCorrespondingSourceObject: {fileID: 8160451307195570566, guid: eccff85973e20df4b8b70f2d097630dc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 220393211}
   m_SourcePrefab: {fileID: 100100000, guid: eccff85973e20df4b8b70f2d097630dc, type: 3}
+--- !u!4 &5834429147337247726 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4173858045488553710, guid: eccff85973e20df4b8b70f2d097630dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 5834429147337247725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5834429147337247727 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8160451307195570566, guid: eccff85973e20df4b8b70f2d097630dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 5834429147337247725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5834429147337247728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6497998530675918622, guid: eccff85973e20df4b8b70f2d097630dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 5834429147337247725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5834429147337247729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5043361372454975545, guid: eccff85973e20df4b8b70f2d097630dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 5834429147337247725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5834429147337247730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 408479312711630755, guid: eccff85973e20df4b8b70f2d097630dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 5834429147337247725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5834429147337247731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1850345639537809871, guid: eccff85973e20df4b8b70f2d097630dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 5834429147337247725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5834429147337247732 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3575485776634347710, guid: eccff85973e20df4b8b70f2d097630dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 5834429147337247725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5834429147337247733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2321432807421073886, guid: eccff85973e20df4b8b70f2d097630dc,
+    type: 3}
+  m_PrefabInstance: {fileID: 5834429147337247725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5834429147337247734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5834429147337247733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff57e08f62074602b5fa8083c2840e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  todoItems:
+  - {fileID: 5834429147337247732}
+  - {fileID: 5834429147337247731}
+  - {fileID: 5834429147337247730}
+  - {fileID: 5834429147337247729}
+  - {fileID: 5834429147337247728}
+  tasks:
+  - Call your dentist
+  - Talk to your uncle
+  - Bring uncle a beer
+  - Continue talking to your uncle
+  - Go outside
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
