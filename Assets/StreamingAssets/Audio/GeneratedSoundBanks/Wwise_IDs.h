@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID PAUSE_BACKGROUND_OLIVER = 3851175970U;
         static const AkUniqueID PLAY_BACKGROUND_OLIVER = 699889020U;
         static const AkUniqueID PLAY_BACKGROUND_SHORT = 2437516625U;
+        static const AkUniqueID PLAY_BEER = 2063165416U;
         static const AkUniqueID PLAY_CONTAINER_STEPPING = 349645836U;
         static const AkUniqueID PLAY_DOCTOR_AUDIO = 331773476U;
         static const AkUniqueID PLAY_OUTGOING_CALL = 1558847611U;

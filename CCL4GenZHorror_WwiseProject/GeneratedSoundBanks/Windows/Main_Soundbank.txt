@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	349645836	Play_container_stepping			\Default Work Unit\Play_container_stepping	
 	1558847611	Play_outgoing_call			\Default Work Unit\Play_outgoing_call	
 	1996258398	Stop_container_stepping			\Default Work Unit\Stop_container_stepping	
+	2063165416	Play_beer			\Default Work Unit\Play_beer	
 	2111857968	Play_q5			\Default Work Unit\Play_q5	
 	2111857969	Play_q4			\Default Work Unit\Play_q4	
 	2111857971	Play_q6			\Default Work Unit\Play_q6	
@@ -37,6 +38,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	626184214	phone_finish	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Windows\SFX\phone_finish_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\phone_finish		505824
 	659514204	background_short	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Windows\SFX\background_short_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\background_short		3043660
 	773815817	q1	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Windows\SFX\q1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\doctor_audio\q1		661472
+	902914236	beer	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Windows\SFX\beer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\beer		199408
 	930117461	StepOnWood-016_short	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Windows\SFX\StepOnWood-016_short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\container_stepping\StepOnWood-016_short		16248
 	1014802642	s2_ending_good	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Windows\SFX\ending_good_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\s2_ending_good		1238364
 

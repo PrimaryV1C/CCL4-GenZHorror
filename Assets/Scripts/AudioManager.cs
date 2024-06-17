@@ -17,6 +17,7 @@ public class AudioManager : MonoBehaviour
   private float lastFootstepTime = 0.0f;
   private float footstepInterval = 0.5f;
 
+
     public void StartPhone()
   {
     AkSoundEngine.PostEvent("Play_outgoing_call", gameObject);
@@ -73,6 +74,12 @@ public class AudioManager : MonoBehaviour
 
             previousPosition = currentPosition;
         }
+    }
+
+    public void PlayBeerSound() {
+
+      AkSoundEngine.PostEvent("Play_beer", gameObject);
+
     }
 
 
