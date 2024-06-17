@@ -34,7 +34,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{80F94E87-CED9-B9C7-75A4-ABA9AB3E3B58}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{C0CB1108-DAE3-BA25-AAD2-761AA4306CED}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
@@ -173,6 +173,7 @@
 						<MediaRef Id="1014802642"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="153555627" Name="Stop_background_short" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1996258398" Name="Stop_container_stepping" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4144620041" Name="Stop_outgoing_call" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4179250394" Name="Stop_phone_finish" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -214,5 +215,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F9C2CF5E-ED49-0150-2260-9D1319B07DAA}</FileHash>
+	<FileHash>{DB913D53-D3E4-9A59-FF74-D53A21C2DAE2}</FileHash>
 </SoundBanksInfo>

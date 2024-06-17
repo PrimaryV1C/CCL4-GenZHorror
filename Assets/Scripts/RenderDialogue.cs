@@ -17,6 +17,7 @@ public class RenderDialogue : MonoBehaviour
 
     void Start()
     {
+        AkSoundEngine.PostEvent("Stop_background_short", gameObject);
     }
 
     public void OnDialogueChangeDoctor(DialogueItem item){

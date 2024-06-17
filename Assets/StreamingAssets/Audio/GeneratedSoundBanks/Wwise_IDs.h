@@ -31,6 +31,7 @@ namespace AK
         static const AkUniqueID PLAY_START_SHORT = 526303433U;
         static const AkUniqueID RESUME_BACKGROUND_OLIVER = 276533063U;
         static const AkUniqueID STOP_BACKGROUND_OLIVER = 4113761274U;
+        static const AkUniqueID STOP_BACKGROUND_SHORT = 153555627U;
         static const AkUniqueID STOP_CONTAINER_STEPPING = 1996258398U;
         static const AkUniqueID STOP_OUTGOING_CALL = 4144620041U;
         static const AkUniqueID STOP_PHONE_FINISH = 4179250394U;

@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	153555627	Stop_background_short			\Default Work Unit\Stop_background_short	
 	331773476	Play_doctor_audio			\Default Work Unit\Play_doctor_audio	
 	349645836	Play_container_stepping			\Default Work Unit\Play_container_stepping	
 	1558847611	Play_outgoing_call			\Default Work Unit\Play_outgoing_call	
