@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         narrativeProgression = 0;
-        taskCompleted.Invoke();
+        //taskCompleted.Invoke();
     }
 
     public void OnDialogueStarted(){
