@@ -17,11 +17,14 @@ public class AudioManager : MonoBehaviour
   private float lastFootstepTime = 0.0f;
   private float footstepInterval = 0.5f;
 
-  private float movementSpeed = 0.8f;
-
     public void StartPhone()
   {
     AkSoundEngine.PostEvent("Play_outgoing_call", gameObject);
+    
+  }
+
+  public void StopBackground() {
+    AkSoundEngine.PostEvent("Stop_background_short", gameObject);
   }
 
   public void Start() {

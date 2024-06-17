@@ -79,11 +79,16 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-
-
-    public void FirstDialog(){
+    public void StartDialog() 
+    {
+      StartCoroutine(FirstDialog());
+    }
+        
+    
+    private IEnumerator FirstDialog(){
         if(dialogueProgress == 0){
             dialogueChanged.Invoke(currentItem);
+            yield return new WaitForSeconds(1);
             ChooseRightDoctorSound();
 
             
@@ -119,6 +124,7 @@ public class DialogueManager : MonoBehaviour
 
   public void ChooseRightDoctorSound() {
     if (dialogueProgress == 0) {
+      
       AkSoundEngine.PostEvent("Play_q1", gameObject);
     }
     else if (dialogueProgress == 1) {
@@ -137,6 +143,8 @@ public class DialogueManager : MonoBehaviour
       AkSoundEngine.PostEvent("Play_q6", gameObject);
     }
   }
+
+
 }
     
 

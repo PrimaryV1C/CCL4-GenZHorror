@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06e996138e19347fca586e332153c1c5, type: 3}
+  m_Script: {fileID: 11500000, guid: c06d1403f00ca4f6691857587b40e22a, type: 3}
   m_Name: B24474C6-BD25-40B5-9D64-169C38B77DC4
   m_EditorClassIdentifier: 
   objectName: Stop_background_Oliver

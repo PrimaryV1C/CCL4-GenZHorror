@@ -410,6 +410,28 @@
 						<ActiveSource Name="ending_bad" ID="{F9C2FAB2-A18D-4D00-8B46-5FBAEEF83654}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="outgoing_call" ID="{14A9C5E9-4A05-4864-B493-76C9683FBB0B}" ShortID="608621535">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73E9C9BC-DCAE-461E-B17C-F43AC080FB34}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8132892-2F8C-4D42-8208-AB5FD9B089EC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="outgoing_call" ID="{552DBB2E-5A02-4352-9530-F5E950BCDD0C}">
+							<Language>SFX</Language>
+							<AudioFile>outgoing_call.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="6318721"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="outgoing_call" ID="{552DBB2E-5A02-4352-9530-F5E950BCDD0C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -14,7 +14,6 @@ public class PlayerDetection : MonoBehaviour
         if(other.tag == "Player")
         {   
             playerDetectedChange.Invoke(true);
-            AkSoundEngine.PostEvent("Play_phone_finish", gameObject);
         }
     }
 
@@ -23,7 +22,6 @@ public class PlayerDetection : MonoBehaviour
         if(other.tag == "Player")
         {
             playerDetectedChange.Invoke(false);
-            AkSoundEngine.PostEvent("Stop_phone_finish", gameObject);
         }
     }
 

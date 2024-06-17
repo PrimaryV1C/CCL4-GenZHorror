@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ada360334bac447f9dd7003f7466f28, type: 3}
+  m_Script: {fileID: 11500000, guid: 336a6040976ec43d687e88ae3af477bf, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 1fd8648df2476f46a06bfb9edde308a4
     GuidInternal: 
-    m_lastTime: -8584829938826078363
+    m_lastTime: -8584829852384124502
     List:
     - name: Main_Soundbank
       guid: ae333b5429b72646a56bfcb76a4f4d99
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: a01f6ab5a2cd8a4493c7f53dac7abe70
     GuidInternal: 
-    m_lastTime: -8584829932473165062
+    m_lastTime: -8584829852384172117
     List:
     - name: Pause_background_Oliver
       guid: b50b1b23a96a0247be47b5e1371bcbf7
@@ -195,6 +195,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_outgoing_call
+      guid: 947d42459ed1ef47a1d24ebd6534ed62
+      id: 1558847611
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_outgoing_call
+        ObjectType: 3
+        guid: 947d42459ed1ef47a1d24ebd6534ed62
+      Path: Events/Default Work Unit/Play_outgoing_call
+      maxAttenuation: 0
+      maxDuration: 2.4923582
+      minDuration: 2.4923582
     - name: Play_phone_finish
       guid: 296ef1fa36ebf647b17dc8dab5fbb2c6
       id: 3097744716
@@ -416,6 +433,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_outgoing_call
+      guid: 983b49f3336258488f27426be82ee44a
+      id: 4144620041
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Stop_outgoing_call
+        ObjectType: 3
+        guid: 983b49f3336258488f27426be82ee44a
+      Path: Events/Default Work Unit/Stop_outgoing_call
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_phone_finish
       guid: 233ce9a52b4035478f31b626524922f2
       id: 4179250394
@@ -604,7 +638,7 @@ MonoBehaviour:
     m_lastTime: -8584831512989680533
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 06000000070000001f00000020000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

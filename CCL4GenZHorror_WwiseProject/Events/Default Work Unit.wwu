@@ -227,6 +227,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_outgoing_call" ID="{45427D94-D19E-47EF-A1D2-4EBD6534ED62}">
+					<ChildrenList>
+						<Action Name="" ID="{7773D56C-1D63-4012-88B3-A21FCCCEB570}" ShortID="698881398">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="outgoing_call" ID="{14A9C5E9-4A05-4864-B493-76C9683FBB0B}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_outgoing_call" ID="{F3493B98-6233-4858-8F27-426BE82EE44A}">
+					<ChildrenList>
+						<Action Name="" ID="{D5C49BFF-6F35-440E-BF2A-95120A3D6258}" ShortID="757864776">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="outgoing_call" ID="{14A9C5E9-4A05-4864-B493-76C9683FBB0B}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
