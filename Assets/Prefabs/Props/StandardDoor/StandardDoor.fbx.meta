@@ -18,17 +18,17 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Metal047B_4K-JPG_Color
-    second: {fileID: 2800000, guid: 5505bdc5146d9e7428ba403d5ca96810, type: 3}
+    second: {fileID: 2800000, guid: 48261b2898e440843a340a75e51b8654, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Metal047B_4K-JPG_NormalDX
-    second: {fileID: 2800000, guid: 93ab9d159d34a3e4da40be57a6730ac4, type: 3}
+    second: {fileID: 2800000, guid: 467dd876f4e7d3947afd79b1842d32d6, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: StandardDoor
-    second: {fileID: 2800000, guid: 74a7e62a4442863408b28fed0784f97a, type: 3}
+    second: {fileID: 2800000, guid: 211b9a021a9ada347b78ab0edec99449, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
