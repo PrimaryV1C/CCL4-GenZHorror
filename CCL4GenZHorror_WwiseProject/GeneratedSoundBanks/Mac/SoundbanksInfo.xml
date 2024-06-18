@@ -34,7 +34,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{25FE605B-7E21-ACF6-9545-D667E5B46A5F}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{FDC3AA63-C1BB-5BEC-4ABD-3CE46B2043E3}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
@@ -46,9 +46,17 @@
 					<ShortName>kitchen.wav</ShortName>
 					<CachePath>SFX/kitchen_10C4C929.wem</CachePath>
 				</File>
+				<File Id="110932114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>s2_q1.1.WAV</ShortName>
+					<CachePath>SFX/s2_q1.1_10C4C929.wem</CachePath>
+				</File>
 				<File Id="278201614" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>q6.wav</ShortName>
 					<CachePath>SFX/q6_10C4C929.wem</CachePath>
+				</File>
+				<File Id="278666435" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>s2_q2.1.WAV</ShortName>
+					<CachePath>SFX/s2_q2.1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="308364199" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>q3.wav</ShortName>
@@ -66,6 +74,26 @@
 					<ShortName>q4.wav</ShortName>
 					<CachePath>SFX/q4_10C4C929.wem</CachePath>
 				</File>
+				<File Id="409689432" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>quest_inbetween.WAV</ShortName>
+					<CachePath>SFX/quest_inbetween_10C4C929.wem</CachePath>
+				</File>
+				<File Id="438694983" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>s2_q3.WAV</ShortName>
+					<CachePath>SFX/s2_q3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="441131044" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>start_short.wav</ShortName>
+					<CachePath>SFX/start_short_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="443152810" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>s2_q2.3.WAV</ShortName>
+					<CachePath>SFX/s2_q2.3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="453358191" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>uncle_ending_bad.WAV</ShortName>
+					<CachePath>SFX/uncle_ending_bad_10C4C929.wem</CachePath>
+				</File>
 				<File Id="486020160" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ending_bad.wav</ShortName>
 					<CachePath>SFX/ending_bad_10C4C929.wem</CachePath>
@@ -74,13 +102,25 @@
 					<ShortName>StepOnWood13_short.wav</ShortName>
 					<CachePath>SFX/StepOnWood13_short_10C4C929.wem</CachePath>
 				</File>
+				<File Id="571595718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>s2_q2.2.WAV</ShortName>
+					<CachePath>SFX/s2_q2.2_10C4C929.wem</CachePath>
+				</File>
 				<File Id="602238137" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>q5.wav</ShortName>
 					<CachePath>SFX/q5_10C4C929.wem</CachePath>
 				</File>
+				<File Id="603875808" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>s2_q2.WAV</ShortName>
+					<CachePath>SFX/s2_q2_10C4C929.wem</CachePath>
+				</File>
 				<File Id="609208763" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>StepOnWood-015_short.wav</ShortName>
 					<CachePath>SFX/StepOnWood-015_short_10C4C929.wem</CachePath>
+				</File>
+				<File Id="617845465" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>s2_q3.3.WAV</ShortName>
+					<CachePath>SFX/s2_q3.3_10C4C929.wem</CachePath>
 				</File>
 				<File Id="626184214" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>phone_finish.wav</ShortName>
@@ -90,9 +130,25 @@
 					<ShortName>background_short.wav</ShortName>
 					<CachePath>SFX/background_short_D79FB2B7.wem</CachePath>
 				</File>
+				<File Id="708117004" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>s2_q1.3.WAV</ShortName>
+					<CachePath>SFX/s2_q1.3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="755561404" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>s2_q3.2.WAV</ShortName>
+					<CachePath>SFX/s2_q3.2_10C4C929.wem</CachePath>
+				</File>
 				<File Id="773815817" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>q1.wav</ShortName>
 					<CachePath>SFX/q1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="774203258" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>s2_q2.1_ohneBier.WAV</ShortName>
+					<CachePath>SFX/s2_q2.1_ohneBier_10C4C929.wem</CachePath>
+				</File>
+				<File Id="847778850" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>s2_q3.1.WAV</ShortName>
+					<CachePath>SFX/s2_q3.1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="902914236" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>beer.wav</ShortName>
@@ -105,6 +161,10 @@
 				<File Id="1014802642" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ending_good.wav</ShortName>
 					<CachePath>SFX/ending_good_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1073415931" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>s2_q1.2.WAV</ShortName>
+					<CachePath>SFX/s2_q1.2_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -181,6 +241,11 @@
 						<MediaRef Id="278201614"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1288543378" Name="Play_quest_inbetween" DurationType="OneShot" DurationMin="10.550567" DurationMax="10.550567">
+					<MediaRefs>
+						<MediaRef Id="409689432"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3505879460" Name="Play_s1_ending_bad" DurationType="OneShot" DurationMin="14.549541" DurationMax="14.549541">
 					<MediaRefs>
 						<MediaRef Id="486020160"/>
@@ -189,6 +254,76 @@
 				<Event Id="3958874627" Name="Play_s2_ending_good" DurationType="OneShot" DurationMin="12.898625" DurationMax="12.898625">
 					<MediaRefs>
 						<MediaRef Id="1014802642"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3493827442" Name="Play_s2_q1_1" DurationType="OneShot" DurationMin="6.5378685" DurationMax="6.5378685">
+					<MediaRefs>
+						<MediaRef Id="110932114"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3493827441" Name="Play_s2_q1_2" DurationType="OneShot" DurationMin="7.1386847" DurationMax="7.1386847">
+					<MediaRefs>
+						<MediaRef Id="1073415931"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3493827440" Name="Play_s2_q1_3" DurationType="OneShot" DurationMin="7.623401" DurationMax="7.623401">
+					<MediaRefs>
+						<MediaRef Id="708117004"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2812054457" Name="Play_s2_q2" DurationType="OneShot" DurationMin="14.535691" DurationMax="14.535691">
+					<MediaRefs>
+						<MediaRef Id="603875808"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="272480605" Name="Play_s2_q2_1" DurationType="OneShot" DurationMin="13.744761" DurationMax="13.744761">
+					<MediaRefs>
+						<MediaRef Id="278666435"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3505101520" Name="Play_s2_q2_1_ohneBier" DurationType="OneShot" DurationMin="11.402449" DurationMax="11.402449">
+					<MediaRefs>
+						<MediaRef Id="774203258"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="272480606" Name="Play_s2_q2_2" DurationType="OneShot" DurationMin="16.600817" DurationMax="16.600817">
+					<MediaRefs>
+						<MediaRef Id="571595718"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="272480607" Name="Play_s2_q2_3" DurationType="OneShot" DurationMin="13.901497" DurationMax="13.901497">
+					<MediaRefs>
+						<MediaRef Id="443152810"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2812054456" Name="Play_s2_q3" DurationType="OneShot" DurationMin="21.652607" DurationMax="21.652607">
+					<MediaRefs>
+						<MediaRef Id="438694983"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="272333540" Name="Play_s2_q3_1" DurationType="OneShot" DurationMin="11.486621" DurationMax="11.486621">
+					<MediaRefs>
+						<MediaRef Id="847778850"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="272333543" Name="Play_s2_q3_2" DurationType="OneShot" DurationMin="12.83483" DurationMax="12.83483">
+					<MediaRefs>
+						<MediaRef Id="755561404"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="272333542" Name="Play_s2_q3_3" DurationType="OneShot" DurationMin="13.344217" DurationMax="13.344217">
+					<MediaRefs>
+						<MediaRef Id="617845465"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="526303433" Name="Play_start_short" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="441131044"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3808233067" Name="Play_uncle_ending_bad" DurationType="OneShot" DurationMin="21.169342" DurationMax="21.169342">
+					<MediaRefs>
+						<MediaRef Id="453358191"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="153555627" Name="Stop_background_short" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -202,6 +337,21 @@
 				<Event Id="2843056687" Name="Stop_q4" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2843056686" Name="Stop_q5" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2843056685" Name="Stop_q6" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2328090148" Name="Stop_quest_inbetween" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3728396996" Name="Stop_s2_q1_1" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3728396999" Name="Stop_s2_q1_2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3728396998" Name="Stop_s2_q1_3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3885817563" Name="Stop_s2_q2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3728838283" Name="Stop_s2_q2_1" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="658456646" Name="Stop_s2_q2_1_ohneBier" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3728838280" Name="Stop_s2_q2_2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3728838281" Name="Stop_s2_q2_3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3885817562" Name="Stop_s2_q3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="507491538" Name="Stop_s2_q3_1" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="507491537" Name="Stop_s2_q3_2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="507491536" Name="Stop_s2_q3_3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="240402209" Name="Stop_uncle_ending_bad" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4190721863" Name="Stop_uncle_ending_good" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="4294095669" Type="User" Language="SFX" Hash="{ABCB4A9A-BCEE-0DF5-9FEF-5D70D9A1A176}">
@@ -234,5 +384,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1A60F8C8-C8C0-5271-EC24-352E190A98A2}</FileHash>
+	<FileHash>{BC768947-FA4B-A57D-C214-6D3E0157B124}</FileHash>
 </SoundBanksInfo>

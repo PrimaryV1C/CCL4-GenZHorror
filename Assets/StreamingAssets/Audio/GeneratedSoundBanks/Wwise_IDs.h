@@ -28,9 +28,23 @@ namespace AK
         static const AkUniqueID PLAY_Q4 = 2111857969U;
         static const AkUniqueID PLAY_Q5 = 2111857968U;
         static const AkUniqueID PLAY_Q6 = 2111857971U;
+        static const AkUniqueID PLAY_QUEST_INBETWEEN = 1288543378U;
         static const AkUniqueID PLAY_S1_ENDING_BAD = 3505879460U;
         static const AkUniqueID PLAY_S2_ENDING_GOOD = 3958874627U;
+        static const AkUniqueID PLAY_S2_Q1_1 = 3493827442U;
+        static const AkUniqueID PLAY_S2_Q1_2 = 3493827441U;
+        static const AkUniqueID PLAY_S2_Q1_3 = 3493827440U;
+        static const AkUniqueID PLAY_S2_Q2 = 2812054457U;
+        static const AkUniqueID PLAY_S2_Q2_1 = 272480605U;
+        static const AkUniqueID PLAY_S2_Q2_1_OHNEBIER = 3505101520U;
+        static const AkUniqueID PLAY_S2_Q2_2 = 272480606U;
+        static const AkUniqueID PLAY_S2_Q2_3 = 272480607U;
+        static const AkUniqueID PLAY_S2_Q3 = 2812054456U;
+        static const AkUniqueID PLAY_S2_Q3_1 = 272333540U;
+        static const AkUniqueID PLAY_S2_Q3_2 = 272333543U;
+        static const AkUniqueID PLAY_S2_Q3_3 = 272333542U;
         static const AkUniqueID PLAY_START_SHORT = 526303433U;
+        static const AkUniqueID PLAY_UNCLE_ENDING_BAD = 3808233067U;
         static const AkUniqueID RESUME_BACKGROUND_OLIVER = 276533063U;
         static const AkUniqueID STOP_BACKGROUND_OLIVER = 4113761274U;
         static const AkUniqueID STOP_BACKGROUND_SHORT = 153555627U;
@@ -44,6 +58,21 @@ namespace AK
         static const AkUniqueID STOP_Q4 = 2843056687U;
         static const AkUniqueID STOP_Q5 = 2843056686U;
         static const AkUniqueID STOP_Q6 = 2843056685U;
+        static const AkUniqueID STOP_QUEST_INBETWEEN = 2328090148U;
+        static const AkUniqueID STOP_S2_Q1_1 = 3728396996U;
+        static const AkUniqueID STOP_S2_Q1_2 = 3728396999U;
+        static const AkUniqueID STOP_S2_Q1_3 = 3728396998U;
+        static const AkUniqueID STOP_S2_Q2 = 3885817563U;
+        static const AkUniqueID STOP_S2_Q2_1 = 3728838283U;
+        static const AkUniqueID STOP_S2_Q2_1_OHNEBIER = 658456646U;
+        static const AkUniqueID STOP_S2_Q2_2 = 3728838280U;
+        static const AkUniqueID STOP_S2_Q2_3 = 3728838281U;
+        static const AkUniqueID STOP_S2_Q3 = 3885817562U;
+        static const AkUniqueID STOP_S2_Q3_1 = 507491538U;
+        static const AkUniqueID STOP_S2_Q3_2 = 507491537U;
+        static const AkUniqueID STOP_S2_Q3_3 = 507491536U;
+        static const AkUniqueID STOP_UNCLE_ENDING_BAD = 240402209U;
+        static const AkUniqueID STOP_UNCLE_ENDING_GOOD = 4190721863U;
     } // namespace EVENTS
 
     namespace SWITCHES
