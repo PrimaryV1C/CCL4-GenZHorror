@@ -47,29 +47,10 @@ public class DialogueManager : MonoBehaviour
 
   public int karma = 10;
 
-  public NPCScript npcScript;
-
   void Start()
   {
     dialogueProgress = 0;
     currentEnding = DoctorEndingBad;
-
-    if (npcScript != null)
-    {
-      npcScript.answerClicked.AddListener(OnAnswerClicked);
-    }
-  }
-
-  public void OnAnswerClicked(int answerIndex)
-  {
-    if (!doctorDone)
-    {
-      DoctorNpcTalk(answerIndex);
-    }
-    else
-    {
-      UncleNpcTalk(answerIndex);
-    }
   }
 
   public void DoctorNpcTalk(int answerIndex)
