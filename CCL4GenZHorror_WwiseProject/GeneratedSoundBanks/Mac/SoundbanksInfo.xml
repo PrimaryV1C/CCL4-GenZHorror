@@ -34,7 +34,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{FDC3AA63-C1BB-5BEC-4ABD-3CE46B2043E3}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{AECA7498-247E-1EF8-BFB5-4969C1A6C8C4}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
@@ -129,6 +129,10 @@
 				<File Id="659514204" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>background_short.wav</ShortName>
 					<CachePath>SFX/background_short_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="669259676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>s2_q1.WAV</ShortName>
+					<CachePath>SFX/s2_q1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="708117004" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>s2_q1.3.WAV</ShortName>
@@ -256,6 +260,11 @@
 						<MediaRef Id="1014802642"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2812054458" Name="Play_s2_q1" DurationType="OneShot" DurationMin="13.534331" DurationMax="13.534331">
+					<MediaRefs>
+						<MediaRef Id="669259676"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3493827442" Name="Play_s2_q1_1" DurationType="OneShot" DurationMin="6.5378685" DurationMax="6.5378685">
 					<MediaRefs>
 						<MediaRef Id="110932114"/>
@@ -338,6 +347,7 @@
 				<Event Id="2843056686" Name="Stop_q5" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2843056685" Name="Stop_q6" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2328090148" Name="Stop_quest_inbetween" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3885817560" Name="Stop_s2_q1" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3728396996" Name="Stop_s2_q1_1" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3728396999" Name="Stop_s2_q1_2" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3728396998" Name="Stop_s2_q1_3" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -384,5 +394,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BC768947-FA4B-A57D-C214-6D3E0157B124}</FileHash>
+	<FileHash>{3E885617-F0D1-C462-0AEC-A07E9672098A}</FileHash>
 </SoundBanksInfo>

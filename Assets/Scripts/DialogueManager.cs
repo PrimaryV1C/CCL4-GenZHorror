@@ -55,9 +55,6 @@ public class DialogueManager : MonoBehaviour
 
   public void DoctorNpcTalk(int answerIndex)
   {
-
-    if (closeDialogue) EndDialogue.Invoke();
-
     dialogueProgress++;
     if (dialogueProgress == 6)
     {
@@ -72,6 +69,8 @@ public class DialogueManager : MonoBehaviour
       dialogueChanged.Invoke(currentItem);
       ChooseRightDoctorSound();
     }
+
+    if (closeDialogue) EndDialogue.Invoke();
   }
 
   public void UncleNpcTalk(int answerIndex)
@@ -103,7 +102,6 @@ public class DialogueManager : MonoBehaviour
   public void StartDialog()
   {
     StartCoroutine(FirstDialog());
-
   }
 
 
@@ -175,7 +173,7 @@ public class DialogueManager : MonoBehaviour
   public void ChooseRightDoctorSound()
   {
 
-    if (dialogueProgress == 0 && !doctorDone)
+    if (dialogueProgress == 0)
     {
 
       AkSoundEngine.PostEvent("Play_q1", gameObject);
@@ -210,7 +208,7 @@ public class DialogueManager : MonoBehaviour
   public void ChooseRightUncleSound(int answerIndex)
   {
 
-    if (dialogueProgress == 0 && doctorDone == true)
+    if (dialogueProgress == 0)
     {
 
       AkSoundEngine.PostEvent("Play_s2_q1", gameObject);

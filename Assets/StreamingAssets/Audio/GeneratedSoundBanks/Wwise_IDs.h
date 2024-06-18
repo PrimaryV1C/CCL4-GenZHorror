@@ -31,6 +31,7 @@ namespace AK
         static const AkUniqueID PLAY_QUEST_INBETWEEN = 1288543378U;
         static const AkUniqueID PLAY_S1_ENDING_BAD = 3505879460U;
         static const AkUniqueID PLAY_S2_ENDING_GOOD = 3958874627U;
+        static const AkUniqueID PLAY_S2_Q1 = 2812054458U;
         static const AkUniqueID PLAY_S2_Q1_1 = 3493827442U;
         static const AkUniqueID PLAY_S2_Q1_2 = 3493827441U;
         static const AkUniqueID PLAY_S2_Q1_3 = 3493827440U;
@@ -59,6 +60,7 @@ namespace AK
         static const AkUniqueID STOP_Q5 = 2843056686U;
         static const AkUniqueID STOP_Q6 = 2843056685U;
         static const AkUniqueID STOP_QUEST_INBETWEEN = 2328090148U;
+        static const AkUniqueID STOP_S2_Q1 = 3885817560U;
         static const AkUniqueID STOP_S2_Q1_1 = 3728396996U;
         static const AkUniqueID STOP_S2_Q1_2 = 3728396999U;
         static const AkUniqueID STOP_S2_Q1_3 = 3728396998U;

@@ -29,6 +29,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2627394186	Play_kitchen			\Default Work Unit\Play_kitchen	
 	2812054456	Play_s2_q3			\Default Work Unit\Play_s2_q3	
 	2812054457	Play_s2_q2			\Default Work Unit\Play_s2_q2	
+	2812054458	Play_s2_q1			\Default Work Unit\Play_s2_q1	
 	2843056680	Stop_q3			\Default Work Unit\Stop_q3	
 	2843056681	Stop_q2			\Default Work Unit\Stop_q2	
 	2843056682	Stop_q1			\Default Work Unit\Stop_q1	
@@ -48,6 +49,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3728838281	Stop_s2_q2_3			\Default Work Unit\Stop_s2_q2_3	
 	3728838283	Stop_s2_q2_1			\Default Work Unit\Stop_s2_q2_1	
 	3808233067	Play_uncle_ending_bad			\Default Work Unit\Play_uncle_ending_bad	
+	3885817560	Stop_s2_q1			\Default Work Unit\Stop_s2_q1	
 	3885817562	Stop_s2_q3			\Default Work Unit\Stop_s2_q3	
 	3885817563	Stop_s2_q2			\Default Work Unit\Stop_s2_q2	
 	3958874627	Play_s2_ending_good			\Default Work Unit\Play_s2_ending_good	
@@ -80,6 +82,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	617845465	s2_q3_3	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Mac\SFX\s2_q3.3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q3_3		2354016
 	626184214	phone_finish	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Mac\SFX\phone_finish_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\phone_finish		505824
 	659514204	background_short	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Mac\SFX\background_short_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\background_short		3043660
+	669259676	s2_q1	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Mac\SFX\s2_q1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q1		2387552
 	708117004	s2_q1_3	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Mac\SFX\s2_q1.3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q1_3		1344864
 	755561404	s2_q3_2	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Mac\SFX\s2_q3.2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q3_2		2264160
 	773815817	q1	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Mac\SFX\q1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\doctor_audio\q1		661472
