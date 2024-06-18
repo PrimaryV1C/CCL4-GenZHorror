@@ -25,7 +25,6 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         narrativeProgression = 0;
-        //taskCompleted.Invoke();
     }
 
     public void OnDialogueStarted(){
@@ -45,7 +44,7 @@ public class GameManager : MonoBehaviour
         doctorDialogueEnd.Invoke(item);
     }
 
-    void EndGame(){
+    public void EndGame(){
         if(dialogueManager.karma > 0){
             SceneManager.LoadSceneAsync(4);
         }
