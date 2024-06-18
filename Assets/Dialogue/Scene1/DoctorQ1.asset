@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0fd1d9767db94855b4e0da4f857f88d, type: 3}
   m_Name: DoctorQ1
   m_EditorClassIdentifier: 
-  dialogueText: Hello Welcome to the office of Dr. TeethHurtNONO. How can I help
-    you today?
+  dialogueText: "What up dogs! It\xB4s Big Snoop D-O-Double G! Hello Welcome to the
+    office of Dr. TeethHurtNONO. How can I help you today?"
   nextItem: {fileID: 0}
   answers:
   - answerText: 'Hello Dr.! My teeth hurt YESYES, but I need Teeth Hurt NONO. Please
