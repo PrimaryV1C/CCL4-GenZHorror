@@ -50,7 +50,6 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueProgress = 0;
         currentEnding = DoctorEndingBad;
-        AkSoundEngine.PostEvent("Stop_background_short", gameObject);
     }
 
     public void DoctorNpcTalk(int answerIndex){
@@ -59,7 +58,6 @@ public class DialogueManager : MonoBehaviour
 
         dialogueProgress++;
         if(dialogueProgress == 6){
-            AkSoundEngine.PostEvent("Stop_background_short", gameObject);
             CalculateKarma(answerIndex);
             doctorDialogueEnd.Invoke(ChooseEndingScene1());
             closeDialogue = true;
@@ -67,7 +65,6 @@ public class DialogueManager : MonoBehaviour
         else{
             currentItem = currentItem.answers[answerIndex].nextItem;
             dialogueChanged.Invoke(currentItem);
-            AkSoundEngine.PostEvent("Stop_background_short", gameObject);
             ChooseRightDoctorSound();
         }
     }
@@ -97,14 +94,12 @@ public class DialogueManager : MonoBehaviour
     public void StartDialog() 
     {
       StartCoroutine(FirstDialog());
-      AkSoundEngine.PostEvent("Stop_background_short", gameObject);
 
     }
         
     
     private IEnumerator FirstDialog(){
         if(dialogueProgress == 0){
-            AkSoundEngine.PostEvent("Stop_background_short", gameObject);
             dialogueChanged.Invoke(currentItem);
             yield return new WaitForSeconds(1);
             ChooseRightDoctorSound();
@@ -116,7 +111,6 @@ public class DialogueManager : MonoBehaviour
             {
                 closeDialogue = false;
                 dialogueChangedUncle.Invoke(currentItem);
-                AkSoundEngine.PostEvent("Stop_background_short", gameObject);
                 ChooseRightDoctorSound();
             }
         }
@@ -125,7 +119,6 @@ public class DialogueManager : MonoBehaviour
             dialogueProgress = 0;
             currentItem = uncleFirstDialogue;
             dialogueChangedUncle.Invoke(uncleFirstDialogue);
-            AkSoundEngine.PostEvent("Stop_background_short", gameObject);
             ChooseRightDoctorSound();
         }
     }

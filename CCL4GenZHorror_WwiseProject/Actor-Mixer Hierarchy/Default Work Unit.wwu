@@ -432,6 +432,50 @@
 						<ActiveSource Name="outgoing_call" ID="{552DBB2E-5A02-4352-9530-F5E950BCDD0C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="beer" ID="{FD6D7422-278C-4498-80F9-2722B8675FF6}" ShortID="671058900">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73E9C9BC-DCAE-461E-B17C-F43AC080FB34}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8132892-2F8C-4D42-8208-AB5FD9B089EC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="beer" ID="{0C0BB6E8-DC25-4097-A83E-5CB2EFB652BF}">
+							<Language>SFX</Language>
+							<AudioFile>beer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="902914236"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="beer" ID="{0C0BB6E8-DC25-4097-A83E-5CB2EFB652BF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="kitchen" ID="{4BD1C127-FE17-4D13-9DE1-30B00B5118B5}" ShortID="710603064">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{73E9C9BC-DCAE-461E-B17C-F43AC080FB34}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D8132892-2F8C-4D42-8208-AB5FD9B089EC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="kitchen" ID="{3C2F279B-3D58-41A9-AE28-F5F4E12A0A11}">
+							<Language>SFX</Language>
+							<AudioFile>kitchen.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="21079357"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="kitchen" ID="{3C2F279B-3D58-41A9-AE28-F5F4E12A0A11}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

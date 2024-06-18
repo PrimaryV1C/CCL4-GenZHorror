@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 1fd8648df2476f46a06bfb9edde308a4
     GuidInternal: 
-    m_lastTime: -8584829657885435031
+    m_lastTime: -8584829055248370891
     List:
     - name: Main_Soundbank
       guid: ae333b5429b72646a56bfcb76a4f4d99
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: a01f6ab5a2cd8a4493c7f53dac7abe70
     GuidInternal: 
-    m_lastTime: -8584829657887210516
+    m_lastTime: -8584829055248407640
     List:
     - name: Pause_background_Oliver
       guid: b50b1b23a96a0247be47b5e1371bcbf7
@@ -161,6 +161,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_beer
+      guid: 5380c2f67ce74046a985a816367032dd
+      id: 2063165416
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_beer
+        ObjectType: 3
+        guid: 5380c2f67ce74046a985a816367032dd
+      Path: Events/Default Work Unit/Play_beer
+      maxAttenuation: 0
+      maxDuration: 1.0380833
+      minDuration: 1.0380833
     - name: Play_container_stepping
       guid: c9ced5413c5a1c418ec88d75adbc83b0
       id: 349645836
@@ -195,6 +212,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_kitchen
+      guid: 19af7ed6f1077d409b3a67ac0f74bab3
+      id: 2627394186
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Play_kitchen
+        ObjectType: 3
+        guid: 19af7ed6f1077d409b3a67ac0f74bab3
+      Path: Events/Default Work Unit/Play_kitchen
+      maxAttenuation: 0
+      maxDuration: 3.7760937
+      minDuration: 3.7760937
     - name: Play_outgoing_call
       guid: 947d42459ed1ef47a1d24ebd6534ed62
       id: 1558847611
@@ -450,6 +484,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_background_short
+      guid: 6709acb6a9144e49b6549aca6bbb9a5f
+      id: 153555627
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Stop_background_short
+        ObjectType: 3
+        guid: 6709acb6a9144e49b6549aca6bbb9a5f
+      Path: Events/Default Work Unit/Stop_background_short
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_container_stepping
       guid: 8d21ee75cfda5549856fad7b3f0fe2d7
       id: 1996258398
@@ -464,6 +515,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: 8d21ee75cfda5549856fad7b3f0fe2d7
       Path: Events/Default Work Unit/Stop_container_stepping
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_kitchen
+      guid: 9ae13731df91c54280e545167128e189
+      id: 4090930288
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a01f6ab5a2cd8a4493c7f53dac7abe70
+      - ElementName: Stop_kitchen
+        ObjectType: 3
+        guid: 9ae13731df91c54280e545167128e189
+      Path: Events/Default Work Unit/Stop_kitchen
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
