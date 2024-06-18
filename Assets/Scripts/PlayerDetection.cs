@@ -23,6 +23,7 @@ public class PlayerDetection : MonoBehaviour
         if(other.tag == "Player" && !disablePrompt)
         {
             playerDetectedChange.Invoke(false);
+            AkSoundEngine.PostEvent("Stop_kitchen", gameObject);
         }
     }
 

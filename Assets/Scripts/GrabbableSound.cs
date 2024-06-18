@@ -12,5 +12,12 @@ public class GrabbableSound : MonoBehaviour
         
         
     }
+
+    public void PlayKitchenSound() {
+
+        AkSoundEngine.PostEvent("Play_kitchen", gameObject);
+        
+        
+    }
     
 }

@@ -12,6 +12,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2111857974	Play_q3			\Default Work Unit\Play_q3	
 	2111857975	Play_q2			\Default Work Unit\Play_q2	
 	2437516625	Play_background_short			\Default Work Unit\Play_background_short	
+	2627394186	Play_kitchen			\Default Work Unit\Play_kitchen	
 	2843056680	Stop_q3			\Default Work Unit\Stop_q3	
 	2843056681	Stop_q2			\Default Work Unit\Stop_q2	
 	2843056682	Stop_q1			\Default Work Unit\Stop_q1	
@@ -21,11 +22,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	3097744716	Play_phone_finish			\Default Work Unit\Play_phone_finish	
 	3505879460	Play_s1_ending_bad			\Default Work Unit\Play_s1_ending_bad	
 	3958874627	Play_s2_ending_good			\Default Work Unit\Play_s2_ending_good	
+	4090930288	Stop_kitchen			\Default Work Unit\Stop_kitchen	
 	4144620041	Stop_outgoing_call			\Default Work Unit\Stop_outgoing_call	
 	4179250394	Stop_phone_finish			\Default Work Unit\Stop_phone_finish	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	6318721	outgoing_call	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Mac\SFX\outgoing_call_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\outgoing_call		439748
+	21079357	kitchen	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Mac\SFX\kitchen_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\kitchen		725104
 	278201614	q6	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Mac\SFX\q6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\doctor_audio\q6		785226
 	308364199	q3	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Mac\SFX\q3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\doctor_audio\q3		590146
 	311322474	StepOnWood-017__short	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Mac\SFX\StepOnWood-017._short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\container_stepping\StepOnWood-017__short		15732

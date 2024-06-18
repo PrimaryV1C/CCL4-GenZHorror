@@ -34,13 +34,17 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{60D657D9-6C92-1B06-17C7-AF6726D2319C}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{25FE605B-7E21-ACF6-9545-D667E5B46A5F}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
 				<File Id="6318721" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>outgoing_call.wav</ShortName>
 					<CachePath>SFX/outgoing_call_10C4C929.wem</CachePath>
+				</File>
+				<File Id="21079357" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>kitchen.wav</ShortName>
+					<CachePath>SFX/kitchen_10C4C929.wem</CachePath>
 				</File>
 				<File Id="278201614" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>q6.wav</ShortName>
@@ -132,6 +136,11 @@
 						<MediaRef Id="773815817"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2627394186" Name="Play_kitchen" DurationType="OneShot" DurationMin="3.7760937" DurationMax="3.7760937">
+					<MediaRefs>
+						<MediaRef Id="21079357"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1558847611" Name="Play_outgoing_call" DurationType="OneShot" DurationMin="2.4923582" DurationMax="2.4923582">
 					<MediaRefs>
 						<MediaRef Id="6318721"/>
@@ -184,6 +193,7 @@
 				</Event>
 				<Event Id="153555627" Name="Stop_background_short" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1996258398" Name="Stop_container_stepping" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4090930288" Name="Stop_kitchen" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4144620041" Name="Stop_outgoing_call" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4179250394" Name="Stop_phone_finish" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2843056682" Name="Stop_q1" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -224,5 +234,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3491EC16-0AD0-4282-1BA3-340056F9F6FC}</FileHash>
+	<FileHash>{44C610C5-989C-D29E-2F2B-824B890EE584}</FileHash>
 </SoundBanksInfo>
