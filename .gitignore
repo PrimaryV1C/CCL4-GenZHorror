@@ -73,3 +73,6 @@ crashlytics-build.properties
 
 # Mac stuff
 .DS_Store
+
+# Wise stuff
+Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
