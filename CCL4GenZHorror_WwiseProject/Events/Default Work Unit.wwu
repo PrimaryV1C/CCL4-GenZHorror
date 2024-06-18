@@ -358,6 +358,56 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_background_short" ID="{B6AC0967-14A9-494E-B654-9ACA6BBB9A5F}">
+					<ChildrenList>
+						<Action Name="" ID="{B9E42AD7-9188-449B-BAA0-0F05A109A276}" ShortID="461960782">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="background_short" ID="{989DE53C-B1B3-4F63-B6E7-B729E202BE56}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_beer" ID="{F6C28053-E77C-4640-A985-A816367032DD}">
+					<ChildrenList>
+						<Action Name="" ID="{81584ADA-0AA1-4966-BCC4-6376D9C15B56}" ShortID="17453470">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="beer" ID="{FD6D7422-278C-4498-80F9-2722B8675FF6}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_kitchen" ID="{D67EAF19-07F1-407D-9B3A-67AC0F74BAB3}">
+					<ChildrenList>
+						<Action Name="" ID="{30701BA7-93EE-426F-B279-05FFC84040B2}" ShortID="354663360">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="kitchen" ID="{4BD1C127-FE17-4D13-9DE1-30B00B5118B5}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_kitchen" ID="{3137E19A-91DF-42C5-80E5-45167128E189}">
+					<ChildrenList>
+						<Action Name="" ID="{379EE9BD-665B-4A78-A862-A1795E38CCEE}" ShortID="878158678">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="kitchen" ID="{4BD1C127-FE17-4D13-9DE1-30B00B5118B5}" WorkUnitID="{FFF0EA13-7BBA-4813-AAE2-8E9CEA7B1C16}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

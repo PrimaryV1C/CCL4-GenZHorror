@@ -6,11 +6,13 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class AudioManager : MonoBehaviour
 {
-   
-   public bool isWalking;
-   public GameObject playerPosition;
 
-   private Vector3 previousPosition;
+  [SerializeField] private GameObject ambient;
+
+  public bool isWalking;
+  public GameObject playerPosition;
+
+  private Vector3 previousPosition;
   private Vector3 currentPosition;
 
   private bool footstepsPlaying = false;
@@ -18,69 +20,73 @@ public class AudioManager : MonoBehaviour
   private float footstepInterval = 0.5f;
 
 
-    public void StartPhone()
+  public void StartPhone()
   {
     AkSoundEngine.PostEvent("Play_outgoing_call", gameObject);
-    
+
   }
 
-  public void StopBackground() {
-    AkSoundEngine.PostEvent("Stop_background_short", gameObject);
+  public void StopBackground()
+  {
+    AkSoundEngine.PostEvent("Stop_background_short", ambient);
   }
 
-  public void Start() {
+  public void Start()
+  {
 
     lastFootstepTime = Time.time;
 
-    if (playerPosition != null) {
+    if (playerPosition != null)
+    {
 
       previousPosition = playerPosition.gameObject.transform.position;
 
-  }
+    }
 
   }
 
 
-    public void Update()
+  public void Update()
+  {
+    if (playerPosition != null)
     {
-        if (playerPosition != null)
+      currentPosition = playerPosition.transform.position;
+
+      if (currentPosition != previousPosition)
+
+      {
+
+        isWalking = true;
+        if (Time.time - lastFootstepTime > footstepInterval)
         {
-            currentPosition = playerPosition.transform.position;
+          AkSoundEngine.PostEvent("Play_container_stepping", gameObject);
+          lastFootstepTime = Time.time;
 
-            if (currentPosition != previousPosition)
-
-            {
-
-              isWalking = true;
-                if (Time.time - lastFootstepTime > footstepInterval)
-                {
-                    AkSoundEngine.PostEvent("Play_container_stepping", gameObject);
-                    lastFootstepTime = Time.time;
-            
-                }
-            }
-            else
-            {
-              isWalking = false; 
-
-                if (footstepsPlaying)
-                {
-                    AkSoundEngine.PostEvent("Stop_container_stepping", gameObject); // Ensure there's a stop event in Wwise
-                    footstepsPlaying = false;
-                }
-
-                
-            }
-
-            previousPosition = currentPosition;
         }
+      }
+      else
+      {
+        isWalking = false;
+
+        if (footstepsPlaying)
+        {
+          AkSoundEngine.PostEvent("Stop_container_stepping", gameObject); // Ensure there's a stop event in Wwise
+          footstepsPlaying = false;
+        }
+
+
+      }
+
+      previousPosition = currentPosition;
     }
+  }
 
-    public void PlayBeerSound() {
+  public void PlayBeerSound()
+  {
 
-      AkSoundEngine.PostEvent("Play_beer", gameObject);
+    AkSoundEngine.PostEvent("Play_beer", gameObject);
 
-    }
+  }
 
 
 
