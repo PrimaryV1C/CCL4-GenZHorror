@@ -2144,9 +2144,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialItem: {fileID: 11400000, guid: 1b16c6d970138494dbdcc148c743472c, type: 2}
+  dialogueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1529253611}
+        m_TargetAssemblyTypeName: TextBubbleView, GenZHorrorGame
+        m_MethodName: SetDialogueItem
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   talkedTo:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1529253611}
+        m_TargetAssemblyTypeName: TextBubbleView, GenZHorrorGame
+        m_MethodName: SetDialogueItem
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &635360336
 Transform:
   m_ObjectHideFlags: 0
@@ -3454,18 +3481,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 808296592}
-        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: StartDialog
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 160443874}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: OnDialogueStarted
@@ -3493,6 +3508,18 @@ MonoBehaviour:
       - m_Target: {fileID: 805577227}
         m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: StopBackground
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 635360335}
+        m_TargetAssemblyTypeName: NPCScript, GenZHorrorGame
+        m_MethodName: OnDialogueButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4028,6 +4055,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialItem: {fileID: 0}
+  dialogueChanged:
+    m_PersistentCalls:
+      m_Calls: []
   talkedTo:
     m_PersistentCalls:
       m_Calls: []
@@ -6048,9 +6078,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialItem: {fileID: 11400000, guid: 834133e8920e7442eac37ec389397c05, type: 2}
+  dialogueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1404760358}
+        m_TargetAssemblyTypeName: TextBubbleView, GenZHorrorGame
+        m_MethodName: SetDialogueItem
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   talkedTo:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1404760358}
+        m_TargetAssemblyTypeName: TextBubbleView, GenZHorrorGame
+        m_MethodName: SetDialogueItem
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1780493679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5501711801295445692, guid: 3b108cfa18f1b554f8368c5f9df198f2,
@@ -7365,7 +7422,7 @@ PrefabInstance:
     - target: {fileID: 4746609459281521187, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.974
+      value: 13.053
       objectReference: {fileID: 0}
     - target: {fileID: 4746609459281521187, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
         type: 3}
@@ -7375,7 +7432,7 @@ PrefabInstance:
     - target: {fileID: 4746609459281521187, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.14
+      value: 6.27
       objectReference: {fileID: 0}
     - target: {fileID: 4746609459281521187, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
         type: 3}
