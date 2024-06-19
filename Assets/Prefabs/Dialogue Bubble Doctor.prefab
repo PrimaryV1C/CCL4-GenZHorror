@@ -155,18 +155,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3885601183997535884, guid: 202aa6a894f292e4db1549cb2c26e687,
         type: 3}
-      propertyPath: m_fontSize
-      value: 6.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3885601183997535884, guid: 202aa6a894f292e4db1549cb2c26e687,
-        type: 3}
       propertyPath: m_fontSizeBase
       value: 6.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3885601183997535884, guid: 202aa6a894f292e4db1549cb2c26e687,
-        type: 3}
-      propertyPath: m_enableAutoSizing
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4940582326345536312, guid: 202aa6a894f292e4db1549cb2c26e687,
         type: 3}

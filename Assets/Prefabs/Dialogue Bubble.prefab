@@ -152,6 +152,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e07eaaea7617462b83321383c2b9ec7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  answerSelected:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5771199291934991137
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,12 +247,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 2
+  m_fontSize: 4.33
   m_fontSizeBase: 8.13
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 2
-  m_fontSizeMax: 10
+  m_fontSizeMax: 4.33
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -363,6 +366,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answerDisplayPrefab: {fileID: 1262819208070789443, guid: 60b8d2979095d3b45a4406a102350e76,
     type: 3}
+  answerSelected:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8177529327310187669
 GameObject:
   m_ObjectHideFlags: 0
