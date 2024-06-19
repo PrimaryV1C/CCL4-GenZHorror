@@ -7,7 +7,7 @@ public class PlayerDetection : MonoBehaviour
     public UnityEvent<bool>playerDetectedChange;
     public bool disablePrompt = false;
 
-    void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         Debug.Log("Collision!");
         if(other.tag == "Player" && !disablePrompt)

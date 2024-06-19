@@ -12,16 +12,16 @@ public class GameManager : MonoBehaviour
     private LocomotionSystem moveSystem;
     public UnityEvent<EndingItem> doctorDialogueEnd;
     public UnityEvent taskCompleted;
-
-    [SerializeField]
-    private DialogueManager dialogueManager;
     [SerializeField]
     private PlayerDetection playerDetectionScene2;
         [SerializeField]
     private PlayerDetection playerDetectionScene1;
 
+    private Calendar calendar;
+
     void Start()
-    {
+    {   
+        calendar = FindAnyObjectByType<Calendar>();
         narrativeProgression = 0;
     }
 
@@ -55,6 +55,13 @@ public class GameManager : MonoBehaviour
 
         playerDetectionScene2.disablePrompt = false;
 
+    }
+
+    public void OnPhoneGrabbed(){
+        
+        playerDetectionScene1.disablePrompt = false;
+        playerDetectionScene1.playerDetectedChange.Invoke(true);
+        calendar.OnTaskCompletion();
     }
 
 }
