@@ -13,7 +13,13 @@ public class AnswerListView : MonoBehaviour
 
     public void SetAnswers(Answer[] answers){
 
-        //TODO: Clear Old Answers
+        int childCount = this.transform.childCount;
+
+        for(int i = 0; i < childCount; i++){
+
+            Destroy(this.transform.GetChild(i).gameObject);
+            
+        }
 
         foreach(Answer answer in answers){
             
