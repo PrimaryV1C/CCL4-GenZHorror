@@ -3036,7 +3036,7 @@ PrefabInstance:
     - target: {fileID: 751012057595742656, guid: c211820d717c44c6a9f7100dc7dc08fd,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 221
+      value: 187
       objectReference: {fileID: 0}
     - target: {fileID: 751012057595742656, guid: c211820d717c44c6a9f7100dc7dc08fd,
         type: 3}
@@ -3753,7 +3753,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142587070}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
