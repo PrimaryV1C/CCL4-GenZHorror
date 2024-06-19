@@ -6,7 +6,6 @@ public class NPCScript : MonoBehaviour
     public DialogueItem initialItem;
     public UnityEvent<DialogueItem> dialogueChanged;
     public UnityEvent<DialogueItem> talkedTo;
-
     public UnityEvent closeDialogueBubble;
 
     [SerializeField]
@@ -18,6 +17,7 @@ public class NPCScript : MonoBehaviour
     private KarmaKeeper karmaKeeper;
 
     private bool closeDialogue = false;
+
 
     void Awake()
     {
@@ -32,6 +32,11 @@ public class NPCScript : MonoBehaviour
     }
     public void OnDialogueButtonClicked()
     {
+        if(currentItem != null){
+            dialogueChanged.Invoke(currentItem);
+            AkSoundEngine.PostEvent(currentItem.dialogueSound.Name, gameObject);
+            return;
+        }
 
         currentItem = initialItem;
         dialogueChanged.Invoke(currentItem);
@@ -51,11 +56,11 @@ public class NPCScript : MonoBehaviour
 
         if (answer.nextItem.name == "DrEndingBad" || answer.nextItem.name == "JoeEndingBad")
         {
-            //EndDialogue();
             closeDialogue = true;
         }
 
         currentItem = answer.nextItem;
+        if(currentItem.name == "UncleQ2"){closeDialogue = true;}
         dialogueChanged.Invoke(currentItem);
         AkSoundEngine.PostEvent(stopSound, gameObject);
         AkSoundEngine.PostEvent(currentItem.dialogueSound.Name, gameObject);

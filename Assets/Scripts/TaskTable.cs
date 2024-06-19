@@ -14,7 +14,7 @@ void OnTriggerEnter(Collider other) {
     if (other.gameObject.CompareTag("TaskItem")){
 
 
-        Rigidbody rb = other.gameObject.GetComponent<Rigidbody>();
+        Rigidbody rb = other.gameObject.GetComponentInParent<Rigidbody>();
             if (rb != null)
             {
                 rb.isKinematic = true;

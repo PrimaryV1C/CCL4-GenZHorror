@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 1fd8648df2476f46a06bfb9edde308a4
     GuidInternal: 
-    m_lastTime: -8584827974029079002
+    m_lastTime: -8584827855086307135
     List:
     - name: Main_Soundbank
       guid: ae333b5429b72646a56bfcb76a4f4d99
@@ -108,7 +108,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: a01f6ab5a2cd8a4493c7f53dac7abe70
     GuidInternal: 
-    m_lastTime: -8584827974040078200
+    m_lastTime: -8584827855100507994
     List:
     - name: Pause_background_Oliver
       guid: b50b1b23a96a0247be47b5e1371bcbf7
@@ -1369,7 +1369,7 @@ MonoBehaviour:
     m_lastTime: -8584828936472655959
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

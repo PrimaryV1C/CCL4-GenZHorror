@@ -8,8 +8,9 @@ public class GameManager : MonoBehaviour
     private int narrativeProgression;
     [SerializeField]
     private GameObject bedroomDoor;
+
     [SerializeField]
-    private LocomotionSystem moveSystem;
+    private GameObject moveSystem;
     public UnityEvent<EndingItem> doctorDialogueEnd;
     public UnityEvent taskCompleted;
     [SerializeField]
@@ -21,6 +22,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {   
+        Debug.Log(moveSystem);
         calendar = FindAnyObjectByType<Calendar>();
         narrativeProgression = 0;
     }
@@ -28,18 +30,15 @@ public class GameManager : MonoBehaviour
     public void OnDialogueStarted(){
         if(narrativeProgression == 0) playerDetectionScene1.disablePrompt = true;
         if(narrativeProgression == 2 )playerDetectionScene2.disablePrompt = true;
-        //moveSystem.SetActive(false);
+        moveSystem.SetActive(false);
     }
 
     public void OnDialogueEnded(){
         narrativeProgression++;
-        //moveSystem.SetActive(true);
-        if(narrativeProgression == 3) EndGame();
-    }
-
-    public void OnDoctorDialogueEnd(EndingItem item){
-        bedroomDoor.transform.Rotate(new Vector3(0,-120,0));
-        //doctorDialogueEnd.Invoke(item);
+        if(narrativeProgression == 1)playerDetectionScene2.disablePrompt = false;
+        if(narrativeProgression == 2)playerDetectionScene2.disablePrompt = true;
+        //moveSystem.SetActive(false);
+        //if(narrativeProgression == 3) EndGame();
     }
 
     public void EndGame(){
