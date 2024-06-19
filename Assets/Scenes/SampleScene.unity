@@ -325,10 +325,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 945811978}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.499, y: -0.012}
-  m_SizeDelta: {x: 4, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.000000059604645, y: 0.238}
+  m_SizeDelta: {x: -2, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &69934494
 MonoBehaviour:
@@ -460,10 +460,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1446989037}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -0.013}
-  m_SizeDelta: {x: 1, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.013000011}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &81956644
 MonoBehaviour:
@@ -1340,10 +1340,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1446989037}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.499, y: -0.009}
-  m_SizeDelta: {x: 4, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.020499885, y: 0.241}
+  m_SizeDelta: {x: 2.961, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &256946585
 MonoBehaviour:
@@ -2209,10 +2209,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 945811978}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -0.013}
-  m_SizeDelta: {x: 1, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.013000011}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &594518653
 MonoBehaviour:
@@ -2340,21 +2340,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b675793c9494bd5aa59e50f3a61048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerClicked:
+  initialItem: {fileID: 0}
+  dialogueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 808296592}
-        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: UncleNpcTalk
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  talkedTo:
+    m_PersistentCalls:
+      m_Calls: []
+  EndingGood: {fileID: 0}
+  EndingBad: {fileID: 0}
 --- !u!4 &635360336
 Transform:
   m_ObjectHideFlags: 0
@@ -2479,10 +2473,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 732324639}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.483, y: -0.019}
-  m_SizeDelta: {x: 4, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.01699996, y: 0.231}
+  m_SizeDelta: {x: 3, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &780162034
 MonoBehaviour:
@@ -3025,10 +3019,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 677342296}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.499, y: -0.014}
-  m_SizeDelta: {x: 4, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.0009999871, y: 0.236}
+  m_SizeDelta: {x: 3, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &847424576
 MonoBehaviour:
@@ -3202,10 +3196,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1770531699}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -0.013}
-  m_SizeDelta: {x: 1, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.013000011}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &925514648
 MonoBehaviour:
@@ -3775,10 +3769,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 677342296}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -0.013}
-  m_SizeDelta: {x: 1, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.013000011}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &953446386
 MonoBehaviour:
@@ -3800,7 +3794,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Call your  dentist
+  m_text: continue talking to uncle
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -4216,9 +4210,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b675793c9494bd5aa59e50f3a61048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerClicked:
+  initialItem: {fileID: 0}
+  dialogueChanged:
     m_PersistentCalls:
       m_Calls: []
+  talkedTo:
+    m_PersistentCalls:
+      m_Calls: []
+  EndingGood: {fileID: 0}
+  EndingBad: {fileID: 0}
 --- !u!20 &1158522432 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 1084391807383829339, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
@@ -4531,10 +4531,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 732324639}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -0.013}
-  m_SizeDelta: {x: 1, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.013000011}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1303775159
 MonoBehaviour:
@@ -6234,21 +6234,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b675793c9494bd5aa59e50f3a61048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerClicked:
+  initialItem: {fileID: 0}
+  dialogueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 808296592}
-        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: DoctorNpcTalk
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
+  talkedTo:
+    m_PersistentCalls:
+      m_Calls: []
+  EndingGood: {fileID: 0}
+  EndingBad: {fileID: 0}
 --- !u!4 &1780493679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5501711801295445692, guid: 3b108cfa18f1b554f8368c5f9df198f2,
@@ -6686,10 +6680,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1770531699}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.499, y: -0.016}
-  m_SizeDelta: {x: 4, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.0009999871, y: 0.234}
+  m_SizeDelta: {x: 3, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1806769283
 MonoBehaviour:
