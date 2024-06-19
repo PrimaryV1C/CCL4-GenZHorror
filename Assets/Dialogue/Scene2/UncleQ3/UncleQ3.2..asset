@@ -23,12 +23,12 @@ MonoBehaviour:
   answers:
   - answerText: It's about balance, Uncle Joe. Women can have careers and still be
       great mothers and partners.
-    nextItem: {fileID: 0}
+    nextItem: {fileID: 11400000, guid: 5ab4157e6845145398bb9dbd53953142, type: 2}
     karma: 3
   - answerText: We should all be feminists.
-    nextItem: {fileID: 0}
+    nextItem: {fileID: 11400000, guid: 5ab4157e6845145398bb9dbd53953142, type: 2}
     karma: -10
   - answerText: Culture does not make people. People make culture. So if it is in
       the culture to treat women as less than men, we must make the culture.
-    nextItem: {fileID: 0}
+    nextItem: {fileID: 11400000, guid: 5ab4157e6845145398bb9dbd53953142, type: 2}
     karma: -10
