@@ -31,3 +31,6 @@ MonoBehaviour:
       life."
     nextItem: {fileID: 11400000, guid: f40da4870d4cf4c04ac4685b5833514c, type: 2}
     karma: 1
+  - answerText: Yes, I tried to fix it with some duct tape and a YouTube tutorial.]
+    nextItem: {fileID: 11400000, guid: f40da4870d4cf4c04ac4685b5833514c, type: 2}
+    karma: 1
