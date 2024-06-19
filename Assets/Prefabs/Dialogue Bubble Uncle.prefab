@@ -184,11 +184,6 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 2090255159590029896, guid: 60b8d2979095d3b45a4406a102350e76,
-        type: 3}
-      propertyPath: m_enableAutoSizing
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3833373583275615000, guid: 60b8d2979095d3b45a4406a102350e76,
         type: 3}
       propertyPath: m_Pivot.x
