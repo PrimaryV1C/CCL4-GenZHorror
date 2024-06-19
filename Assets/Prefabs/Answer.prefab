@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6971988229475537456}
   - component: {fileID: 2779824883261085496}
   - component: {fileID: 4284515090842119515}
+  - component: {fileID: 7115470187614965812}
   m_Layer: 0
   m_Name: Answer
   m_TagString: Untagged
@@ -133,6 +134,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7115470187614965812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262819208070789443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb3652f949724be8b9369f5a42c091f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7000672637082556342
 GameObject:
   m_ObjectHideFlags: 0

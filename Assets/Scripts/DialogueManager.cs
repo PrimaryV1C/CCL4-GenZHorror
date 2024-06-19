@@ -51,6 +51,7 @@ public class DialogueManager : MonoBehaviour
   {
     dialogueProgress = 0;
     currentEnding = DoctorEndingBad;
+    dialogueChanged.Invoke(currentItem);
   }
 
   public void DoctorNpcTalk(int answerIndex)

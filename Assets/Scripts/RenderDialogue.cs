@@ -21,9 +21,10 @@ public class RenderDialogue : MonoBehaviour
     }
 
     public void OnDialogueChangeDoctor(DialogueItem item){
-        mainText.text = item.dialogueText;
+        /*mainText.text = item.dialogueText;
         answer1.text = item.answers[0].answerText;
-        answer2.text = item.answers[1].answerText;
+        answer2.text = item.answers[1].answerText;*/
+        GetComponent<TextBubbleView>().SetDialogueItem(item);
     }
 
     public void OnEnding(EndingItem item){
