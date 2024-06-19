@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "What up dogs! It\xB4s Big Snoop D-O-Double G! Hello Welcome to the
     office of Dr. TeethHurtNONO. How can I help you today?"
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4c1c9f44baf8c47d5af390822e3a8fe0,
+      type: 2}
   answers:
   - answerText: 'Hello Dr.! My teeth hurt YESYES, but I need Teeth Hurt NONO. Please
       do something. '

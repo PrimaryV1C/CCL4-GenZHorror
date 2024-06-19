@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: 'Okay perfect. One last question before we finalize your appointment.
     If your toothache was a mythical creature, which one would it be? '
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ed2c05a66d0554520a33fb5e4dd420b6,
+      type: 2}
   answers:
   - answerText: A dragon, breathing fire in my mouth.
     nextItem: {fileID: 0}

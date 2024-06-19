@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "Okay I think I can totally comprehend with what you\xB4re describing.
     Do  you have any allergies?"
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5ebb40d0e384f4641be2a311cf537697,
+      type: 2}
   answers:
   - answerText: "Yes, I am allergic to Kafka\xB4s novels. They are all horrible!"
     nextItem: {fileID: 11400000, guid: c81ce649760c44b32a7e514924e143a6, type: 2}

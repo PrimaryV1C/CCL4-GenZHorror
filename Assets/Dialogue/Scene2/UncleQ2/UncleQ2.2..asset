@@ -15,7 +15,11 @@ MonoBehaviour:
   dialogueText: Trash? What do you know about trash? Back in my day, we had respect,
     and everyone knew their place. None of this 'equality' and 'LGBTQI+ or - or %'
     or whatever nonsense.
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4784cd4e06aad40738c46cc5fccfdc30,
+      type: 2}
   answers:
   - answerText: "t\u2019s always wrong to hate, but it\u2019s never wrong to love."
     nextItem: {fileID: 11400000, guid: 99af7e77c84f744038af8bba48c84118, type: 2}

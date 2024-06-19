@@ -15,4 +15,8 @@ MonoBehaviour:
   endingText: "Awesome! Your appointment's set for February 1st, 2036. See you then,
     and until that day, treat your teeth like royalty \u2013 maybe even tell them
     a joke! After all, they deserve a crown!"
-  accordingEndingItem: {fileID: 11400000}
+  endingSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 24cf467ec085d4c00b74df1a403a2164,
+      type: 2}

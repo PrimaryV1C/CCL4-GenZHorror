@@ -16,3 +16,8 @@ MonoBehaviour:
     It's about time I learned to appreciate people for who they are, not where they
     come from or what gender they are. Now, where did I put that 'Injustice anywhere
     is a threat to justice everywhere'-shirt?
+  endingSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4912395b869f446f6a05ed87140b926f,
+      type: 2}

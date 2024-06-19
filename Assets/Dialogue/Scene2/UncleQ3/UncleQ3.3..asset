@@ -15,7 +15,11 @@ MonoBehaviour:
   dialogueText: Outdated, you say? Back in my day, families were happier, and we
     didn't have all these problems you youngsters talk about. Okay maybe the cold
     war and stuff but that was not dramatic anyways...
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cdd2496926fb749608d8bb532f4d34ea,
+      type: 2}
   answers:
   - answerText: Oh sure, Uncle Joe, nothing like the good ol' threat of nuclear annihilation
       to keep everyone cheerful.

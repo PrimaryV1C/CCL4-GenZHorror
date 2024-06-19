@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: Girls running the world? Don't make me laugh. The world would be
     in chaos if women were in charge! Beyonce is maybe the only exception...
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6f1b3079fb33c4f14a5e5c3218a4b14e,
+      type: 2}
   answers:
   - answerText: Actually, there are many successful female leaders who have brought
       positive changes to their countries.

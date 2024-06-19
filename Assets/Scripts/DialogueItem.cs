@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using AK.Wwise;
 
 [System.Serializable]
 public class Answer {
@@ -15,7 +16,7 @@ public class DialogueItem : ScriptableObject
  
 public string dialogueText;
 
-public AkEvent sound;
+public AK.Wwise.Event dialogueSound;
 
 public Answer[] answers;
 

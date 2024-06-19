@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: None of my business? You think you can talk to me like that and get
     away with it?
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ff50757df76ff4ad79e10dba6088c7af,
+      type: 2}
   answers:
   - answerText: I'll talk to you however I want, old man.
     nextItem: {fileID: 11400000, guid: fd55b80135c1f48f7b5a7724a012a4e9, type: 2}

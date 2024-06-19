@@ -16,3 +16,8 @@ MonoBehaviour:
     talk about equality and progress is just nonsense. Now, if you'll excuse me,
     I'm off to join a 1950s reenactment club. We're going to practice our duck-and-cover
     drills and pretend the internet never existed. See you in the past!
+  endingSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4df02c335a3f9479aa4bbd4ab875f198,
+      type: 2}

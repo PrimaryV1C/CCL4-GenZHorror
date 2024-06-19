@@ -15,7 +15,11 @@ MonoBehaviour:
   dialogueText: "Hey what\xB4s going on, buddy! Long time no see. I heard you are
     in a relationship now with a partner of your own gender. That\xB4s fucking terrible.
     What happened!?"
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 416d28a520a7449828abc6bdeef564f2,
+      type: 2}
   answers:
   - answerText: "\xC4hhhhhh excuse me. That\xB4s none of your fucking business! I
       can have a relationship with whomever I want."

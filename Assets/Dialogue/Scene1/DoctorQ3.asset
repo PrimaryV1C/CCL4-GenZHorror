@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: Thank you!  Please describe your pain, is it a sharp, a dull ache,
     or something else?
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2206812342c944a0e840cc7830dce1a6,
+      type: 2}
   answers:
   - answerText: It feels like your mum is chopping onions on my tooth.
     nextItem: {fileID: 11400000, guid: 04611a1c7090f4850a9a4f9428586aa6, type: 2}

@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: "Fine, if Grandma can handle it, maybe I can too. But don\u2019t
     expect me to change overnight."
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 782912fe70cd24b2c9fbf011fe815a6e,
+      type: 2}
   answers:
   - answerText: That's all I'm asking for, Uncle Joe. One step at a time.
     nextItem: {fileID: 11400000, guid: fd55b80135c1f48f7b5a7724a012a4e9, type: 2}

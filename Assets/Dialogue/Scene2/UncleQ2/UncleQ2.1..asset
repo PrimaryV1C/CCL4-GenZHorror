@@ -15,7 +15,11 @@ MonoBehaviour:
   dialogueText: Oh, colonialism this, colonialism that. You young folks just don't
     get it. Back in my day, things were different, and they worked just fine! Where
     is my beeeerrrr!!!
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 013d63c4b344f4ddba9eb39934110ae0,
+      type: 2}
   answers:
   - answerText: Uncle Joe, 'different' doesn't mean 'better'. We need to move forward,
       not cling to outdated beliefs.

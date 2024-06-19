@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: UncleQ1.2.
   m_EditorClassIdentifier: 
   dialogueText: Marry them? What is this world coming to? You're out of your mind!
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8a0330e6557d44100ad7882cf1972c45,
+      type: 2}
   answers:
   - answerText: t's called progress. Maybe you should try it sometime-you might finally
       step out of the dinosaur age!

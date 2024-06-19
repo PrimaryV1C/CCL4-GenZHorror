@@ -16,7 +16,11 @@ MonoBehaviour:
     Aunt Martha wants to start working again, what an idiotic idea...back in my day,
     in the good old 1950s, women knew their place was in the kitchen (and the bedroom
     h\xF6h\xF6h\xF6), not in the boardroom!"
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bc02b164ceffe4349b1fe39504d665c7,
+      type: 2}
   answers:
   - answerText: 'Who run the world? Girls! '
     nextItem: {fileID: 11400000, guid: a24a841ddee994d53b0ad51a2a723130, type: 2}

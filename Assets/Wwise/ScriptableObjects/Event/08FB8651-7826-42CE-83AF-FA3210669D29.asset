@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06d1403f00ca4f6691857587b40e22a, type: 3}
+  m_Name: 08FB8651-7826-42CE-83AF-FA3210669D29
+  m_EditorClassIdentifier: 
+  objectName: Stop_uncle_ending_good
+  id: 4190721863
+  guid: 08FB8651-7826-42CE-83AF-FA3210669D29

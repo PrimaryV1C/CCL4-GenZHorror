@@ -15,7 +15,11 @@ MonoBehaviour:
   dialogueText: What did you just say Aunt Martha...Your Partner is Indian, so a
     foreigner???!!! How could you, that is unacceptable. Bring me a beer, I need
     one after such traumatic news....
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 87899b6dd806b47ec9202764c28a53d7,
+      type: 2}
   answers:
   - answerText: Uncle Joe, please. We talked about this already. The times of colonialism
       are over for good sake.

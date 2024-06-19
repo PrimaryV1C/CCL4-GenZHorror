@@ -15,7 +15,11 @@ MonoBehaviour:
   dialogueText: "Change?! What change!? I can\xB4t see any changes, okay maybe the
     internet, but nothing else. What's wrong about the good old times where women
     just stayed at home?"
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0bb7c608cc8b44285af30ca195afb6e2,
+      type: 2}
   answers:
   - answerText: It's about balance, Uncle Joe. Women can have careers and still be
       great mothers and partners.

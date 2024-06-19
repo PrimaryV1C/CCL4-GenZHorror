@@ -15,7 +15,11 @@ MonoBehaviour:
   dialogueText: "That's a shame to hear young person on the phone. I will do my best
     to fix it. But first I need your security number to secure the date h\xF6h\xF6.
     Sorry for the dad joke."
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 737f4fbf56c1e4b5385978462c1c668d,
+      type: 2}
   answers:
   - answerText: Sure! My security number is "123456.
     nextItem: {fileID: 11400000, guid: 34b664941def84331b43047202978155, type: 2}

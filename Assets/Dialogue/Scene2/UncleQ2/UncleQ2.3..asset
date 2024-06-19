@@ -15,7 +15,11 @@ MonoBehaviour:
   dialogueText: Liberate? From what, common sense? All this modern talk just makes
     my head spin. Back in my day, we didn't need all this political correctness,
     we were just woke without that.
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2112c4636d27a4900a11e89000614383,
+      type: 2}
   answers:
   - answerText: t's not about political correctness, it's about treating people with
       dignity and respect.

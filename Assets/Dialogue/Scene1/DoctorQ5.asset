@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueText: I see, I see! And have you tried to be a doctor yourself and to alleviate
     the pain at home?
-  nextItem: {fileID: 0}
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7c092cd59d13d4dbcbb34f165298b994,
+      type: 2}
   answers:
   - answerText: Excuseeeee meee!? Are you insane!? I could have died!
     nextItem: {fileID: 11400000, guid: f40da4870d4cf4c04ac4685b5833514c, type: 2}
