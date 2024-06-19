@@ -1,0 +1,95 @@
+Event	ID	Name			Wwise Object Path	Notes
+	153555627	Stop_background_short			\Default Work Unit\Stop_background_short	
+	240402209	Stop_uncle_ending_bad			\Default Work Unit\Stop_uncle_ending_bad	
+	272333540	Play_s2_q3_1			\Default Work Unit\Play_s2_q3_1	
+	272333542	Play_s2_q3_3			\Default Work Unit\Play_s2_q3_3	
+	272333543	Play_s2_q3_2			\Default Work Unit\Play_s2_q3_2	
+	272480605	Play_s2_q2_1			\Default Work Unit\Play_s2_q2_1	
+	272480606	Play_s2_q2_2			\Default Work Unit\Play_s2_q2_2	
+	272480607	Play_s2_q2_3			\Default Work Unit\Play_s2_q2_3	
+	331773476	Play_doctor_audio			\Default Work Unit\Play_doctor_audio	
+	349645836	Play_container_stepping			\Default Work Unit\Play_container_stepping	
+	507491536	Stop_s2_q3_3			\Default Work Unit\Stop_s2_q3_3	
+	507491537	Stop_s2_q3_2			\Default Work Unit\Stop_s2_q3_2	
+	507491538	Stop_s2_q3_1			\Default Work Unit\Stop_s2_q3_1	
+	526303433	Play_start_short			\Default Work Unit\Play_start_short	
+	658456646	Stop_s2_q2_1_ohneBier			\Default Work Unit\Stop_s2_q2_1_ohneBier	
+	1288543378	Play_quest_inbetween			\Default Work Unit\Play_quest_inbetween	
+	1558847611	Play_outgoing_call			\Default Work Unit\Play_outgoing_call	
+	1996258398	Stop_container_stepping			\Default Work Unit\Stop_container_stepping	
+	2063165416	Play_beer			\Default Work Unit\Play_beer	
+	2111857968	Play_q5			\Default Work Unit\Play_q5	
+	2111857969	Play_q4			\Default Work Unit\Play_q4	
+	2111857971	Play_q6			\Default Work Unit\Play_q6	
+	2111857972	Play_q1			\Default Work Unit\Play_q1	
+	2111857974	Play_q3			\Default Work Unit\Play_q3	
+	2111857975	Play_q2			\Default Work Unit\Play_q2	
+	2328090148	Stop_quest_inbetween			\Default Work Unit\Stop_quest_inbetween	
+	2437516625	Play_background_short			\Default Work Unit\Play_background_short	
+	2627394186	Play_kitchen			\Default Work Unit\Play_kitchen	
+	2812054456	Play_s2_q3			\Default Work Unit\Play_s2_q3	
+	2812054457	Play_s2_q2			\Default Work Unit\Play_s2_q2	
+	2812054458	Play_s2_q1			\Default Work Unit\Play_s2_q1	
+	2843056680	Stop_q3			\Default Work Unit\Stop_q3	
+	2843056681	Stop_q2			\Default Work Unit\Stop_q2	
+	2843056682	Stop_q1			\Default Work Unit\Stop_q1	
+	2843056685	Stop_q6			\Default Work Unit\Stop_q6	
+	2843056686	Stop_q5			\Default Work Unit\Stop_q5	
+	2843056687	Stop_q4			\Default Work Unit\Stop_q4	
+	3097744716	Play_phone_finish			\Default Work Unit\Play_phone_finish	
+	3493827440	Play_s2_q1_3			\Default Work Unit\Play_s2_q1_3	
+	3493827441	Play_s2_q1_2			\Default Work Unit\Play_s2_q1_2	
+	3493827442	Play_s2_q1_1			\Default Work Unit\Play_s2_q1_1	
+	3505101520	Play_s2_q2_1_ohneBier			\Default Work Unit\Play_s2_q2_1_ohneBier	
+	3505879460	Play_s1_ending_bad			\Default Work Unit\Play_s1_ending_bad	
+	3728396996	Stop_s2_q1_1			\Default Work Unit\Stop_s2_q1_1	
+	3728396998	Stop_s2_q1_3			\Default Work Unit\Stop_s2_q1_3	
+	3728396999	Stop_s2_q1_2			\Default Work Unit\Stop_s2_q1_2	
+	3728838280	Stop_s2_q2_2			\Default Work Unit\Stop_s2_q2_2	
+	3728838281	Stop_s2_q2_3			\Default Work Unit\Stop_s2_q2_3	
+	3728838283	Stop_s2_q2_1			\Default Work Unit\Stop_s2_q2_1	
+	3808233067	Play_uncle_ending_bad			\Default Work Unit\Play_uncle_ending_bad	
+	3885817560	Stop_s2_q1			\Default Work Unit\Stop_s2_q1	
+	3885817562	Stop_s2_q3			\Default Work Unit\Stop_s2_q3	
+	3885817563	Stop_s2_q2			\Default Work Unit\Stop_s2_q2	
+	3958874627	Play_s2_ending_good			\Default Work Unit\Play_s2_ending_good	
+	4090930288	Stop_kitchen			\Default Work Unit\Stop_kitchen	
+	4144620041	Stop_outgoing_call			\Default Work Unit\Stop_outgoing_call	
+	4179250394	Stop_phone_finish			\Default Work Unit\Stop_phone_finish	
+	4190721863	Stop_uncle_ending_good			\Default Work Unit\Stop_uncle_ending_good	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	6318721	outgoing_call	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\outgoing_call_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\outgoing_call		439748
+	21079357	kitchen	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\kitchen_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\kitchen		725104
+	110932114	s2_q1_1	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\s2_q1.1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q1_1		1153376
+	278201614	q6	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\q6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\doctor_audio\q6		785226
+	278666435	s2_q2_1	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\s2_q2.1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q2_1		2424672
+	308364199	q3	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\q3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\doctor_audio\q3		590146
+	311322474	StepOnWood-017__short	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\StepOnWood-017._short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\container_stepping\StepOnWood-017__short		15732
+	332357214	q2	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\q2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\doctor_audio\q2		951172
+	392083019	q4	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\q4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\doctor_audio\q4		523696
+	409689432	quest_inbetween	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\quest_inbetween_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\quest_inbetween		1861216
+	438694983	s2_q3	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\s2_q3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q3		3819616
+	441131044	start_short	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\start_short_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\start_short		1901656
+	443152810	s2_q2_3	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\s2_q2.3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q2_3		2452320
+	453358191	uncle_ending_bad	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\uncle_ending_bad_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\uncle_ending_bad		3734368
+	486020160	s1_ending_bad	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\ending_bad_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\s1_ending_bad		1396852
+	550934326	StepOnWood13_short	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\StepOnWood13_short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\container_stepping\StepOnWood13_short		16832
+	571595718	s2_q2_2	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\s2_q2.2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q2_2		2928480
+	602238137	q5	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\q5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\doctor_audio\q5		611410
+	603875808	s2_q2	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\s2_q2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q2		2564192
+	609208763	StepOnWood-015_short	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\StepOnWood-015_short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\container_stepping\StepOnWood-015_short		15840
+	617845465	s2_q3_3	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\s2_q3.3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q3_3		2354016
+	626184214	phone_finish	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\phone_finish_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\phone_finish		505824
+	659514204	background_short	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\background_short_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\background_short		3043660
+	669259676	s2_q1	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\s2_q1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q1		2387552
+	708117004	s2_q1_3	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\s2_q1.3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q1_3		1344864
+	755561404	s2_q3_2	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\s2_q3.2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q3_2		2264160
+	773815817	q1	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\q1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\doctor_audio\q1		661472
+	774203258	s2_q2_1_ohneBier	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\s2_q2.1_ohneBier_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q2_1_ohneBier		2011488
+	847778850	s2_q3_1	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\s2_q3.1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q3_1		2026336
+	902914236	beer	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\beer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\beer		199408
+	930117461	StepOnWood-016_short	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\StepOnWood-016_short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\container_stepping\StepOnWood-016_short		16248
+	1014802642	s2_ending_good	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\ending_good_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\s2_ending_good		1238364
+	1073415931	s2_q1_2	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Android\SFX\s2_q1.2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q1_2		1259360
+
