@@ -34,7 +34,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{AECA7498-247E-1EF8-BFB5-4969C1A6C8C4}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{09A8715D-8125-75DC-E281-3900B25E61D8}">
 			<ShortName>Main_Soundbank</ShortName>
 			<Path>Main_Soundbank.bnk</Path>
 			<Media>
@@ -65,6 +65,10 @@
 				<File Id="311322474" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>StepOnWood-017._short.wav</ShortName>
 					<CachePath>SFX/StepOnWood-017._short_10C4C929.wem</CachePath>
+				</File>
+				<File Id="313371910" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>uncle_ending_good.WAV</ShortName>
+					<CachePath>SFX/uncle_ending_good_10C4C929.wem</CachePath>
 				</File>
 				<File Id="332357214" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>q2.wav</ShortName>
@@ -335,6 +339,11 @@
 						<MediaRef Id="453358191"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2395338061" Name="Play_uncle_ending_good" DurationType="OneShot" DurationMin="18.494694" DurationMax="18.494694">
+					<MediaRefs>
+						<MediaRef Id="313371910"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="153555627" Name="Stop_background_short" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1996258398" Name="Stop_container_stepping" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4090930288" Name="Stop_kitchen" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -394,5 +403,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7ACE8184-C1B8-4109-9673-E323984E145B}</FileHash>
+	<FileHash>{C9E16C46-BB87-85FE-A845-52377E1BFA97}</FileHash>
 </SoundBanksInfo>
