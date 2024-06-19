@@ -14,7 +14,8 @@ public class DialogueItem : ScriptableObject
 {
  
 public string dialogueText;
-public DialogueItem nextItem;
+
+public AkEvent sound;
 
 public Answer[] answers;
 
