@@ -13,6 +13,7 @@ public class NPCScript : MonoBehaviour
 
         currentItem = initialItem;
         dialogueChanged.Invoke(currentItem);
+        AkSoundEngine.PostEvent(currentItem.dialogueSound.Name, gameObject);
 
     }
     public void OnAnswerSelected(Answer answer)
@@ -21,6 +22,7 @@ public class NPCScript : MonoBehaviour
         if (answer.nextItem == null) Debug.Log("End of Dialogue");
         currentItem = answer.nextItem;
         dialogueChanged.Invoke(currentItem);
+        AkSoundEngine.PostEvent(currentItem.dialogueSound.Name, gameObject);
 
     }
 
