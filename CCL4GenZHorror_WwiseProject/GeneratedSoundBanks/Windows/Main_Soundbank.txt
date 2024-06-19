@@ -25,6 +25,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2111857974	Play_q3			\Default Work Unit\Play_q3	
 	2111857975	Play_q2			\Default Work Unit\Play_q2	
 	2328090148	Stop_quest_inbetween			\Default Work Unit\Stop_quest_inbetween	
+	2395338061	Play_uncle_ending_good			\Default Work Unit\Play_uncle_ending_good	
 	2437516625	Play_background_short			\Default Work Unit\Play_background_short	
 	2627394186	Play_kitchen			\Default Work Unit\Play_kitchen	
 	2812054456	Play_s2_q3			\Default Work Unit\Play_s2_q3	
@@ -66,6 +67,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	278666435	s2_q2_1	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Windows\SFX\s2_q2.1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\s2_q2_1		2424672
 	308364199	q3	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Windows\SFX\q3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\doctor_audio\q3		590146
 	311322474	StepOnWood-017__short	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Windows\SFX\StepOnWood-017._short_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\container_stepping\StepOnWood-017__short		15732
+	313371910	uncle_ending_good	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Windows\SFX\uncle_ending_good_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\uncle_ending_good		3262560
 	332357214	q2	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Windows\SFX\q2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\doctor_audio\q2		951172
 	392083019	q4	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Windows\SFX\q4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\doctor_audio\q4		523696
 	409689432	quest_inbetween	Y:\Documents\GitHub\CCL4GenZHorror\CCL4GenZHorror_WwiseProject\.cache\Windows\SFX\quest_inbetween_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\uncle_audio\quest_inbetween		1861216

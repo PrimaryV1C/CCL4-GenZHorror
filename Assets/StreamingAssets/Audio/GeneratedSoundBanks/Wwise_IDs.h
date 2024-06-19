@@ -46,6 +46,7 @@ namespace AK
         static const AkUniqueID PLAY_S2_Q3_3 = 272333542U;
         static const AkUniqueID PLAY_START_SHORT = 526303433U;
         static const AkUniqueID PLAY_UNCLE_ENDING_BAD = 3808233067U;
+        static const AkUniqueID PLAY_UNCLE_ENDING_GOOD = 2395338061U;
         static const AkUniqueID RESUME_BACKGROUND_OLIVER = 276533063U;
         static const AkUniqueID STOP_BACKGROUND_OLIVER = 4113761274U;
         static const AkUniqueID STOP_BACKGROUND_SHORT = 153555627U;
