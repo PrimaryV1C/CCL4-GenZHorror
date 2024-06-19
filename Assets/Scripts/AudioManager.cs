@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Data.Common;
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
 
 public class AudioManager : MonoBehaviour
 {

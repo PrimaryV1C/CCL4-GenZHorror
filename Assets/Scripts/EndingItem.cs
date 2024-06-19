@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using AK.Wwise;
 
 [CreateAssetMenu(fileName = "EndingItem", menuName = "CLL4/Endingtem", order = 2)]
 
