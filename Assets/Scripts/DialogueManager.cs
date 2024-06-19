@@ -51,21 +51,22 @@ public class DialogueManager : MonoBehaviour
   {
     dialogueProgress = 0;
     currentEnding = DoctorEndingBad;
+    dialogueChanged.Invoke(currentItem);
   }
 
-  public void DoctorNpcTalk(int answerIndex)
+  public void DoctorNpcTalk(Answer answer)
   {
     dialogueProgress++;
     if (dialogueProgress == 6)
     {
-      CalculateKarma(answerIndex);
+      CalculateKarma(answer);
       doctorDialogueEnd.Invoke(ChooseEndingScene1());
       doctorDone = true;
       closeDialogue = true;
     }
     else
     {
-      currentItem = currentItem.answers[answerIndex].nextItem;
+      currentItem = answer.nextItem;
       dialogueChanged.Invoke(currentItem);
       ChooseRightDoctorSound();
     }
@@ -73,7 +74,7 @@ public class DialogueManager : MonoBehaviour
     if (closeDialogue) EndDialogue.Invoke();
   }
 
-  public void UncleNpcTalk(int answerIndex)
+  public void UncleNpcTalk(Answer answer)
   {
 
     if (closeDialogue) EndDialogue.Invoke();
@@ -81,20 +82,20 @@ public class DialogueManager : MonoBehaviour
     dialogueProgress++;
     if (dialogueProgress == 3)
     {
-      currentItem = currentItem.answers[answerIndex].nextItem;
+      currentItem = answer.nextItem;
       EndDialogue.Invoke();
       //uncleDialogueEnd.Invoke(ChooseEndingScene2());
       //closeDialogue = true;
     }
     if (dialogueProgress == 7)
     {
-      CalculateKarma(answerIndex);
+      CalculateKarma(answer);
       uncleDialogueEnd.Invoke(ChooseEndingScene2());
       closeDialogue = true;
     }
     else
     {
-      currentItem = currentItem.answers[answerIndex].nextItem;
+      currentItem = answer.nextItem;
       dialogueChangedUncle.Invoke(currentItem);
     }
   }
@@ -141,9 +142,9 @@ public class DialogueManager : MonoBehaviour
     }
   }
 
-  public void CalculateKarma(int answerIndex)
+  public void CalculateKarma(Answer answer)
   {
-    karma += currentItem.answers[answerIndex].karma;
+    karma += answer.karma;
   }
 
 

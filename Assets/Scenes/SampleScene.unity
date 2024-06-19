@@ -2549,9 +2549,21 @@ MonoBehaviour:
   dialogueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1404760353}
-        m_TargetAssemblyTypeName: RenderDialogue, Assembly-CSharp
-        m_MethodName: OnDialogueChangeDoctor
+      - m_Target: {fileID: 1404760358}
+        m_TargetAssemblyTypeName: TextBubbleView, Assembly-CSharp
+        m_MethodName: SetDialogueItem
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1529253611}
+        m_TargetAssemblyTypeName: TextBubbleView, Assembly-CSharp
+        m_MethodName: SetDialogueItem
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2564,9 +2576,9 @@ MonoBehaviour:
   dialogueChangedUncle:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: RenderDialogue, Assembly-CSharp
-        m_MethodName: OnDialogueChangeUncle
+      - m_Target: {fileID: 1404760358}
+        m_TargetAssemblyTypeName: TextBubbleView, Assembly-CSharp
+        m_MethodName: SetDialogueItem
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4522,9 +4534,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 2173937776172785054}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1404760347}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 50e995f8b90c14d508ec7b3dfb53942e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1404760358 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2259289581348557687, guid: f0b49e66dc7a9184abd23d614269ed7b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2173937776172785054}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404760347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e07eaaea7617462b83321383c2b9ec7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1446989036
@@ -4786,6 +4810,36 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1193934891261356795, guid: 66764a23382ab9247a0ddbd7feb52871,
+        type: 3}
+      propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1193934891261356795, guid: 66764a23382ab9247a0ddbd7feb52871,
+        type: 3}
+      propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 808296592}
+    - target: {fileID: 1193934891261356795, guid: 66764a23382ab9247a0ddbd7feb52871,
+        type: 3}
+      propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1193934891261356795, guid: 66764a23382ab9247a0ddbd7feb52871,
+        type: 3}
+      propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UncleNpcTalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 1193934891261356795, guid: 66764a23382ab9247a0ddbd7feb52871,
+        type: 3}
+      propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DialogueManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1193934891261356795, guid: 66764a23382ab9247a0ddbd7feb52871,
+        type: 3}
+      propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2977230386115297636, guid: 66764a23382ab9247a0ddbd7feb52871,
         type: 3}
       propertyPath: m_Name
@@ -4949,6 +5003,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1525956233}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1529253611 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1193934891261356795, guid: 66764a23382ab9247a0ddbd7feb52871,
+    type: 3}
+  m_PrefabInstance: {fileID: 1525956233}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529253605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e07eaaea7617462b83321383c2b9ec7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1614844726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7246,6 +7312,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2259289581348557687, guid: f0b49e66dc7a9184abd23d614269ed7b,
+        type: 3}
+      propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2259289581348557687, guid: f0b49e66dc7a9184abd23d614269ed7b,
+        type: 3}
+      propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 808296592}
+    - target: {fileID: 2259289581348557687, guid: f0b49e66dc7a9184abd23d614269ed7b,
+        type: 3}
+      propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2259289581348557687, guid: f0b49e66dc7a9184abd23d614269ed7b,
+        type: 3}
+      propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DoctorNpcTalk
+      objectReference: {fileID: 0}
+    - target: {fileID: 2259289581348557687, guid: f0b49e66dc7a9184abd23d614269ed7b,
+        type: 3}
+      propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DialogueManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2259289581348557687, guid: f0b49e66dc7a9184abd23d614269ed7b,
+        type: 3}
+      propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2781555310298446056, guid: f0b49e66dc7a9184abd23d614269ed7b,
         type: 3}
