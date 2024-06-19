@@ -18,7 +18,7 @@ MonoBehaviour:
   dialogueSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: a9a5bdd54790b4982ac50a8c70b13712,
+    WwiseObjectReference: {fileID: 11400000, guid: 24cf467ec085d4c00b74df1a403a2164,
       type: 2}
   answers:
   - answerText: Ok bye!
