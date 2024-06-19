@@ -3,23 +3,13 @@ using UnityEngine.Events;
 
 public class NPCScript : MonoBehaviour
 {
-    public UnityEvent<int> answerClicked;
+    public DialogueItem initialItem;
+    public UnityEvent<DialogueItem> talkedTo;
 
-    public void Answer1(){
+    public void OnDialogueButtonClicked(){
 
-        answerClicked.Invoke(0);
-
-    }
-
-    public void Answer2(){
-
-        answerClicked.Invoke(1);
+        talkedTo.Invoke(initialItem);
 
     }
 
-    public void Answer3(){
-
-        answerClicked.Invoke(2);
-
-    }
 }

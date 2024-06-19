@@ -1822,6 +1822,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Uncle
       objectReference: {fileID: 0}
+    - target: {fileID: 203906951074374839, guid: 116b718f8d93d7541a7547a002f7cfc3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2121,7 +2126,7 @@ GameObject:
   - component: {fileID: 635360335}
   m_Layer: 0
   m_Name: NPCUncle
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2138,21 +2143,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b675793c9494bd5aa59e50f3a61048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerClicked:
+  initialItem: {fileID: 11400000, guid: 1b16c6d970138494dbdcc148c743472c, type: 2}
+  talkedTo:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 808296592}
-        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: UncleNpcTalk
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &635360336
 Transform:
   m_ObjectHideFlags: 0
@@ -2741,7 +2735,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  karma: 10
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -4034,7 +4027,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b675793c9494bd5aa59e50f3a61048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerClicked:
+  initialItem: {fileID: 0}
+  talkedTo:
     m_PersistentCalls:
       m_Calls: []
 --- !u!20 &1158522432 stripped
@@ -5947,7 +5941,7 @@ GameObject:
   - component: {fileID: 1775910807}
   m_Layer: 0
   m_Name: NPCDoctor
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6053,21 +6047,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92b675793c9494bd5aa59e50f3a61048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  answerClicked:
+  initialItem: {fileID: 11400000, guid: 834133e8920e7442eac37ec389397c05, type: 2}
+  talkedTo:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 808296592}
-        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: DoctorNpcTalk
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &1780493679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5501711801295445692, guid: 3b108cfa18f1b554f8368c5f9df198f2,
@@ -6412,18 +6395,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 808296592}
-        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: StartDialog
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
       - m_Target: {fileID: 160443874}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: OnDialogueStarted
@@ -6463,6 +6434,18 @@ MonoBehaviour:
       - m_Target: {fileID: 805577227}
         m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
         m_MethodName: StopBackground
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1775910807}
+        m_TargetAssemblyTypeName: NPCScript, GenZHorrorGame
+        m_MethodName: OnDialogueButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
