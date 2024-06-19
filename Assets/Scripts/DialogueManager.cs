@@ -42,21 +42,32 @@ public class DialogueManager : MonoBehaviour
   public UnityEvent<EndingItem> doctorDialogueEnd;
   public UnityEvent<EndingItem> uncleDialogueEnd;
   private int dialogueProgress;
-
   private KarmaKeeper karmaKeeper;
 
   void Awake()
   {
     KarmaKeeper karmaKeeper = FindAnyObjectByType<KarmaKeeper>();
+    
+    NPCScript[] nPCScripts = FindObjectsOfType<NPCScript>();
+    foreach(NPCScript nPCScript in nPCScripts){
+
+      nPCScript.talkedTo.AddListener(OnTalkedTo);
+
+    }
   }
 
   void Start()
   {
     dialogueProgress = 0;
     currentEnding = DoctorEndingBad;
-    dialogueChanged.Invoke(currentItem);
   }
 
+  public void OnTalkedTo(DialogueItem dialogueItem){
+    
+    currentItem = dialogueItem;
+    dialogueChanged.Invoke(currentItem);
+
+  }
   public void DoctorNpcTalk(Answer answer)
   {
     dialogueProgress++;
