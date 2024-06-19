@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void EndGame(){
-        if(dialogueManager.karma > 0){
+        if(FindFirstObjectByType<KarmaKeeper>().Karma > 0){
             SceneManager.LoadSceneAsync(4);
         }
         else{

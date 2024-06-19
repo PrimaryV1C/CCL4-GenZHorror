@@ -45,7 +45,12 @@ public class DialogueManager : MonoBehaviour
   public UnityEvent<EndingItem> uncleDialogueEnd;
   private int dialogueProgress;
 
-  public int karma = 10;
+  private KarmaKeeper karmaKeeper;
+
+  void Awake()
+  {
+    KarmaKeeper karmaKeeper = FindAnyObjectByType<KarmaKeeper>();
+  }
 
   void Start()
   {
@@ -59,7 +64,7 @@ public class DialogueManager : MonoBehaviour
     dialogueProgress++;
     if (dialogueProgress == 6)
     {
-      CalculateKarma(answer);
+      //Calulate Karma
       doctorDialogueEnd.Invoke(ChooseEndingScene1());
       doctorDone = true;
       closeDialogue = true;
@@ -89,7 +94,7 @@ public class DialogueManager : MonoBehaviour
     }
     if (dialogueProgress == 7)
     {
-      CalculateKarma(answer);
+      //CalulateKarma
       uncleDialogueEnd.Invoke(ChooseEndingScene2());
       closeDialogue = true;
     }
@@ -142,15 +147,9 @@ public class DialogueManager : MonoBehaviour
     }
   }
 
-  public void CalculateKarma(Answer answer)
-  {
-    karma += answer.karma;
-  }
-
-
   public EndingItem ChooseEndingScene1()
   {
-    if (karma >= 0)
+    if (karmaKeeper.Karma >= 0)
     {
       AkSoundEngine.PostEvent("Stop_q6", gameObject);
       AkSoundEngine.PostEvent("Play_s2_ending_good", gameObject);
@@ -163,7 +162,7 @@ public class DialogueManager : MonoBehaviour
 
   public EndingItem ChooseEndingScene2()
   {
-    if (karma >= 0)
+    if (karmaKeeper.Karma >= 0)
     {
 
       return UncleEndingGood;
