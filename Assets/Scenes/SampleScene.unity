@@ -2186,6 +2186,34 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  closeDialogueBubble:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 160443874}
+        m_TargetAssemblyTypeName: GameManager, GenZHorrorGame
+        m_MethodName: OnDialogueEnded
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1529253605}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  EndingGood: {fileID: 0}
+  EndingBad: {fileID: 0}
 --- !u!4 &635360336
 Transform:
   m_ObjectHideFlags: 0
@@ -4222,6 +4250,11 @@ MonoBehaviour:
   talkedTo:
     m_PersistentCalls:
       m_Calls: []
+  closeDialogueBubble:
+    m_PersistentCalls:
+      m_Calls: []
+  EndingGood: {fileID: 0}
+  EndingBad: {fileID: 0}
 --- !u!20 &1158522432 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 1084391807383829339, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
@@ -6269,6 +6302,35 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  closeDialogueBubble:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 160443874}
+        m_TargetAssemblyTypeName: GameManager, GenZHorrorGame
+        m_MethodName: OnDialogueEnded
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1404760347}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  EndingGood: {fileID: 0}
+  EndingBad: {fileID: 0}
 --- !u!4 &1780493679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5501711801295445692, guid: 3b108cfa18f1b554f8368c5f9df198f2,
@@ -7895,7 +7957,7 @@ PrefabInstance:
         type: 3}
       propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 808296592}
+      objectReference: {fileID: 1775910807}
     - target: {fileID: 2259289581348557687, guid: f0b49e66dc7a9184abd23d614269ed7b,
         type: 3}
       propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
@@ -7904,12 +7966,12 @@ PrefabInstance:
     - target: {fileID: 2259289581348557687, guid: f0b49e66dc7a9184abd23d614269ed7b,
         type: 3}
       propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DoctorNpcTalk
+      value: OnAnswerSelected
       objectReference: {fileID: 0}
     - target: {fileID: 2259289581348557687, guid: f0b49e66dc7a9184abd23d614269ed7b,
         type: 3}
       propertyPath: answerSelected.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: DialogueManager, Assembly-CSharp
+      value: NPCScript, GenZHorrorGame
       objectReference: {fileID: 0}
     - target: {fileID: 2259289581348557687, guid: f0b49e66dc7a9184abd23d614269ed7b,
         type: 3}

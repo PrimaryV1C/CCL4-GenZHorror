@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
 
     public void OnDoctorDialogueEnd(EndingItem item){
         bedroomDoor.transform.Rotate(new Vector3(0,-120,0));
-        doctorDialogueEnd.Invoke(item);
+        //doctorDialogueEnd.Invoke(item);
     }
 
     public void EndGame(){
