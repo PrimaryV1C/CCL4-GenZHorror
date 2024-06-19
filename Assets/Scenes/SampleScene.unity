@@ -3134,22 +3134,22 @@ PrefabInstance:
     - target: {fileID: 751012057595742656, guid: c211820d717c44c6a9f7100dc7dc08fd,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6570262
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 751012057595742656, guid: c211820d717c44c6a9f7100dc7dc08fd,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 751012057595742656, guid: c211820d717c44c6a9f7100dc7dc08fd,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7538678
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 751012057595742656, guid: c211820d717c44c6a9f7100dc7dc08fd,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 751012057595742656, guid: c211820d717c44c6a9f7100dc7dc08fd,
         type: 3}
@@ -3164,7 +3164,7 @@ PrefabInstance:
     - target: {fileID: 751012057595742656, guid: c211820d717c44c6a9f7100dc7dc08fd,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 97.853
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 808506726181418427, guid: c211820d717c44c6a9f7100dc7dc08fd,
         type: 3}
@@ -3770,6 +3770,23 @@ PrefabInstance:
     - target: {fileID: 4367695987642534, guid: b5bf67069f5950943afac56320c54b69, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 95811929558495704, guid: b5bf67069f5950943afac56320c54b69,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6ffd0893bd39fad41bf26cad38f60bba, type: 2}
+    - target: {fileID: 95811929558495704, guid: b5bf67069f5950943afac56320c54b69,
+        type: 3}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed
+        by Humanoid clips.\n\tTransform 'Character1_RightFoot'\n\tTransform 'Character1_LeftFoot'\n\tTransform
+        'Character1_LeftHandRing3'\n\tTransform 'Character1_RightHand'\n\tTransform
+        'Character1_RightHandRing1'\n\tTransform 'Character1_LeftHand'\n\tTransform
+        'Character1_Head'\n\tTransform 'Character1_LeftHandMiddle3'\n\tTransform
+        'Character1_LeftHandRing1'\n\tTransform 'Character1_LeftArm'\n\tand more
+        ...\n\tFrom animation clip 'Take 001'"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7370,7 +7387,7 @@ PrefabInstance:
     - target: {fileID: 4746609459281521187, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.117
       objectReference: {fileID: 0}
     - target: {fileID: 4746609459281521187, guid: b33787bc3ebb74146a7e86c2b5d3ed21,
         type: 3}
