@@ -1,0 +1,22 @@
+{
+    "name": "GenZHorrorGame",
+    "rootNamespace": "GenZHorrorGame",
+    "references": [
+        "GUID:addb85caabe5d4be0b089a330c1f7a71",
+        "GUID:d7ea84aab295a4b51b160c0ea51caaa9",
+        "GUID:d94355d7a66db44eb8120079c5b1f664",
+        "GUID:5b09e9de229444d2686b297e8ebe24f3",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
