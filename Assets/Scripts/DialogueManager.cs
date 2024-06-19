@@ -173,7 +173,6 @@ public class DialogueManager : MonoBehaviour
   {
     if (karmaKeeper.Karma >= 0)
     {
-
       return UncleEndingGood;
     }
     return UncleEndingBad;

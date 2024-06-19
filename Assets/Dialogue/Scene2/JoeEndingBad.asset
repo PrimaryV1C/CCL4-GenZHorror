@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fd1d9767db94855b4e0da4f857f88d, type: 3}
+  m_Name: JoeEndingBad
+  m_EditorClassIdentifier: 
+  dialogueText: I don't care what you say, the old ways were the best ways. All this
+    talk about equality and progress is just nonsense. Now, if you'll excuse me,
+    I'm off to join a 1950s reenactment club. We're going to practice our duck-and-cover
+    drills and pretend the internet never existed. See you in the past!
+  dialogueSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  answers:
+  - answerText: I guess some conversations just lead to nowhere
+    nextItem: {fileID: 0}
+    karma: 0
