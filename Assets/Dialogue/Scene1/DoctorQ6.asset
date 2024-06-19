@@ -21,14 +21,14 @@ MonoBehaviour:
       type: 2}
   answers:
   - answerText: A dragon, breathing fire in my mouth.
-    nextItem: {fileID: 0}
+    nextItem: {fileID: 11400000, guid: 1ee9f004d6a834abb8ded21d91b1c037, type: 2}
     karma: 1
   - answerText: A unicorn, but with a horn that's stuck in my gum.
-    nextItem: {fileID: 0}
+    nextItem: {fileID: 11400000, guid: 1ee9f004d6a834abb8ded21d91b1c037, type: 2}
     karma: 1
   - answerText: A sad cat, whining with every bite.
-    nextItem: {fileID: 0}
+    nextItem: {fileID: 11400000, guid: 1ee9f004d6a834abb8ded21d91b1c037, type: 2}
     karma: 1
   - answerText: Your mum.
-    nextItem: {fileID: 0}
+    nextItem: {fileID: 11400000, guid: 1ee9f004d6a834abb8ded21d91b1c037, type: 2}
     karma: -1

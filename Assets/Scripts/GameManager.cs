@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject bedroomDoor;
     [SerializeField]
-    private GameObject moveSystem;
+    private LocomotionSystem moveSystem;
     public UnityEvent<EndingItem> doctorDialogueEnd;
     public UnityEvent taskCompleted;
 
@@ -27,12 +28,12 @@ public class GameManager : MonoBehaviour
     public void OnDialogueStarted(){
         if(narrativeProgression == 0) playerDetectionScene1.disablePrompt = true;
         if(narrativeProgression == 2 )playerDetectionScene2.disablePrompt = true;
-        moveSystem.SetActive(false);
+        //moveSystem.SetActive(false);
     }
 
     public void OnDialogueEnded(){
         narrativeProgression++;
-        moveSystem.SetActive(true);
+        //moveSystem.SetActive(true);
         if(narrativeProgression == 3) EndGame();
     }
 

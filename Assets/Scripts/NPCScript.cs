@@ -19,10 +19,16 @@ public class NPCScript : MonoBehaviour
 
     private bool closeDialogue = false;
 
-    void Awake(){
-        
+    void Awake()
+    {
+
         karmaKeeper = FindAnyObjectByType<KarmaKeeper>();
 
+    }
+
+    void Start()
+    {
+        //if (initialItem != null) {}
     }
     public void OnDialogueButtonClicked()
     {
@@ -34,32 +40,39 @@ public class NPCScript : MonoBehaviour
     }
     public void OnAnswerSelected(Answer answer)
     {
+        string stopSound = currentItem.dialogueSound.Name.Replace("Play", "Stop");
 
-        if(closeDialogue){
+        if (closeDialogue)
+        {
+            AkSoundEngine.PostEvent(stopSound, gameObject);
             closeDialogueBubble.Invoke();
             return;
         }
 
-        if (answer.nextItem == null)
+        if (answer.nextItem.name == "DrEndingBad" || answer.nextItem.name == "JoeEndingBad")
         {
-            currentItem = EndDialogue();
+            //EndDialogue();
             closeDialogue = true;
         }
-        else{
-            currentItem = answer.nextItem;
-        }
+
+        currentItem = answer.nextItem;
         dialogueChanged.Invoke(currentItem);
+        AkSoundEngine.PostEvent(stopSound, gameObject);
         AkSoundEngine.PostEvent(currentItem.dialogueSound.Name, gameObject);
 
     }
 
-  DialogueItem EndDialogue()
-  {
-    if (karmaKeeper.Karma >= 0)
+    void EndDialogue()
     {
-        return EndingGood;
+        if (karmaKeeper.Karma >= 0)
+        {
+            currentItem = EndingGood;
+            dialogueChanged.Invoke(currentItem);
+        }
+        else{
+            currentItem = EndingBad;
+            dialogueChanged.Invoke(currentItem);
+        }
     }
-        return EndingBad;
-  }
 
 }
