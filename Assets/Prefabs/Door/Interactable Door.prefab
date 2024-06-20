@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1480268917419768070}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DoorLocked Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 7093011556962616050}
   - component: {fileID: 1600425706689100050}
   - component: {fileID: 1363486546038629126}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Door Puller
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,7 +166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8509782302514732279}
   - component: {fileID: 9074610445289542458}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DoorHandle Interactable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4817053430441133614}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DoorHandle Transform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -380,7 +380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1796825035687215763}
   - component: {fileID: 7499338805583084613}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Interactable Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -434,7 +434,7 @@ GameObject:
   - component: {fileID: 5533127095154794891}
   - component: {fileID: 2276311747619742402}
   - component: {fileID: 6506544725693368079}
-  m_Layer: 28
+  m_Layer: 8
   m_Name: DoorLocked
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 8529621359413494977}
   - component: {fileID: 8076169190775739982}
   - component: {fileID: 4815586304052986625}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DoorLocedFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -693,7 +693,7 @@ GameObject:
   - component: {fileID: 6002342481568064606}
   - component: {fileID: 5386663343333797166}
   - component: {fileID: 5604174566632214161}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: DoorHandle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
