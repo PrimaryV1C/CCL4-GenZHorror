@@ -16,17 +16,18 @@ void OnTriggerEnter(Collider other) {
 
         itemDelivered.Invoke();
 
+        Transform parentTransform = other.gameObject.GetComponentInParent<Transform>();
+        parentTransform.position = snapPosition.position;
+        parentTransform.rotation = Quaternion.identity;
+
         Rigidbody rb = other.gameObject.GetComponentInParent<Rigidbody>();
             if (rb != null)
             {
                 rb.isKinematic = true;
             }
-        
-        Transform parentTransform = other.gameObject.GetComponentInParent<Transform>();
-        parentTransform.position = snapPosition.position;
-        parentTransform.rotation = Quaternion.identity;
-        other.gameObject.GetComponentInParent<XRGrabInteractable>().enabled = false;
 
+        other.gameObject.GetComponentInParent<XRGrabInteractable>().enabled = false;
+        
         } 
     }
 }
