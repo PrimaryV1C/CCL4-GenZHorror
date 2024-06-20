@@ -17,8 +17,8 @@ TagManager:
   - UI
   - Objects
   - Player
-  - 
-  - 
+  - NonInteractable
+  - Interactable
   - 
   - 
   - 
