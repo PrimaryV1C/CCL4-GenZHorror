@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.Linq;
+using System;
 
 public class Calendar : MonoBehaviour
 {
@@ -10,6 +12,8 @@ public class Calendar : MonoBehaviour
     [SerializeField]
     private List<string> tasks;
     private int i = 0;
+
+    private bool[] taskArray = new bool[6];
 
     void Start()
     {
@@ -30,12 +34,19 @@ public class Calendar : MonoBehaviour
         i = 0;
     }
 
+    public void OnTodo(int index){
+        if(!taskArray[index]){
+            OnTaskCompletion();
+            taskArray[index] = true;
+        }
+    }
+
     public void OnTaskCompletion()
     {
         TextMeshProUGUI[] textComponents = todoItems[i].GetComponentsInChildren<TextMeshProUGUI>();
         if (textComponents[1].name == "Done")
             {
-                textComponents[1].text = "---------------------------------------";
+                textComponents[1].text = "_______________________________";
             }
             i++;
     }

@@ -15,43 +15,48 @@ public class GameManager : MonoBehaviour
     public UnityEvent taskCompleted;
     [SerializeField]
     private PlayerDetection playerDetectionScene2;
-        [SerializeField]
+    [SerializeField]
     private PlayerDetection playerDetectionScene1;
 
+    [SerializeField]
     private Calendar calendar;
 
     [SerializeField]
     private GameObject endGameColliders;
 
     void Start()
-    {   
-        Debug.Log(moveSystem);
-        calendar = FindAnyObjectByType<Calendar>();
+    {
         narrativeProgression = 0;
     }
 
-    public void OnDialogueStarted(){
-        if(narrativeProgression == 0) playerDetectionScene1.disablePrompt = true;
-        if(narrativeProgression == 2 )//playerDetectionScene2.disablePrompt = true;
+    public void OnDialogueStarted()
+    {
+        if (narrativeProgression == 0) calendar.OnTodo(1);
+        if (narrativeProgression == 1) calendar.OnTodo(2);
         moveSystem.SetActive(false);
     }
 
-    public void OnDialogueEnded(){
+    public void OnDialogueEnded()
+    {
         narrativeProgression++;
-        if(narrativeProgression == 3) endGameColliders.gameObject.SetActive(true);
+        if (narrativeProgression == 3)
+        {
+            endGameColliders.gameObject.SetActive(true);
+            calendar.OnTodo(4);
+        }
     }
 
-    public void OnItemDelivered(){
-
-        playerDetectionScene2.disablePrompt = false;
-
+    public void OnItemDelivered()
+    {
+        calendar.OnTodo(3);
     }
 
-    public void OnPhoneGrabbed(){
-        
+    public void OnPhoneGrabbed()
+    {
+
         playerDetectionScene1.disablePrompt = false;
         playerDetectionScene1.playerDetectedChange.Invoke(true);
-        calendar.OnTaskCompletion();
+        calendar.OnTodo(0);
     }
 
 }
