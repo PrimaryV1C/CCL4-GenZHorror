@@ -1,16 +1,22 @@
 using UnityEngine;
-using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class EndGameCollider : MonoBehaviour
 {
 
-    public bool enableEndCollider = false;
-    public UnityEvent endGame;
 
-
-    private void OnTriggerEnter(Collider other) {
-        if(enableEndCollider && other.CompareTag("Player")){
-            endGame.Invoke();
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            if (FindFirstObjectByType<KarmaKeeper>().Karma > 0)
+            {
+                SceneManager.LoadSceneAsync(4);
+            }
+            else
+            {
+                SceneManager.LoadSceneAsync(3);
+            }
         }
     }
 }

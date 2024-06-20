@@ -20,6 +20,9 @@ public class GameManager : MonoBehaviour
 
     private Calendar calendar;
 
+    [SerializeField]
+    private GameObject endGameColliders;
+
     void Start()
     {   
         Debug.Log(moveSystem);
@@ -29,25 +32,13 @@ public class GameManager : MonoBehaviour
 
     public void OnDialogueStarted(){
         if(narrativeProgression == 0) playerDetectionScene1.disablePrompt = true;
-        if(narrativeProgression == 2 )playerDetectionScene2.disablePrompt = true;
+        if(narrativeProgression == 2 )//playerDetectionScene2.disablePrompt = true;
         moveSystem.SetActive(false);
     }
 
     public void OnDialogueEnded(){
         narrativeProgression++;
-        if(narrativeProgression == 1)playerDetectionScene2.disablePrompt = false;
-        if(narrativeProgression == 2)playerDetectionScene2.disablePrompt = true;
-        //moveSystem.SetActive(false);
-        //if(narrativeProgression == 3) EndGame();
-    }
-
-    public void EndGame(){
-        if(FindFirstObjectByType<KarmaKeeper>().Karma > 0){
-            SceneManager.LoadSceneAsync(4);
-        }
-        else{
-            SceneManager.LoadSceneAsync(3);
-        }
+        if(narrativeProgression == 3) endGameColliders.gameObject.SetActive(true);
     }
 
     public void OnItemDelivered(){

@@ -28,17 +28,12 @@ public class NPCScript : MonoBehaviour
 
     void Start()
     {
-        //if (initialItem != null) {}
+        currentItem = null;
     }
     public void OnDialogueButtonClicked()
     {
-        if(currentItem != null){
-            dialogueChanged.Invoke(currentItem);
-            AkSoundEngine.PostEvent(currentItem.dialogueSound.Name, gameObject);
-            return;
-        }
-
-        currentItem = initialItem;
+        closeDialogue = false;
+        if(currentItem == null) currentItem = initialItem;
         dialogueChanged.Invoke(currentItem);
         AkSoundEngine.PostEvent(currentItem.dialogueSound.Name, gameObject);
 
@@ -49,6 +44,7 @@ public class NPCScript : MonoBehaviour
 
         if (closeDialogue)
         {
+            if(currentItem.name == "UncleQ2") currentItem = answer.nextItem;
             AkSoundEngine.PostEvent(stopSound, gameObject);
             closeDialogueBubble.Invoke();
             return;
@@ -60,11 +56,11 @@ public class NPCScript : MonoBehaviour
         }
 
         currentItem = answer.nextItem;
-        if(currentItem.name == "UncleQ2"){closeDialogue = true;}
-        dialogueChanged.Invoke(currentItem);
-        AkSoundEngine.PostEvent(stopSound, gameObject);
-        AkSoundEngine.PostEvent(currentItem.dialogueSound.Name, gameObject);
 
+        if(currentItem.name == "UncleQ2"){closeDialogue = true;}
+            dialogueChanged.Invoke(currentItem);
+            AkSoundEngine.PostEvent(stopSound, gameObject);
+            AkSoundEngine.PostEvent(currentItem.dialogueSound.Name, gameObject);
     }
 
     void EndDialogue()
