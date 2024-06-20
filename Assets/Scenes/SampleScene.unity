@@ -742,7 +742,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  playerDetectionScene2: {fileID: 1913832528}
+  playerDetectionScene2: {fileID: 0}
   playerDetectionScene1: {fileID: 1094490353}
 --- !u!1001 &191021975
 PrefabInstance:
@@ -3304,7 +3304,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5007229005964396734, guid: c211820d717c44c6a9f7100dc7dc08fd, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -4117,18 +4118,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1028051722}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 160443871}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -5981,18 +5970,6 @@ MonoBehaviour:
   closeDialogueBubble:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 160443874}
-        m_TargetAssemblyTypeName: GameManager, GenZHorrorGame
-        m_MethodName: OnDialogueEnded
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1404760347}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -6016,6 +5993,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1028051722}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
   EndingGood: {fileID: 0}
   EndingBad: {fileID: 0}
@@ -6900,18 +6889,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   disablePrompt: 0
---- !u!114 &1913832528 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5007229005964396734, guid: c211820d717c44c6a9f7100dc7dc08fd,
-    type: 3}
-  m_PrefabInstance: {fileID: 926009594}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6de14a49507144c3299eed3eba56ec3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1964602097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7008,7 +6985,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3ca31f768671bbf4b90217164d2c6ad6,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: TaskItem
       objectReference: {fileID: 0}
     - target: {fileID: 1546917054959991568, guid: 3ca31f768671bbf4b90217164d2c6ad6,
         type: 3}
@@ -7028,7 +7005,7 @@ PrefabInstance:
     - target: {fileID: 8342654931319218296, guid: 3ca31f768671bbf4b90217164d2c6ad6,
         type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: TaskItem
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
