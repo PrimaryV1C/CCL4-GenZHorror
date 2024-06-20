@@ -2423,8 +2423,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  EndingGood: {fileID: 0}
-  EndingBad: {fileID: 0}
+  EndingGood: {fileID: 11400000, guid: 59881926f01f341bf8cb67bd5c533475, type: 2}
+  EndingBad: {fileID: 11400000, guid: 5ab4157e6845145398bb9dbd53953142, type: 2}
 --- !u!4 &635360336
 Transform:
   m_ObjectHideFlags: 0
@@ -6452,8 +6452,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  EndingGood: {fileID: 0}
-  EndingBad: {fileID: 0}
+  EndingGood: {fileID: 11400000, guid: ae1a8378b37e64f59933612db5b5bb96, type: 2}
+  EndingBad: {fileID: 11400000, guid: 1ee9f004d6a834abb8ded21d91b1c037, type: 2}
 --- !u!4 &1780493679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5501711801295445692, guid: 3b108cfa18f1b554f8368c5f9df198f2,

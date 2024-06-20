@@ -50,9 +50,11 @@ public class NPCScript : MonoBehaviour
             return;
         }
 
-        if (answer.nextItem.name == "DrEndingBad" || answer.nextItem.name == "JoeEndingBad")
+        if (answer.nextItem.name == "Ending")
         {
+            EndDialogue();
             closeDialogue = true;
+            return;
         }
 
         currentItem = answer.nextItem;

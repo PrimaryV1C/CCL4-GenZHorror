@@ -23,12 +23,12 @@ MonoBehaviour:
   answers:
   - answerText: Oh sure, Uncle Joe, nothing like the good ol' threat of nuclear annihilation
       to keep everyone cheerful.
-    nextItem: {fileID: 11400000, guid: 5ab4157e6845145398bb9dbd53953142, type: 2}
+    nextItem: {fileID: 11400000, guid: efe78ad5aa7544f388f2e227e9b48bb5, type: 2}
     karma: -1
   - answerText: Right, because nothing screams happiness like constant fear of espionage
       and hiding under desks for drills.
-    nextItem: {fileID: 11400000, guid: 5ab4157e6845145398bb9dbd53953142, type: 2}
+    nextItem: {fileID: 11400000, guid: efe78ad5aa7544f388f2e227e9b48bb5, type: 2}
     karma: -1
   - answerText: "Nevermind what haters say, ignore them \u2019til they fade away."
-    nextItem: {fileID: 11400000, guid: 5ab4157e6845145398bb9dbd53953142, type: 2}
+    nextItem: {fileID: 11400000, guid: efe78ad5aa7544f388f2e227e9b48bb5, type: 2}
     karma: -1
