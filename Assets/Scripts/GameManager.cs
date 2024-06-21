@@ -6,8 +6,6 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class GameManager : MonoBehaviour
 {
     private int narrativeProgression;
-    [SerializeField]
-    private GameObject bedroomDoor;
 
     [SerializeField]
     private GameObject moveSystem;
