@@ -5,7 +5,6 @@ public class NPCScript : MonoBehaviour
 {
     public DialogueItem initialItem;
     public UnityEvent<DialogueItem> dialogueChanged;
-    public UnityEvent<DialogueItem> talkedTo;
     public UnityEvent closeDialogueBubble;
 
     [SerializeField]
