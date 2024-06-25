@@ -13,10 +13,12 @@ public class Calendar : MonoBehaviour
     private List<string> tasks;
     private int i = 0;
 
+    //Array to safe which tasks have been completed
     private bool[] taskArray = new bool[6];
 
     void Start()
-    {
+    {   
+        //Sets the todo text for each task in todoItems
         foreach (GameObject item in todoItems)
         {
             TextMeshProUGUI[] textComponents = item.GetComponentsInChildren<TextMeshProUGUI>();
@@ -34,6 +36,7 @@ public class Calendar : MonoBehaviour
         i = 0;
     }
 
+    //Checks whether the task completed needs to be checked of the list
     public void OnTodo(int index){
         if(!taskArray[index]){
             OnTaskCompletion();

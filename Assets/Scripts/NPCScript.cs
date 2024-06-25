@@ -33,18 +33,25 @@ public class NPCScript : MonoBehaviour
     public void OnDialogueButtonClicked()
     {
         closeDialogue = false;
+
+        //when the dialogue started, takes the first dialogue item and calls the event to display the dialogue
         if(currentItem == null) currentItem = initialItem;
         dialogueChanged.Invoke(currentItem);
         AkSoundEngine.PostEvent(currentItem.dialogueSound.Name, gameObject);
 
     }
     public void OnAnswerSelected(Answer answer)
-    {
+    {   
+        //creates the string to stop the previous dialogue from playing
         string stopSound = currentItem.dialogueSound.Name.Replace("Play", "Stop");
+
 
         if (closeDialogue)
         {
+            //becomes true when the uncle dialogue is interrupted for the beer task, so the next dialogue is saved
             if(currentItem.name == "UncleQ2") currentItem = answer.nextItem;
+
+            //stops the dialogue sound and closes the dialogue bubble
             AkSoundEngine.PostEvent(stopSound, gameObject);
             closeDialogueBubble.Invoke();
             return;
@@ -57,14 +64,17 @@ public class NPCScript : MonoBehaviour
             return;
         }
 
+        //links the dialogues together
         currentItem = answer.nextItem;
 
+        //checks when the uncle dialogue should be interrupted for the beer task
         if(currentItem.name == "UncleQ2"){closeDialogue = true;}
             dialogueChanged.Invoke(currentItem);
             AkSoundEngine.PostEvent(stopSound, gameObject);
             AkSoundEngine.PostEvent(currentItem.dialogueSound.Name, gameObject);
     }
 
+    //calulates the ending based on the karma and renders the ending dialogue
     void EndDialogue()
     {
         if (karmaKeeper.Karma >= 0)

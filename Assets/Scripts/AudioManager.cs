@@ -44,6 +44,7 @@ public class AudioManager : MonoBehaviour
 
   public void Update()
   {
+    //Plays walking sound if player is moving
     if (playerPosition != null)
     {
       currentPosition = playerPosition.transform.position;

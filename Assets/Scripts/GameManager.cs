@@ -8,8 +8,6 @@ public class GameManager : MonoBehaviour
     private int narrativeProgression;
 
     [SerializeField]
-    private GameObject moveSystem;
-    public UnityEvent<EndingItem> doctorDialogueEnd;
     public UnityEvent taskCompleted;
     [SerializeField]
     private PlayerDetection playerDetectionScene2;
@@ -28,27 +26,32 @@ public class GameManager : MonoBehaviour
     }
 
     public void OnDialogueStarted()
-    {
+    {   
+        //checks call your doctor task
         if (narrativeProgression == 0) calendar.OnTodo(1);
+        //checks talk to  your uncle task
         if (narrativeProgression == 1) calendar.OnTodo(2);
-        moveSystem.SetActive(false);
     }
 
     public void OnDialogueEnded()
     {
+        //checks continue talking to your uncle task
         narrativeProgression++;
         if (narrativeProgression == 3)
         {
+            //turns the endgame colliders on infront of the doors
             endGameColliders.gameObject.SetActive(true);
             calendar.OnTodo(4);
         }
     }
 
+    //checks the bring your uncle a beer task
     public void OnItemDelivered()
     {
         calendar.OnTodo(3);
     }
 
+    //checks the find your phone task and shows the start call button
     public void OnPhoneGrabbed()
     {
 

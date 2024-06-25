@@ -7,6 +7,7 @@ public class PlayerDetection : MonoBehaviour
     public UnityEvent<bool>playerDetectedChange;
     public bool disablePrompt = false;
 
+    //checks whether the player is entering the area to show the button
     public void OnTriggerEnter(Collider other)
     {
         Debug.Log("Collision!");
