@@ -14,8 +14,6 @@ void OnTriggerEnter(Collider other) {
     if (other.gameObject.CompareTag("TaskItem")){
 
 
-        itemDelivered.Invoke();
-
         Transform parentTransform = other.gameObject.GetComponentInParent<Transform>();
         parentTransform.position = snapPosition.position;
         parentTransform.rotation = Quaternion.identity;
@@ -27,6 +25,8 @@ void OnTriggerEnter(Collider other) {
             }
 
         other.gameObject.GetComponentInParent<XRGrabInteractable>().enabled = false;
+
+        itemDelivered.Invoke();
         
         } 
     }
